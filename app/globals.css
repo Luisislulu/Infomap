@@ -64,7 +64,7 @@ input:focus-visible {
 }
 
 .site-shell {
-  width: min(1540px, 100%);
+  width: min(1880px, 100%);
   min-height: 100vh;
   margin: 0 auto;
   padding: 0 clamp(18px, 4vw, 64px) 36px;
@@ -522,7 +522,7 @@ input:focus-visible {
 
 .source-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -701,6 +701,12 @@ input:focus-visible {
     min-height: 480px;
     border-right: 0;
     border-bottom: 1px solid var(--ink);
+  }
+}
+
+@media (max-width: 1240px) {
+  .source-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
