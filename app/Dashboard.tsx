@@ -1,0 +1,353 @@
+"use client";
+
+import { useEffect, useMemo, useState } from "react";
+
+export type FeedItem = {
+  id: string;
+  title: string;
+  url: string;
+  source: string;
+  sourceKey: string;
+  category: string;
+  publishedAt: string;
+  rank: number;
+  score: number;
+  metric?: string;
+  summary?: string;
+};
+
+export type FeedSource = {
+  key: string;
+  name: string;
+  category: string;
+  description: string;
+  url: string;
+  count: number;
+  status: "ok" | "stale" | "error";
+};
+
+export type FeedData = {
+  generatedAt: string;
+  issueDate: string;
+  issueNumber: string;
+  sources: FeedSource[];
+  items: FeedItem[];
+  topTen: string[];
+  errors: string[];
+};
+
+type View = "today" | "sources";
+
+function shortDate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Recent";
+  return new Intl.DateTimeFormat("en", {
+    month: "short",
+    day: "numeric",
+  }).format(date);
+}
+
+function issueDate(value: string) {
+  const date = new Date(`${value}T12:00:00+08:00`);
+  return new Intl.DateTimeFormat("en", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  }).format(date);
+}
+
+function SourcePill({ sourceKey, name }: { sourceKey: string; name: string }) {
+  return (
+    <span className="source-pill" data-source={sourceKey}>
+      <span className="source-dot" aria-hidden="true" />
+      {name}
+    </span>
+  );
+}
+
+function StoryLink({
+  item,
+  index,
+  saved,
+  onSave,
+}: {
+  item: FeedItem;
+  index: number;
+  saved: boolean;
+  onSave: (id: string) => void;
+}) {
+  return (
+    <article className="story-row">
+      <span className="story-number">{String(index + 1).padStart(2, "0")}</span>
+      <div className="story-copy">
+        <a href={item.url} target="_blank" rel="noreferrer" className="story-title">
+          {item.title}
+        </a>
+        <div className="story-meta">
+          <SourcePill sourceKey={item.sourceKey} name={item.source} />
+          <span>{shortDate(item.publishedAt)}</span>
+          {item.metric ? <span>{item.metric}</span> : null}
+        </div>
+      </div>
+      <button
+        type="button"
+        className={`save-button${saved ? " is-saved" : ""}`}
+        onClick={() => onSave(item.id)}
+        aria-label={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
+        aria-pressed={saved}
+      >
+        {saved ? "★" : "☆"}
+      </button>
+    </article>
+  );
+}
+
+export function Dashboard({ feed }: { feed: FeedData }) {
+  const [view, setView] = useState<View>("today");
+  const [query, setQuery] = useState("");
+  const [activeSource, setActiveSource] = useState("all");
+  const [saved, setSaved] = useState<string[]>([]);
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      try {
+        const stored = window.localStorage.getItem("infomap:saved");
+        if (stored) setSaved(JSON.parse(stored));
+      } catch {
+        setSaved([]);
+      }
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
+
+  function toggleSaved(id: string) {
+    setSaved((current) => {
+      const next = current.includes(id)
+        ? current.filter((item) => item !== id)
+        : [...current, id];
+      window.localStorage.setItem("infomap:saved", JSON.stringify(next));
+      return next;
+    });
+  }
+
+  const topItems = useMemo(() => {
+    const byId = new Map(feed.items.map((item) => [item.id, item]));
+    return feed.topTen.map((id) => byId.get(id)).filter(Boolean) as FeedItem[];
+  }, [feed]);
+
+  const filteredSources = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase();
+    return feed.sources
+      .filter((source) => activeSource === "all" || source.key === activeSource)
+      .map((source) => ({
+        ...source,
+        items: feed.items
+          .filter((item) => item.sourceKey === source.key)
+          .filter((item) =>
+            normalizedQuery
+              ? `${item.title} ${item.source} ${item.category}`
+                  .toLowerCase()
+                  .includes(normalizedQuery)
+              : true,
+          )
+          .sort((a, b) => a.rank - b.rank)
+          .slice(0, 10),
+      }))
+      .filter((source) => source.items.length > 0);
+  }, [activeSource, feed, query]);
+
+  const lead = topItems[0];
+  const remaining = topItems.slice(1);
+
+  return (
+    <main className="site-shell">
+      <header className="topbar">
+        <a className="brand" href="#top" aria-label="Infomap home">
+          <span className="brand-mark" aria-hidden="true">I</span>
+          <span>INFOMAP</span>
+        </a>
+        <nav className="main-nav" aria-label="Primary navigation">
+          <button
+            type="button"
+            className={view === "today" ? "is-active" : ""}
+            onClick={() => setView("today")}
+          >
+            Today
+          </button>
+          <button
+            type="button"
+            className={view === "sources" ? "is-active" : ""}
+            onClick={() => setView("sources")}
+          >
+            Sources
+          </button>
+        </nav>
+        <div className="edition-meta">
+          <span className="live-dot" aria-hidden="true" />
+          Daily · {feed.issueNumber}
+        </div>
+      </header>
+
+      <section className="masthead" id="top">
+        <div>
+          <p className="eyebrow">DAILY AI & TECHNOLOGY SIGNALS</p>
+          <h1>What matters,<br />without the noise.</h1>
+        </div>
+        <div className="masthead-note">
+          <p>{issueDate(feed.issueDate)}</p>
+          <p>
+            A source-aware scan across builders, researchers, analysts, and the
+            technology press. Updated once every day.
+          </p>
+          <div className="masthead-stats">
+            <span><strong>{feed.items.length}</strong> signals</span>
+            <span><strong>{feed.sources.length}</strong> sources</span>
+          </div>
+        </div>
+      </section>
+
+      {view === "today" && lead ? (
+        <section className="briefing-section" aria-labelledby="today-heading">
+          <div className="section-heading">
+            <div>
+              <span className="section-index">01</span>
+              <h2 id="today-heading">Today&apos;s Ten</h2>
+            </div>
+            <p>Ranked by source position, freshness, and signal quality.</p>
+          </div>
+
+          <div className="top-stories-layout">
+            <article className="lead-story">
+              <div className="lead-kicker">
+                <span>01 / Lead signal</span>
+                <span className="score-chip">{Math.round(lead.score)} score</span>
+              </div>
+              <a href={lead.url} target="_blank" rel="noreferrer">
+                <h3>{lead.title}</h3>
+              </a>
+              {lead.summary ? <p className="lead-summary">{lead.summary}</p> : null}
+              <div className="lead-footer">
+                <div>
+                  <SourcePill sourceKey={lead.sourceKey} name={lead.source} />
+                  <span>{shortDate(lead.publishedAt)}</span>
+                </div>
+                <a href={lead.url} target="_blank" rel="noreferrer" className="read-link">
+                  Open signal ↗
+                </a>
+              </div>
+            </article>
+
+            <div className="ranked-list">
+              {remaining.map((item, index) => (
+                <StoryLink
+                  key={item.id}
+                  item={item}
+                  index={index + 1}
+                  saved={saved.includes(item.id)}
+                  onSave={toggleSaved}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      <section className="sources-section" aria-labelledby="sources-heading">
+        <div className="section-heading source-heading">
+          <div>
+            <span className="section-index">{view === "today" ? "02" : "01"}</span>
+            <h2 id="sources-heading">Source desks</h2>
+          </div>
+          <p>Native rankings and newest published work, kept in context.</p>
+        </div>
+
+        <div className="source-toolbar">
+          <div className="source-tabs" aria-label="Filter sources">
+            <button
+              type="button"
+              className={activeSource === "all" ? "is-active" : ""}
+              onClick={() => setActiveSource("all")}
+            >
+              All sources
+            </button>
+            {feed.sources.map((source) => (
+              <button
+                type="button"
+                key={source.key}
+                className={activeSource === source.key ? "is-active" : ""}
+                onClick={() => setActiveSource(source.key)}
+              >
+                {source.name}
+              </button>
+            ))}
+          </div>
+          <label className="search-field">
+            <span className="sr-only">Search stories</span>
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Filter signals…"
+            />
+            <span aria-hidden="true">⌕</span>
+          </label>
+        </div>
+
+        <div className="source-grid">
+          {filteredSources.map((source) => (
+            <section className="source-card" key={source.key} data-source={source.key}>
+              <header className="source-card-header">
+                <div>
+                  <span className="source-monogram" aria-hidden="true">
+                    {source.name.slice(0, 2).toUpperCase()}
+                  </span>
+                  <div>
+                    <h3>{source.name}</h3>
+                    <p>{source.category}</p>
+                  </div>
+                </div>
+                <a href={source.url} target="_blank" rel="noreferrer" aria-label={`Open ${source.name}`}>
+                  ↗
+                </a>
+              </header>
+              <p className="source-description">{source.description}</p>
+              <ol className="source-list">
+                {source.items.map((item) => (
+                  <li key={item.id}>
+                    <span>{String(item.rank).padStart(2, "0")}</span>
+                    <a href={item.url} target="_blank" rel="noreferrer">
+                      {item.title}
+                    </a>
+                    <button
+                      type="button"
+                      onClick={() => toggleSaved(item.id)}
+                      className={saved.includes(item.id) ? "is-saved" : ""}
+                      aria-label={saved.includes(item.id) ? `Remove ${item.title} from saved` : `Save ${item.title}`}
+                    >
+                      {saved.includes(item.id) ? "★" : "☆"}
+                    </button>
+                  </li>
+                ))}
+              </ol>
+              <footer>
+                <span>{source.count} collected</span>
+                <span className={`status-${source.status}`}>
+                  {source.status === "ok" ? "Current" : source.status}
+                </span>
+              </footer>
+            </section>
+          ))}
+        </div>
+      </section>
+
+      <footer className="site-footer">
+        <div className="brand footer-brand">
+          <span className="brand-mark" aria-hidden="true">I</span>
+          <span>INFOMAP</span>
+        </div>
+        <p>Built for one focused scan a day. Original titles, original sources.</p>
+        <p>Generated {new Date(feed.generatedAt).toLocaleString("en-SG", { timeZone: "Asia/Singapore" })} SGT</p>
+      </footer>
+    </main>
+  );
+}
