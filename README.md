@@ -9,6 +9,7 @@ publishes a static dashboard on GitHub Pages.
 - GitHub Trending
 - Hacker News
 - Hugging Face Papers
+- alphaXiv Trending Papers
 - Techmeme
 - Stratechery
 - Interconnects

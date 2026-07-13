@@ -35,6 +35,14 @@ const SOURCE_DEFINITIONS = [
     weight: 8,
   },
   {
+    key: "alpha-xiv",
+    name: "alphaXiv",
+    category: "Research discovery",
+    description: "Trending research papers ranked by attention and discussion on alphaXiv.",
+    url: "https://www.alphaxiv.org/",
+    weight: 8,
+  },
+  {
     key: "techmeme",
     name: "Techmeme",
     category: "Technology news",
@@ -291,6 +299,55 @@ async function fetchHuggingFace() {
   });
 }
 
+async function fetchAlphaXiv() {
+  const html = await fetchText("https://www.alphaxiv.org/");
+  const documents = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
+    .flatMap((match) => {
+      try {
+        return [JSON.parse(match[1])];
+      } catch {
+        return [];
+      }
+    });
+  const itemList = documents
+    .flatMap((document) => document["@graph"] ?? [document])
+    .find((entry) => entry?.["@type"] === "ItemList" && Array.isArray(entry.itemListElement));
+
+  if (!itemList) throw new Error("Trending Papers JSON-LD was not found");
+
+  return itemList.itemListElement.slice(0, 10).flatMap((entry, index) => {
+    const paper = entry.item ?? entry;
+    const title = paper.headline ?? paper.name;
+    const url = paper.url;
+    if (!title || !url) return [];
+
+    const interactions = Array.isArray(paper.interactionStatistic) ? paper.interactionStatistic : [];
+    const interactionCount = (type) =>
+      interactions.find((interaction) => interaction?.interactionType?.["@type"] === type)
+        ?.userInteractionCount;
+    const views = interactionCount("ViewAction");
+    const votes = interactionCount("LikeAction");
+    const metric = [
+      Number.isFinite(votes) ? `${votes} votes` : "",
+      Number.isFinite(views) ? `${views} views` : "",
+    ]
+      .filter(Boolean)
+      .join(" · ");
+
+    return [
+      makeItem({
+        sourceKey: "alpha-xiv",
+        title,
+        url,
+        publishedAt: paper.datePublished ?? paper.dateModified ?? now,
+        rank: Number.isFinite(entry.position) ? entry.position : index + 1,
+        metric: metric || "Trending paper",
+        summary: paper.description,
+      }),
+    ];
+  });
+}
+
 async function fetchRssSource(sourceKey, url) {
   return parseRss(sourceKey, await fetchText(url));
 }
@@ -303,7 +360,7 @@ function scoreItem(item) {
     : 168;
   const freshness = Math.max(0, 18 - Math.log2(ageHours + 1) * 3.4);
   const nativeRank = Math.max(0, 24 - (item.rank - 1) * 2.2);
-  const metricBoost = /stars today|pts|upvotes/i.test(item.metric ?? "") ? 4 : 0;
+  const metricBoost = /stars today|pts|upvotes|votes|views/i.test(item.metric ?? "") ? 4 : 0;
   return Math.round((48 + source.weight * 2.2 + freshness + nativeRank + metricBoost) * 10) / 10;
 }
 
@@ -311,8 +368,8 @@ function deduplicate(items) {
   const seenUrls = new Set();
   const seenTitles = new Set();
   return items.filter((item) => {
-    const url = canonicalUrl(item.url);
-    const title = normalizeTitle(item.title);
+    const url = `${item.sourceKey}:${canonicalUrl(item.url)}`;
+    const title = `${item.sourceKey}:${normalizeTitle(item.title)}`;
     if (seenUrls.has(url) || seenTitles.has(title)) return false;
     seenUrls.add(url);
     seenTitles.add(title);
@@ -323,10 +380,14 @@ function deduplicate(items) {
 function selectTopTen(items) {
   const sorted = [...items].sort((a, b) => b.score - a.score || a.rank - b.rank);
   const sourceCounts = new Map();
+  const seenTitles = new Set();
   const selected = [];
   for (const item of sorted) {
+    const title = normalizeTitle(item.title);
+    if (seenTitles.has(title)) continue;
     if ((sourceCounts.get(item.sourceKey) ?? 0) >= 2) continue;
     selected.push(item.id);
+    seenTitles.add(title);
     sourceCounts.set(item.sourceKey, (sourceCounts.get(item.sourceKey) ?? 0) + 1);
     if (selected.length === 10) break;
   }
@@ -365,6 +426,7 @@ async function main() {
     ["github", fetchGithubTrending],
     ["hacker-news", fetchHackerNews],
     ["hugging-face", fetchHuggingFace],
+    ["alpha-xiv", fetchAlphaXiv],
     ...RSS_SOURCES.map(([key, url]) => [key, () => fetchRssSource(key, url)]),
   ];
 

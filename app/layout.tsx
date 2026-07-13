@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
@@ -32,15 +33,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet"].includes(t))document.documentElement.dataset.theme=t}catch{}',
-          }}
-        />
-      </head>
-      <body>{children}</body>
+      <body>
+        <Script id="infomap-theme" strategy="beforeInteractive">
+          {'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet"].includes(t))document.documentElement.dataset.theme=t}catch{}'}
+        </Script>
+        {children}
+      </body>
     </html>
   );
 }

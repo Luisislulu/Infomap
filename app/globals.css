@@ -481,6 +481,7 @@ input:focus-visible {
 .source-pill[data-source="github"] .source-dot { background: #111; }
 .source-pill[data-source="hacker-news"] .source-dot { background: #ff5d21; }
 .source-pill[data-source="hugging-face"] .source-dot { background: #e7b900; }
+.source-pill[data-source="alpha-xiv"] .source-dot { background: #e14d72; }
 .source-pill[data-source="techmeme"] .source-dot { background: #3577e5; }
 .source-pill[data-source="stratechery"] .source-dot { background: #7f58af; }
 .source-pill[data-source="interconnects"] .source-dot { background: #0b8f78; }
@@ -632,6 +633,7 @@ input:focus-visible {
 
 .source-card[data-source="hacker-news"] { --source-accent: #ff5d21; }
 .source-card[data-source="hugging-face"] { --source-accent: #d8ad00; }
+.source-card[data-source="alpha-xiv"] { --source-accent: #e14d72; }
 .source-card[data-source="techmeme"] { --source-accent: #3577e5; }
 .source-card[data-source="stratechery"] { --source-accent: #7f58af; }
 .source-card[data-source="interconnects"] { --source-accent: #0b8f78; }

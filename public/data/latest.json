@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T09:46:51.561Z",
+  "generatedAt": "2026-07-13T15:28:04.268Z",
   "issueDate": "2026-07-13",
   "issueNumber": "2026.07.13",
   "sources": [
@@ -27,6 +27,15 @@
       "category": "Research",
       "description": "AI papers selected and discussed by the Hugging Face research community.",
       "url": "https://huggingface.co/papers",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "key": "alpha-xiv",
+      "name": "alphaXiv",
+      "category": "Research discovery",
+      "description": "Trending research papers ranked by attention and discussion on alphaXiv.",
+      "url": "https://www.alphaxiv.org/",
       "count": 10,
       "status": "ok"
     },
@@ -78,30 +87,160 @@
   ],
   "items": [
     {
+      "id": "alpha-xiv-7b21572daa8d",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "url": "https://www.alphaxiv.org/abs/2607.08716",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-09T17:26:28.000Z",
+      "rank": 1,
+      "score": 93.6,
+      "metric": "55 votes · 713 views",
+      "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context "
+    },
+    {
+      "id": "alpha-xiv-d30b5b4eff96",
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "url": "https://www.alphaxiv.org/abs/2607.09024",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-10T01:09:06.000Z",
+      "rank": 2,
+      "score": 91.4,
+      "metric": "33 votes · 381 views",
+      "summary": "Driven by next-token prediction, NLP shifted from task-specific models into powerful generalist foundation models. What, then, is the equivalent catalyst needed to achieve a general-purpose model in computer vision? In this paper, we contend that large-scale text-to-video generat"
+    },
+    {
+      "id": "alpha-xiv-d1802b6421d6",
+      "title": "Mach-Mind-4-Flash Technical Report",
+      "url": "https://www.alphaxiv.org/abs/2607.09375",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-10T12:57:08.000Z",
+      "rank": 3,
+      "score": 89.2,
+      "metric": "13 votes · 245 views",
+      "summary": "We present Mach-Mind-4-Flash, a 35B-parameter Mixture-of-Experts (MoE) agentic model with 3B activated parameters. Through post-training optimization alone without scaling pre-training compute, the model achieves performance on par with or surpassing that of 100B-parameter-class "
+    },
+    {
+      "id": "alpha-xiv-ceec0680fc52",
+      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "url": "https://www.alphaxiv.org/abs/2607.07508",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-08T15:02:19.000Z",
+      "rank": 4,
+      "score": 87,
+      "metric": "123 votes · 1841 views",
+      "summary": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged "
+    },
+    {
+      "id": "alpha-xiv-4a71f9c81d89",
+      "title": "Scalable Visual Pretraining for Language Intelligence",
+      "url": "https://www.alphaxiv.org/abs/2607.09657",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-10T17:57:03.000Z",
+      "rank": 5,
+      "score": 84.8,
+      "metric": "17 votes · 126 views",
+      "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that can"
+    },
+    {
+      "id": "alpha-xiv-af833f8ace3d",
+      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
+      "url": "https://www.alphaxiv.org/abs/2607.08393",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-09T12:17:28.000Z",
+      "rank": 6,
+      "score": 82.6,
+      "metric": "48 votes · 437 views",
+      "summary": "Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks. We formalize this failure as the \\textit{\\textbf{Knowing--Using Gap}}, characterized by an accuracy gap and a temporal la"
+    },
+    {
+      "id": "alpha-xiv-36fc2d27c2d1",
+      "title": "Native Video-Action Pretraining for Generalizable Robot Control",
+      "url": "https://www.alphaxiv.org/abs/2607.08639",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-09T16:15:43.000Z",
+      "rank": 7,
+      "score": 80.4,
+      "metric": "66 votes · 556 views",
+      "summary": "The advent of video-action models offers a promising path for robot control. Nevertheless, we argue that repurposing video generative models designed for digital content creation is inherently inadequate for physical environments. To bridge this gap, we present LingBot-VA 2.0, a "
+    },
+    {
+      "id": "alpha-xiv-7ad110cbc425",
+      "title": "The 4-bitter Lesson: Balancing Stability and Performance in NVFP4 RL",
+      "url": "https://www.alphaxiv.org/abs/2607.nvfp4-rl",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "rank": 8,
+      "score": 78.2,
+      "metric": "49 votes · 87 views",
+      "summary": "A stable, hardware-native NVFP4 recipe for reinforcement learning that keeps both weights and activations in 4 bits by matching the quantized forward pass in the backward pass, adding adaptive four-over-six block scaling, and spending high precision only where it matters."
+    },
+    {
+      "id": "alpha-xiv-f1548e966e4f",
+      "title": "HyperLoRA: Generating Implicit Neural Fields in Weight Space with LoRA Parameters",
+      "url": "https://www.alphaxiv.org/abs/2607.hyperlora-implicit-neural-fields",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "rank": 9,
+      "score": 76,
+      "metric": "4 votes · 33 views",
+      "summary": "Recent developments in parameter space learning demonstrate that the parameters of Low-Rank Adaptation (LoRA) encapsulate semantic information. Emerging research indicates that these parameters can be effectively learned, generated, and fused to achieve diverse functional objecti"
+    },
+    {
+      "id": "alpha-xiv-5e1506c01a6e",
+      "title": "PanoWorld: Real-World Panoramic Generation",
+      "url": "https://www.alphaxiv.org/abs/2607.09661",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-10T17:59:32.000Z",
+      "rank": 10,
+      "score": 73.8,
+      "metric": "7 votes · 73 views",
+      "summary": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric this http URL on this insight, we propose PanoWo"
+    },
+    {
+      "id": "github-e83635563f37",
+      "title": "OpenCut-app / OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
+      "rank": 1,
+      "score": 116,
+      "metric": "TypeScript · 1,077 stars today",
+      "summary": "The open-source CapCut alternative"
+    },
+    {
       "id": "github-3f7f2e4444aa",
       "title": "Dicklesworthstone / destructive_command_guard",
       "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
-      "rank": 1,
-      "score": 116,
-      "metric": "Rust · 444 stars today",
-      "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents."
-    },
-    {
-      "id": "github-89bc9f491574",
-      "title": "wonderwhy-er / DesktopCommanderMCP",
-      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 2,
       "score": 113.8,
-      "metric": "TypeScript · 210 stars today",
-      "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities"
+      "metric": "Rust · 1,290 stars today",
+      "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents."
     },
     {
       "id": "github-4541bab6d930",
@@ -110,24 +249,24 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 3,
       "score": 111.6,
-      "metric": "Python · 768 stars today",
+      "metric": "Python · 1,148 stars today",
       "summary": "\"Vibe-Trading: Your Personal Trading Agent\""
     },
     {
-      "id": "github-82d4a2769261",
-      "title": "PrefectHQ / prefect",
-      "url": "https://github.com/PrefectHQ/prefect",
+      "id": "github-b887f733149b",
+      "title": "moeru-ai / airi",
+      "url": "https://github.com/moeru-ai/airi",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 4,
       "score": 109.4,
-      "metric": "Python · 66 stars today",
-      "summary": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
+      "metric": "TypeScript · 57 stars today",
+      "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported."
     },
     {
       "id": "github-b409dc7b8493",
@@ -136,100 +275,160 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 5,
       "score": 107.2,
-      "metric": "Python · 408 stars today",
+      "metric": "Python · 1,006 stars today",
       "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship."
     },
     {
-      "id": "github-d98aa6f2ddad",
-      "title": "anthropics / claude-cookbooks",
-      "url": "https://github.com/anthropics/claude-cookbooks",
+      "id": "github-e2469c92ba3c",
+      "title": "Nutlope / hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 6,
       "score": 105,
-      "metric": "Jupyter Notebook · 459 stars today",
-      "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+      "metric": "CSS · 802 stars today",
+      "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
     },
     {
-      "id": "github-c38e5babf755",
-      "title": "home-assistant / core",
-      "url": "https://github.com/home-assistant/core",
+      "id": "github-6dac58522e62",
+      "title": "Raphire / Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 7,
       "score": 102.8,
-      "metric": "Python · 400 stars today",
-      "summary": "🏡 Open source home automation that puts local control and privacy first."
+      "metric": "PowerShell · 74 stars today",
+      "summary": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11."
     },
     {
-      "id": "github-9ba9156b390a",
-      "title": "Crosstalk-Solutions / project-nomad",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "id": "github-dd6a9d14a094",
+      "title": "Graphify-Labs / graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 8,
       "score": 100.6,
-      "metric": "TypeScript · 125 stars today",
-      "summary": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere."
+      "metric": "Python · 1,028 stars today",
+      "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph."
     },
     {
-      "id": "github-1343e34fad66",
-      "title": "ColeMurray / background-agents",
-      "url": "https://github.com/ColeMurray/background-agents",
+      "id": "github-44c77b20a017",
+      "title": "hasaneyldrm / exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 9,
       "score": 98.4,
-      "metric": "TypeScript · 16 stars today",
-      "summary": "An open-source background agents coding system"
+      "metric": "HTML · 435 stars today",
+      "summary": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app."
     },
     {
-      "id": "github-a18ef6bf3ab2",
-      "title": "k1tbyte / Wand-Enhancer",
-      "url": "https://github.com/k1tbyte/Wand-Enhancer",
+      "id": "github-4d766eb799a5",
+      "title": "github / spec-kit",
+      "url": "https://github.com/github/spec-kit",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-13T09:46:51.561Z",
+      "publishedAt": "2026-07-13T15:28:04.268Z",
       "rank": 10,
       "score": 96.2,
-      "metric": "C# · 609 stars today",
-      "summary": "Advanced UX and interoperability extension for Wand (WeMod) app"
+      "metric": "Python · 508 stars today",
+      "summary": "💫 Toolkit to help you get started with Spec-Driven Development"
     },
     {
-      "id": "hacker-news-bd87c1bd9f8f",
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade",
+      "id": "hacker-news-6e82b3f37b7a",
+      "title": "Precursor",
+      "url": "https://blog.cloudflare.com/introducing-precursor",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-07-13T08:39:39.000Z",
+      "publishedAt": "2026-07-13T14:39:38.000Z",
       "rank": 1,
-      "score": 110.1,
-      "metric": "112 pts · 65 comments"
+      "score": 110.9,
+      "metric": "48 pts · 31 comments"
     },
     {
-      "id": "hacker-news-8fbeefb3ded9",
-      "title": "Interrail: 6,379Km and 13 Countries over 7 weeks",
-      "url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks",
+      "id": "hacker-news-6fdfb689b3b7",
+      "title": "The art and engineering of Sega CD Silpheed",
+      "url": "https://fabiensanglard.net/silpheed/index.html",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-07-13T08:04:30.000Z",
+      "publishedAt": "2026-07-13T14:52:33.000Z",
       "rank": 2,
-      "score": 106.7,
-      "metric": "39 pts · 30 comments"
+      "score": 109.3,
+      "metric": "24 pts · 4 comments"
+    },
+    {
+      "id": "hacker-news-c8981ece9055",
+      "title": "A voxel Tokyo in real Japan time – ride the Yamanote line and study Japanese",
+      "url": "https://jivx.com/densha",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-13T11:18:30.000Z",
+      "rank": 3,
+      "score": 101.4,
+      "metric": "170 pts · 17 comments"
+    },
+    {
+      "id": "hacker-news-817ee0972d02",
+      "title": "Grok uploaded my user directory to xAI's servers",
+      "url": "https://twitter.com/a_green_being/status/2076598897779020159",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-13T13:39:59.000Z",
+      "rank": 4,
+      "score": 102.1,
+      "metric": "238 pts · 109 comments"
+    },
+    {
+      "id": "hacker-news-e99013aad85d",
+      "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
+      "url": "https://github.com/floodtide/dom-docx",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-13T11:51:56.000Z",
+      "rank": 5,
+      "score": 97.5,
+      "metric": "67 pts · 22 comments"
+    },
+    {
+      "id": "hacker-news-fbcdf807a300",
+      "title": "Grok CLI uploaded the whole home directory to GCS",
+      "url": "https://twitter.com/i/status/2076598897779020159",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-13T13:35:32.000Z",
+      "rank": 6,
+      "score": 97.6,
+      "metric": "152 pts · 55 comments"
+    },
+    {
+      "id": "hacker-news-d47bff0db566",
+      "title": "The 'absolute magic' of Morse code that still connects people globally",
+      "url": "https://www.bbc.com/news/articles/cwye0dlzgejo",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-08T14:20:09.000Z",
+      "rank": 7,
+      "score": 82.6,
+      "metric": "47 pts · 15 comments"
     },
     {
       "id": "hacker-news-7c7f1d2407f0",
@@ -239,9 +438,21 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-13T06:08:12.000Z",
-      "rank": 3,
-      "score": 101.9,
-      "metric": "79 pts · 36 comments"
+      "rank": 8,
+      "score": 86.9,
+      "metric": "179 pts · 79 comments"
+    },
+    {
+      "id": "hacker-news-eaef28e1554a",
+      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "url": "https://github.com/clawkwork/clawk",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-13T14:02:03.000Z",
+      "rank": 9,
+      "score": 91.8,
+      "metric": "74 pts · 78 comments"
     },
     {
       "id": "hacker-news-ec3130c477b3",
@@ -251,81 +462,22 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-08T07:05:49.000Z",
-      "rank": 4,
-      "score": 89.2,
-      "metric": "35 pts · 4 comments"
-    },
-    {
-      "id": "hacker-news-25949e8eca25",
-      "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
-      "url": "https://github.com/schlae/BeavisUltrasound",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-13T05:15:14.000Z",
-      "rank": 5,
-      "score": 96.6,
-      "metric": "59 pts · 20 comments"
-    },
-    {
-      "id": "hacker-news-db926932f891",
-      "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
-      "url": "https://nebusec.ai/research/ionstack-part-2",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-08T16:53:58.000Z",
-      "rank": 6,
-      "score": 84.8,
-      "metric": "268 pts · 112 comments"
-    },
-    {
-      "id": "hacker-news-02f59f60b95e",
-      "title": "The Graph That Should Be Front-Page News",
-      "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-13T05:35:27.000Z",
-      "rank": 7,
-      "score": 92.5,
-      "metric": "42 pts · 15 comments"
-    },
-    {
-      "id": "hacker-news-0e15de40289d",
-      "title": "Cyberpunk Comics, Manga and Graphic Novels",
-      "url": "https://shellzine.net/cyberpunk-comics",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-12T22:45:31.000Z",
-      "rank": 8,
-      "score": 86.2,
-      "metric": "188 pts · 59 comments"
-    },
-    {
-      "id": "hacker-news-ec7e0192054b",
-      "title": "Frieve Vinyl Explained – Microscopic stylus/groove physics simulation",
-      "url": "https://frieve-a.github.io/sound_toolbox/vinyl_explained/vinyl_explained.html",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-09T10:45:36.000Z",
-      "rank": 9,
-      "score": 78.2,
-      "metric": "11 pts · 1 comments"
-    },
-    {
-      "id": "hacker-news-a06dbfcb029f",
-      "title": "Tiny Emulators",
-      "url": "https://floooh.github.io/tiny8bit-preview/index.html",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-12T20:23:05.000Z",
       "rank": 10,
-      "score": 80.9,
-      "metric": "253 pts · 22 comments"
+      "score": 76,
+      "metric": "119 pts · 23 comments"
+    },
+    {
+      "id": "hugging-face-9d95b8c978cd",
+      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+      "url": "https://huggingface.co/papers/2607.07673",
+      "source": "Hugging Face Papers",
+      "sourceKey": "hugging-face",
+      "category": "Research",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
+      "rank": 1,
+      "score": 97.9,
+      "metric": "0 upvotes",
+      "summary": "Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data. Although PubMed Central (PMC) offers a c"
     },
     {
       "id": "hugging-face-8a9bd5b68e42",
@@ -335,9 +487,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 1,
-      "score": 99.9,
-      "metric": "2 upvotes",
+      "rank": 2,
+      "score": 95.7,
+      "metric": "3 upvotes",
       "summary": "Flow-ERD is a multi-agent traffic simulator that combines agent-type aware flow matching with entropy-regularized distillation to achieve both realistic and diverse motion patterns."
     },
     {
@@ -348,8 +500,8 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 2,
-      "score": 97.7,
+      "rank": 3,
+      "score": 93.5,
       "metric": "0 upvotes",
       "summary": "Vision-language models (VLMs) have made interactive digital museums increasingly feasible by connecting 3D digitization with natural-language artifact exploration. However, in cultural heritage domains such as ancient Greek pottery, reliable VLM assistance is limited by two chall"
     },
@@ -361,9 +513,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 3,
-      "score": 95.5,
-      "metric": "8 upvotes",
+      "rank": 4,
+      "score": 91.3,
+      "metric": "10 upvotes",
       "summary": "Post-training quantization (PTQ) is a widely adopted technique for compressing large language models (LLMs) without retraining. Existing second-order PTQ methods, including GPTQ, construct quantization objectives exclusively from input activation statistics, effectively assuming "
     },
     {
@@ -374,9 +526,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 4,
-      "score": 93.3,
-      "metric": "32 upvotes",
+      "rank": 5,
+      "score": 89.1,
+      "metric": "39 upvotes",
       "summary": "AI agents have become capable of autonomously completing short, well-specified tasks. However, existing terminal benchmarks largely focus on simple problems that finish within minutes and are evaluated only by their final outcome. This setup overlooks intermediate progress and pa"
     },
     {
@@ -387,9 +539,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 5,
-      "score": 91.1,
-      "metric": "1 upvotes",
+      "rank": 6,
+      "score": 86.9,
+      "metric": "2 upvotes",
       "summary": "Phone segmentation and recognition are inherently related tasks, yet modern approaches typically model them separately. We argue that phonetic structure is already latent in the representations of self-supervised speech models (S3Ms), and one only needs to steer them to solve bot"
     },
     {
@@ -400,9 +552,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 6,
-      "score": 88.9,
-      "metric": "6 upvotes",
+      "rank": 7,
+      "score": 84.7,
+      "metric": "7 upvotes",
       "summary": "Pretrained diffusion transformers can be adapted for dense prediction tasks by mapping tokens to task-native outputs instead of generating RGB images, achieving state-of-the-art results with minimal additional parameters."
     },
     {
@@ -413,9 +565,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 7,
-      "score": 86.7,
-      "metric": "6 upvotes",
+      "rank": 8,
+      "score": 82.5,
+      "metric": "7 upvotes",
       "summary": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we prop"
     },
     {
@@ -426,9 +578,9 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 8,
-      "score": 84.5,
-      "metric": "1 upvotes",
+      "rank": 9,
+      "score": 80.3,
+      "metric": "3 upvotes",
       "summary": "Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks. We formalize this failure as the \\textbf{Knowing--Using Gap}, characterized by an accuracy gap and a temporal lag between"
     },
     {
@@ -439,23 +591,10 @@
       "sourceKey": "hugging-face",
       "category": "Research",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "rank": 9,
-      "score": 82.3,
-      "metric": "10 upvotes",
-      "summary": "Big goals are hard to achieve all at once; breaking them into small steps is wiser. We present Trust Region Policy Distillation (TOP-D), which transforms the notoriously unstable, high-variance On-Policy Distillation (OPD) into a stable training paradigm by dynamically constructi"
-    },
-    {
-      "id": "hugging-face-6ece59a5cd8e",
-      "title": "Self-Guided Test-Time Training for Long-Context LLMs",
-      "url": "https://huggingface.co/papers/2607.09415",
-      "source": "Hugging Face Papers",
-      "sourceKey": "hugging-face",
-      "category": "Research",
-      "publishedAt": "2026-07-13T00:00:00.000Z",
       "rank": 10,
-      "score": 80.1,
-      "metric": "3 upvotes",
-      "summary": "Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy often degrades, indicating that models still struggle to id"
+      "score": 78.1,
+      "metric": "15 upvotes",
+      "summary": "Big goals are hard to achieve all at once; breaking them into small steps is wiser. We present Trust Region Policy Distillation (TOP-D), which transforms the notoriously unstable, high-variance On-Policy Distillation (OPD) into a stable training paradigm by dynamically constructi"
     },
     {
       "id": "interconnects-ab23329c09eb",
@@ -466,7 +605,7 @@
       "category": "Frontier AI",
       "publishedAt": "2026-07-12T16:47:42.000Z",
       "rank": 1,
-      "score": 91.2
+      "score": 89.9
     },
     {
       "id": "interconnects-faa66b8b23af",
@@ -686,7 +825,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T23:57:14.000Z",
       "rank": 1,
-      "score": 93.7
+      "score": 91.6
     },
     {
       "id": "simon-willison-008e786fd721",
@@ -697,7 +836,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T23:46:52.000Z",
       "rank": 2,
-      "score": 91.4
+      "score": 89.4
     },
     {
       "id": "simon-willison-4ca3a7104e2d",
@@ -708,7 +847,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T21:20:07.000Z",
       "rank": 3,
-      "score": 88.3
+      "score": 86.5
     },
     {
       "id": "simon-willison-8104959aa08b",
@@ -719,7 +858,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T20:55:30.000Z",
       "rank": 4,
-      "score": 85.9
+      "score": 84.2
     },
     {
       "id": "simon-willison-54d7e80f8d26",
@@ -730,7 +869,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-11T23:50:20.000Z",
       "rank": 5,
-      "score": 79.2
+      "score": 78.6
     },
     {
       "id": "simon-willison-9b41d759ca4b",
@@ -788,6 +927,17 @@
       "score": 67.6
     },
     {
+      "id": "stratechery-00651132a913",
+      "title": "Apple Sues OpenAI, Apple’s Real Problem",
+      "url": "https://stratechery.com/2026/apple-sues-openai-apples-real-problem",
+      "source": "Stratechery",
+      "sourceKey": "stratechery",
+      "category": "Strategy",
+      "publishedAt": "2026-07-13T10:00:00.000Z",
+      "rank": 1,
+      "score": 96.2
+    },
+    {
       "id": "stratechery-19ae2ff86a8d",
       "title": "2026.28: XBOX On the Rocks",
       "url": "https://stratechery.com/2026/xbox-on-the-rocks",
@@ -795,8 +945,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-07-10T17:00:00.000Z",
-      "rank": 1,
-      "score": 87.4
+      "rank": 2,
+      "score": 85.2
     },
     {
       "id": "stratechery-3043ca5f7e7a",
@@ -806,8 +956,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-07-09T10:00:00.000Z",
-      "rank": 2,
-      "score": 85.2
+      "rank": 3,
+      "score": 83
     },
     {
       "id": "stratechery-8baaf633bad5",
@@ -817,8 +967,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-07-08T10:00:00.000Z",
-      "rank": 3,
-      "score": 83
+      "rank": 4,
+      "score": 80.8
     },
     {
       "id": "stratechery-26ed01ad541d",
@@ -828,8 +978,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-07-07T10:00:00.000Z",
-      "rank": 4,
-      "score": 80.8
+      "rank": 5,
+      "score": 78.6
     },
     {
       "id": "stratechery-173ad1918516",
@@ -839,8 +989,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-06-26T17:00:00.000Z",
-      "rank": 5,
-      "score": 78.6
+      "rank": 6,
+      "score": 76.4
     },
     {
       "id": "stratechery-81ed420d6f98",
@@ -850,8 +1000,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-06-25T10:00:00.000Z",
-      "rank": 6,
-      "score": 76.4
+      "rank": 7,
+      "score": 74.2
     },
     {
       "id": "stratechery-552247570c2b",
@@ -861,8 +1011,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-06-24T10:00:00.000Z",
-      "rank": 7,
-      "score": 74.2
+      "rank": 8,
+      "score": 72
     },
     {
       "id": "stratechery-6de1a4bdc37c",
@@ -872,8 +1022,8 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-06-23T10:00:00.000Z",
-      "rank": 8,
-      "score": 72
+      "rank": 9,
+      "score": 69.8
     },
     {
       "id": "stratechery-b1aaa352a08e",
@@ -883,142 +1033,131 @@
       "sourceKey": "stratechery",
       "category": "Strategy",
       "publishedAt": "2026-06-22T10:00:00.000Z",
-      "rank": 9,
-      "score": 69.8
-    },
-    {
-      "id": "stratechery-ee50068ed453",
-      "title": "2026.25: The Stuff of Myth(os)",
-      "url": "https://stratechery.com/2026/the-stuff-of-mythos",
-      "source": "Stratechery",
-      "sourceKey": "stratechery",
-      "category": "Strategy",
-      "publishedAt": "2026-06-19T17:00:00.000Z",
       "rank": 10,
       "score": 67.6
     },
     {
-      "id": "techmeme-df47d6879607",
-      "title": "How a Denmark-based research team is using quantum computers to accelerate AI protein discovery, showing a near-term commercial application for the quantum tech (Isabella Ward/Wired)",
-      "url": "https://www.techmeme.com/260713/p8",
+      "id": "techmeme-abc4c355bf50",
+      "title": "Gauntlet, which helps institutions and crypto companies allocate their digital assets, raised a $125M Series C from Japanese financial conglomerate SBI Holdings (Ben Weiss/Fortune)",
+      "url": "https://www.techmeme.com/260713/p24",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T09:25:01.000Z",
+      "publishedAt": "2026-07-13T15:15:01.000Z",
       "rank": 1,
-      "score": 106.1
+      "score": 106.6
     },
     {
-      "id": "techmeme-6a459e2e5de2",
-      "title": "A look back at the 2007 heist of a Verizon data center in London, highlighting the role of physical data security as cyber defenses grow more sophisticated (Nathaniel Rich/New York Times)",
-      "url": "https://www.techmeme.com/260713/p7",
+      "id": "techmeme-ab97b323d7b5",
+      "title": "Global smartphone shipments fell 11% YoY in Q2 to the lowest Q2 levels since 2013 amid the DRAM and NAND shortage; Samsung returns to #1 with a 24% market share (Shilpi Jain/Counterpoint Research)",
+      "url": "https://www.techmeme.com/260713/p23",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T09:00:13.000Z",
+      "publishedAt": "2026-07-13T14:55:17.000Z",
       "rank": 2,
-      "score": 102.6
+      "score": 103.3
     },
     {
-      "id": "techmeme-bd89dd05173f",
-      "title": "Munich-based defense tech startup Helsing raised a $1.8B Series E from Dragoneer, Iconiq, and others at an $18B valuation; Germany made a €270M order this year (Mark Bergen/Bloomberg)",
-      "url": "https://www.techmeme.com/260713/p6",
+      "id": "techmeme-1fdfcdbcf095",
+      "title": "Apple's stock is up 16% since June 25, adding ~$650B in market value and pushing shares back to record territory, as investors flee an AI stock selloff to Apple (Ryan Vlastelica/Bloomberg)",
+      "url": "https://www.techmeme.com/260713/p22",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T08:41:11.000Z",
+      "publishedAt": "2026-07-13T13:20:03.000Z",
       "rank": 3,
-      "score": 99.6
+      "score": 97.6
     },
     {
-      "id": "techmeme-7a32676991eb",
-      "title": "Docs: Uber lobbied for a \"phased transition\" to AVs, giving it an edge over self-driving developers; Uber says AV industry proposals overlook drivers' rights (Aarian Marshall/Wired)",
-      "url": "https://www.techmeme.com/260713/p5",
+      "id": "techmeme-e291c365bb50",
+      "title": "Sources: the US estimates unauthorized distillation costs US AI labs up to $6B/year; Silicon Valley told the White House it could become an existential threat (Maggie Eastland/Bloomberg)",
+      "url": "https://www.techmeme.com/260713/p21",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T08:05:01.000Z",
+      "publishedAt": "2026-07-13T13:10:05.000Z",
       "rank": 4,
-      "score": 96.1
+      "score": 95.1
     },
     {
-      "id": "techmeme-a5f1f3b7becf",
-      "title": "Eating disorder therapists say patients are increasingly using AI chatbots for advice, while AI also appears to be directing more patients to helplines (Julie Jargon/Wall Street Journal)",
-      "url": "https://www.techmeme.com/260713/p4",
+      "id": "techmeme-39dea5bbd2b2",
+      "title": "Source: OpenAI still believes it is on track to unveil its first device in 2026 and release it in 2027; Apple's lawsuit may complicate hiring and supply chains (Mark Gurman/Bloomberg)",
+      "url": "https://www.techmeme.com/260713/p20",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T07:46:37.000Z",
+      "publishedAt": "2026-07-13T12:55:03.000Z",
       "rank": 5,
-      "score": 93.4
+      "score": 92.6
     },
     {
-      "id": "techmeme-d7db51c17dea",
-      "title": "A look at ADI Predictstreet's troubled launch, marked by tiny trading volumes, withdrawal bugs, and other issues, as it tried to challenge Kalshi and Polymarket (Wall Street Journal)",
-      "url": "https://www.techmeme.com/260713/p3",
+      "id": "techmeme-ca06808bad32",
+      "title": "Anthropic hires Tom Blomfield, a Monzo co-founder and one of the biggest names in UK tech, to join its compute team; he is taking a leave of absence from YC (Robert Scammell/Business Insider)",
+      "url": "https://www.techmeme.com/260713/p19",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T05:35:01.000Z",
+      "publishedAt": "2026-07-13T12:45:01.000Z",
       "rank": 6,
-      "score": 88.5
+      "score": 90.2
     },
     {
-      "id": "techmeme-89fa8b5f34d8",
-      "title": "A Taiwanese minister says TSMC plans two more advanced chip packaging plants in the Chiayi Science Park, with all four set to generate $9.35B+ in annual output (Wen-Yee Lee/Reuters)",
-      "url": "https://www.techmeme.com/260713/p2",
+      "id": "techmeme-b8bda9cea730",
+      "title": "Intel plans to invest €5B to expand chip manufacturing at its Leixlip facility in Ireland; in 2025, Intel canceled a planned €30B factory in Magdeburg, Germany (Financial Times)",
+      "url": "https://www.techmeme.com/260713/p18",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T04:45:02.000Z",
+      "publishedAt": "2026-07-13T12:15:03.000Z",
       "rank": 7,
-      "score": 85.6
+      "score": 87.3
     },
     {
-      "id": "techmeme-339e48c5da5c",
-      "title": "Open-weight AI models are facing an existential policy test in the US, with Anthropic leading a campaign against Chinese models over distillation concerns (Nathan Lambert/Interconnects AI)",
-      "url": "https://www.techmeme.com/260713/p1",
+      "id": "techmeme-439e6f29b2e1",
+      "title": "Nearly 200 economists, including 15 Nobel laureates and Anthropic's Jack Clark, sign a letter titled We Must Act Now, warning of rapid AI-led job displacement (Ben Casselman/New York Times)",
+      "url": "https://www.techmeme.com/260713/p17",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T04:00:44.000Z",
+      "publishedAt": "2026-07-13T11:30:01.000Z",
       "rank": 8,
-      "score": 82.8
+      "score": 84.3
     },
     {
-      "id": "techmeme-b1d11a40de8f",
-      "title": "How museums are using AI chatbots to reach new audiences, as some museum staff worry AI-generated inaccuracies and bias could undermine them as trusted sources (Naomi Rea/Financial Times)",
-      "url": "https://www.techmeme.com/260712/p12",
+      "id": "techmeme-5d0880d85f1d",
+      "title": "Samsung says it now aims to begin operations at its first chipmaking plant in South Korea's Yongin by 2029, bringing the timeline forward from 2030 or 2031 (Henry Siu/The Information)",
+      "url": "https://www.techmeme.com/260713/p16",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T03:00:30.000Z",
+      "publishedAt": "2026-07-13T11:15:01.000Z",
       "rank": 9,
-      "score": 79.9
+      "score": 81.9
     },
     {
-      "id": "techmeme-49eec900476e",
-      "title": "A profile of Asha Sharma, an outsider elevated by Satya Nadella to lead Xbox, where she made sweeping job cuts and shed game studios within her first few months (Financial Times)",
-      "url": "https://www.techmeme.com/260712/p11",
+      "id": "techmeme-1d6923f41593",
+      "title": "Meta says it will spend an extra $40B on its nearly 4,000-acre data center campus in Louisiana, aiming for 5GW+ of compute, pushing its total spend beyond $250B (Riley Griffin/Bloomberg)",
+      "url": "https://www.techmeme.com/260713/p15",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-07-13T01:05:01.000Z",
+      "publishedAt": "2026-07-13T11:00:33.000Z",
       "rank": 10,
-      "score": 76.7
+      "score": 79.5
     }
   ],
   "topTen": [
+    "github-e83635563f37",
     "github-3f7f2e4444aa",
-    "github-89bc9f491574",
-    "hacker-news-bd87c1bd9f8f",
-    "hacker-news-8fbeefb3ded9",
-    "techmeme-df47d6879607",
-    "techmeme-6a459e2e5de2",
+    "hacker-news-6e82b3f37b7a",
+    "hacker-news-6fdfb689b3b7",
+    "techmeme-abc4c355bf50",
+    "techmeme-ab97b323d7b5",
+    "hugging-face-9d95b8c978cd",
+    "stratechery-00651132a913",
     "hugging-face-8a9bd5b68e42",
-    "hugging-face-6477691e297e",
-    "simon-willison-8da02d598403",
-    "simon-willison-008e786fd721"
+    "alpha-xiv-7b21572daa8d"
   ],
   "errors": []
 }
