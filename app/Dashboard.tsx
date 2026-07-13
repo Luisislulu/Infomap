@@ -37,13 +37,25 @@ export type FeedData = {
 };
 
 type View = "today" | "sources";
-type ThemeName = "signal" | "ocean" | "ember" | "violet";
+type ThemeName =
+  | "signal"
+  | "ocean"
+  | "ember"
+  | "violet"
+  | "forest"
+  | "rose"
+  | "mono"
+  | "noir";
 
 const THEMES: { id: ThemeName; label: string }[] = [
   { id: "signal", label: "Signal lime" },
   { id: "ocean", label: "Ocean blue" },
   { id: "ember", label: "Ember orange" },
   { id: "violet", label: "Studio violet" },
+  { id: "forest", label: "Forest green" },
+  { id: "rose", label: "Editorial rose" },
+  { id: "mono", label: "Mono minimal" },
+  { id: "noir", label: "Noir black" },
 ];
 
 function shortDate(value: string) {

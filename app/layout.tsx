@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Script id="infomap-theme" strategy="beforeInteractive">
-          {'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet"].includes(t))document.documentElement.dataset.theme=t}catch{}'}
+          {'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet","forest","rose","mono","noir"].includes(t))document.documentElement.dataset.theme=t}catch{}'}
         </Script>
         {children}
       </body>

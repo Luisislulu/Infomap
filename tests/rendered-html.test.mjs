@@ -10,6 +10,8 @@ test("exports the Infomap dashboard", async () => {
   assert.match(html, /INFOMAP/);
   assert.match(html, /Today(?:&#x27;|')s Ten/);
   assert.match(html, /Source desks/);
+  assert.match(html, /Use Mono minimal theme/);
+  assert.match(html, /Use Noir black theme/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
 });
 
