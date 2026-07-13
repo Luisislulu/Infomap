@@ -32,6 +32,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet"].includes(t))document.documentElement.dataset.theme=t}catch{}',
+          }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   );

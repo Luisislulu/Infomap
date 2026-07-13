@@ -11,6 +11,39 @@
   --shadow: 0 20px 60px rgb(19 22 19 / 0.07);
 }
 
+:root[data-theme="ocean"] {
+  --paper: #edf3f5;
+  --paper-raised: #f8fbfc;
+  --ink: #0e1a20;
+  --muted: #64737a;
+  --line: #d0dadd;
+  --accent: #5ad8ff;
+  --accent-dark: #06465c;
+  --shadow: 0 20px 60px rgb(14 43 55 / 0.08);
+}
+
+:root[data-theme="ember"] {
+  --paper: #f5eee8;
+  --paper-raised: #fffaf6;
+  --ink: #21140f;
+  --muted: #776b65;
+  --line: #dfd1c8;
+  --accent: #ff8259;
+  --accent-dark: #68270f;
+  --shadow: 0 20px 60px rgb(79 35 18 / 0.08);
+}
+
+:root[data-theme="violet"] {
+  --paper: #f1eef6;
+  --paper-raised: #fbf9ff;
+  --ink: #1c1523;
+  --muted: #716a78;
+  --line: #d9d2df;
+  --accent: #c1a8ff;
+  --accent-dark: #432678;
+  --shadow: 0 20px 60px rgb(56 35 81 / 0.08);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -27,6 +60,7 @@ body {
   color: var(--ink);
   font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
+  transition: color 180ms ease, background-color 180ms ease;
 }
 
 button,
@@ -47,7 +81,7 @@ a {
 button:focus-visible,
 a:focus-visible,
 input:focus-visible {
-  outline: 3px solid rgb(128 164 0 / 0.38);
+  outline: 3px solid color-mix(in srgb, var(--accent-dark) 38%, transparent);
   outline-offset: 3px;
 }
 
@@ -79,8 +113,9 @@ input:focus-visible {
   align-items: center;
   min-height: 74px;
   border-bottom: 1px solid var(--ink);
-  background: rgb(242 240 233 / 0.92);
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
   backdrop-filter: blur(18px);
+  transition: background-color 180ms ease, border-color 180ms ease;
 }
 
 .brand {
@@ -113,7 +148,7 @@ input:focus-visible {
   padding: 4px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgb(250 249 245 / 0.72);
+  background: color-mix(in srgb, var(--paper-raised) 72%, transparent);
 }
 
 .main-nav button,
@@ -148,12 +183,70 @@ input:focus-visible {
   text-transform: uppercase;
 }
 
+.topbar-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 18px;
+}
+
+.theme-picker {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper-raised) 72%, transparent);
+}
+
+.theme-picker-label {
+  margin: 0 2px 0 3px;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.theme-swatch {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.theme-swatch > span {
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgb(17 19 18 / 0.22);
+  border-radius: 50%;
+  background: var(--swatch-color);
+}
+
+.theme-swatch[data-theme-option="signal"] { --swatch-color: #d9ff57; }
+.theme-swatch[data-theme-option="ocean"] { --swatch-color: #5ad8ff; }
+.theme-swatch[data-theme-option="ember"] { --swatch-color: #ff8259; }
+.theme-swatch[data-theme-option="violet"] { --swatch-color: #c1a8ff; }
+
+.theme-swatch.is-active {
+  box-shadow:
+    0 0 0 1px var(--paper),
+    0 0 0 2px var(--ink);
+}
+
 .live-dot {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #66a800;
-  box-shadow: 0 0 0 4px rgb(102 168 0 / 0.12);
+  background: var(--accent-dark);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-dark) 12%, transparent);
 }
 
 .masthead {
@@ -268,6 +361,7 @@ input:focus-visible {
   border: 1px solid var(--ink);
   background: var(--paper-raised);
   box-shadow: var(--shadow);
+  transition: background-color 180ms ease, box-shadow 180ms ease;
 }
 
 .lead-story {
@@ -533,6 +627,7 @@ input:focus-visible {
   border: 1px solid var(--line);
   background: var(--paper-raised);
   box-shadow: 0 8px 24px rgb(19 22 19 / 0.035);
+  transition: background-color 180ms ease, border-color 180ms ease;
 }
 
 .source-card[data-source="hacker-news"] { --source-accent: #ff5d21; }
@@ -728,6 +823,19 @@ input:focus-visible {
 
   .edition-meta {
     font-size: 9px;
+  }
+
+  .topbar-actions {
+    gap: 9px;
+  }
+
+  .theme-picker-label {
+    display: none;
+  }
+
+  .theme-picker {
+    gap: 4px;
+    padding-inline: 5px;
   }
 
   .masthead {

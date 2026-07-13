@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 export type FeedItem = {
   id: string;
@@ -37,6 +37,14 @@ export type FeedData = {
 };
 
 type View = "today" | "sources";
+type ThemeName = "signal" | "ocean" | "ember" | "violet";
+
+const THEMES: { id: ThemeName; label: string }[] = [
+  { id: "signal", label: "Signal lime" },
+  { id: "ocean", label: "Ocean blue" },
+  { id: "ember", label: "Ember orange" },
+  { id: "violet", label: "Studio violet" },
+];
 
 function shortDate(value: string) {
   const date = new Date(value);
@@ -108,6 +116,8 @@ export function Dashboard({ feed }: { feed: FeedData }) {
   const [query, setQuery] = useState("");
   const [activeSource, setActiveSource] = useState("all");
   const [saved, setSaved] = useState<string[]>([]);
+  const [theme, setTheme] = useState<ThemeName>("signal");
+  const themeHydrated = useRef(false);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -117,9 +127,28 @@ export function Dashboard({ feed }: { feed: FeedData }) {
       } catch {
         setSaved([]);
       }
+      const storedTheme = window.localStorage.getItem("infomap:theme");
+      const nextTheme = THEMES.some((option) => option.id === storedTheme)
+        ? (storedTheme as ThemeName)
+        : "signal";
+      setTheme(nextTheme);
+      document.documentElement.dataset.theme = nextTheme;
     }, 0);
     return () => window.clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (!themeHydrated.current) {
+      themeHydrated.current = true;
+      return;
+    }
+    document.documentElement.dataset.theme = theme;
+  }, [theme]);
+
+  function chooseTheme(nextTheme: ThemeName) {
+    setTheme(nextTheme);
+    window.localStorage.setItem("infomap:theme", nextTheme);
+  }
 
   function toggleSaved(id: string) {
     setSaved((current) => {
@@ -183,9 +212,28 @@ export function Dashboard({ feed }: { feed: FeedData }) {
             Sources
           </button>
         </nav>
-        <div className="edition-meta">
-          <span className="live-dot" aria-hidden="true" />
-          Daily · {feed.issueNumber}
+        <div className="topbar-actions">
+          <div className="theme-picker" role="group" aria-label="Choose color theme">
+            <span className="theme-picker-label">Theme</span>
+            {THEMES.map((option) => (
+              <button
+                type="button"
+                key={option.id}
+                className={`theme-swatch${theme === option.id ? " is-active" : ""}`}
+                data-theme-option={option.id}
+                onClick={() => chooseTheme(option.id)}
+                aria-label={`Use ${option.label} theme`}
+                aria-pressed={theme === option.id}
+                title={option.label}
+              >
+                <span aria-hidden="true" />
+              </button>
+            ))}
+          </div>
+          <div className="edition-meta">
+            <span className="live-dot" aria-hidden="true" />
+            Daily · {feed.issueNumber}
+          </div>
         </div>
       </header>
 
