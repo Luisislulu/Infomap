@@ -37,6 +37,7 @@ export type FeedData = {
 };
 
 type View = "today" | "sources";
+type RefreshStatus = "idle" | "loading" | "success" | "error";
 type ThemeName =
   | "signal"
   | "ocean"
@@ -124,11 +125,14 @@ function StoryLink({
 }
 
 export function Dashboard({ feed }: { feed: FeedData }) {
+  const [currentFeed, setCurrentFeed] = useState(feed);
   const [view, setView] = useState<View>("today");
   const [query, setQuery] = useState("");
   const [activeSource, setActiveSource] = useState("all");
   const [saved, setSaved] = useState<string[]>([]);
   const [theme, setTheme] = useState<ThemeName>("signal");
+  const [refreshStatus, setRefreshStatus] = useState<RefreshStatus>("idle");
+  const [refreshMessage, setRefreshMessage] = useState("Scan every source for the latest signals");
   const themeHydrated = useRef(false);
 
   useEffect(() => {
@@ -172,18 +176,77 @@ export function Dashboard({ feed }: { feed: FeedData }) {
     });
   }
 
+  async function refreshFeed() {
+    if (refreshStatus === "loading") return;
+
+    const configuredEndpoint = process.env.NEXT_PUBLIC_REFRESH_ENDPOINT?.trim();
+    const localHosts = new Set(["localhost", "127.0.0.1", "::1"]);
+    const endpoint = configuredEndpoint
+      || (localHosts.has(window.location.hostname)
+        ? "http://127.0.0.1:8787/refresh"
+        : "");
+
+    if (!endpoint) {
+      setRefreshStatus("error");
+      setRefreshMessage("This hosted copy needs a refresh service endpoint");
+      return;
+    }
+
+    setRefreshStatus("loading");
+    setRefreshMessage("Scanning every source now…");
+
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { accept: "application/json" },
+        cache: "no-store",
+      });
+      const payload = await response.json().catch(() => null);
+
+      if (!response.ok) {
+        const message = payload && typeof payload.error === "string"
+          ? payload.error
+          : `Refresh failed (${response.status})`;
+        throw new Error(message);
+      }
+
+      if (
+        !payload
+        || typeof payload.generatedAt !== "string"
+        || !Array.isArray(payload.sources)
+        || !Array.isArray(payload.items)
+        || !Array.isArray(payload.topTen)
+      ) {
+        throw new Error("Refresh service returned an invalid feed");
+      }
+
+      const nextFeed = payload as FeedData;
+      setCurrentFeed(nextFeed);
+      setActiveSource((current) => (
+        current === "all" || nextFeed.sources.some((source) => source.key === current)
+          ? current
+          : "all"
+      ));
+      setRefreshStatus("success");
+      setRefreshMessage(`${nextFeed.items.length} signals updated just now`);
+    } catch (error) {
+      setRefreshStatus("error");
+      setRefreshMessage(error instanceof Error ? error.message : "Refresh failed");
+    }
+  }
+
   const topItems = useMemo(() => {
-    const byId = new Map(feed.items.map((item) => [item.id, item]));
-    return feed.topTen.map((id) => byId.get(id)).filter(Boolean) as FeedItem[];
-  }, [feed]);
+    const byId = new Map(currentFeed.items.map((item) => [item.id, item]));
+    return currentFeed.topTen.map((id) => byId.get(id)).filter(Boolean) as FeedItem[];
+  }, [currentFeed]);
 
   const filteredSources = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    return feed.sources
+    return currentFeed.sources
       .filter((source) => activeSource === "all" || source.key === activeSource)
       .map((source) => ({
         ...source,
-        items: feed.items
+        items: currentFeed.items
           .filter((item) => item.sourceKey === source.key)
           .filter((item) =>
             normalizedQuery
@@ -196,7 +259,7 @@ export function Dashboard({ feed }: { feed: FeedData }) {
           .slice(0, 10),
       }))
       .filter((source) => source.items.length > 0);
-  }, [activeSource, feed, query]);
+  }, [activeSource, currentFeed, query]);
 
   const lead = topItems[0];
   const remaining = topItems.slice(1);
@@ -225,6 +288,28 @@ export function Dashboard({ feed }: { feed: FeedData }) {
           </button>
         </nav>
         <div className="topbar-actions">
+          <button
+            type="button"
+            className={`refresh-button status-${refreshStatus}`}
+            onClick={refreshFeed}
+            disabled={refreshStatus === "loading"}
+            aria-label="Scan all sources for the latest information"
+            title={refreshMessage}
+          >
+            <span className="refresh-icon" aria-hidden="true">↻</span>
+            <span>
+              {refreshStatus === "loading"
+                ? "Scanning…"
+                : refreshStatus === "success"
+                  ? "Updated"
+                  : refreshStatus === "error"
+                    ? "Try again"
+                    : "Update now"}
+            </span>
+          </button>
+          <span className="sr-only" role="status" aria-live="polite">
+            {refreshMessage}
+          </span>
           <div className="theme-picker" role="group" aria-label="Choose color theme">
             <span className="theme-picker-label">Theme</span>
             {THEMES.map((option) => (
@@ -244,7 +329,7 @@ export function Dashboard({ feed }: { feed: FeedData }) {
           </div>
           <div className="edition-meta">
             <span className="live-dot" aria-hidden="true" />
-            Daily · {feed.issueNumber}
+            Daily · {currentFeed.issueNumber}
           </div>
         </div>
       </header>
@@ -255,14 +340,14 @@ export function Dashboard({ feed }: { feed: FeedData }) {
           <h1>What matters,<br />without the noise.</h1>
         </div>
         <div className="masthead-note">
-          <p>{issueDate(feed.issueDate)}</p>
+          <p>{issueDate(currentFeed.issueDate)}</p>
           <p>
             A source-aware scan across builders, researchers, analysts,
             institutions, and the technology press. Updated once every day.
           </p>
           <div className="masthead-stats">
-            <span><strong>{feed.items.length}</strong> signals</span>
-            <span><strong>{feed.sources.length}</strong> sources</span>
+            <span><strong>{currentFeed.items.length}</strong> signals</span>
+            <span><strong>{currentFeed.sources.length}</strong> sources</span>
           </div>
         </div>
       </section>
@@ -331,7 +416,7 @@ export function Dashboard({ feed }: { feed: FeedData }) {
             >
               All sources
             </button>
-            {feed.sources.map((source) => (
+            {currentFeed.sources.map((source) => (
               <button
                 type="button"
                 key={source.key}
@@ -406,7 +491,7 @@ export function Dashboard({ feed }: { feed: FeedData }) {
           <span>INFOMAP</span>
         </div>
         <p>Built for one focused scan a day. Original titles, original sources.</p>
-        <p>Generated {new Date(feed.generatedAt).toLocaleString("en-SG", { timeZone: "Asia/Singapore" })} SGT</p>
+        <p>Generated {new Date(currentFeed.generatedAt).toLocaleString("en-SG", { timeZone: "Asia/Singapore" })} SGT</p>
       </footer>
     </main>
   );

@@ -253,7 +253,58 @@ input:focus-visible {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 18px;
+  gap: 12px;
+}
+
+.refresh-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 5px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--paper-raised) 72%, transparent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.refresh-button:hover:not(:disabled) {
+  border-color: var(--ink);
+  color: var(--accent-ink);
+  background: var(--accent);
+}
+
+.refresh-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.refresh-button.status-success {
+  border-color: color-mix(in srgb, var(--success) 55%, var(--line));
+  color: var(--success);
+}
+
+.refresh-button.status-error {
+  border-color: color-mix(in srgb, var(--danger) 55%, var(--line));
+  color: var(--danger);
+}
+
+.refresh-icon {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.refresh-button.status-loading .refresh-icon {
+  animation: refresh-spin 850ms linear infinite;
 }
 
 .theme-picker {
@@ -918,7 +969,12 @@ input:focus-visible {
   }
 
   .topbar-actions {
-    gap: 9px;
+    gap: 6px;
+  }
+
+  .refresh-button {
+    min-height: 28px;
+    padding-inline: 8px;
   }
 
   .theme-picker-label {
@@ -992,10 +1048,28 @@ input:focus-visible {
   .edition-meta {
     display: none;
   }
+
+  .refresh-button > span:last-child {
+    display: none;
+  }
+
+  .refresh-button {
+    width: 28px;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+@keyframes refresh-spin {
+  to { transform: rotate(360deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .refresh-button.status-loading .refresh-icon {
+    animation: none;
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T07:08:08.134Z",
+  "generatedAt": "2026-07-14T09:32:53.374Z",
   "issueDate": "2026-07-14",
   "issueNumber": "2026.07.14",
   "sources": [
@@ -150,17 +150,43 @@
   ],
   "items": [
     {
-      "id": "alpha-xiv-d30b5b4eff96",
-      "title": "Video Generation Models are General-Purpose Vision Learners",
-      "url": "https://www.alphaxiv.org/abs/2607.09024",
+      "id": "alpha-xiv-024823d222cd",
+      "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+      "url": "https://www.alphaxiv.org/abs/2607.11643",
       "source": "alphaXiv",
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
-      "publishedAt": "2026-07-10T01:09:06.000Z",
+      "publishedAt": "2026-07-13T14:57:58.000Z",
       "rank": 1,
-      "score": 93.6,
-      "metric": "51 votes · 635 views",
-      "summary": "Driven by next-token prediction, NLP shifted from task-specific models into powerful generalist foundation models. What, then, is the equivalent catalyst needed to achieve a general-purpose model in computer vision? In this paper, we contend that large-scale text-to-video generat"
+      "score": 97,
+      "metric": "2 votes · 57 views",
+      "summary": "Recent foundation image and video generation models offer strong generalization and controllability, but their direct application to embodied scenarios is limited by requirements for multi-view consistency, geometric coherence, and robot embodiment constraints. Existing methods t"
+    },
+    {
+      "id": "alpha-xiv-dea7f3675989",
+      "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
+      "url": "https://www.alphaxiv.org/abs/2607.11673",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-13T15:14:48.000Z",
+      "rank": 2,
+      "score": 94.9,
+      "metric": "53 views",
+      "summary": "We present ABot-3DWorld 0, a universal multimodal 3D world model that turns text, image, and video inputs into high-fidelity, explorable 3D worlds. At the heart of our framework is a unified Spatial Generative Primitive (SGP), a compact tuple of a high-quality panorama and a spat"
+    },
+    {
+      "id": "alpha-xiv-f54c6425f1bd",
+      "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
+      "url": "https://www.alphaxiv.org/abs/2607.11505",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-13T12:56:21.000Z",
+      "rank": 3,
+      "score": 92.1,
+      "metric": "6 votes · 57 views",
+      "summary": "Post-training is essential for refining the domain-specific capabilities of large language models (LLMs), yet existing reward optimization and distribution matching methods tightly couple policy exploration with distribution alignment. This coupling forces expensive exploration d"
     },
     {
       "id": "alpha-xiv-f1548e966e4f",
@@ -170,10 +196,36 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-07-12T00:00:00.000Z",
-      "rank": 2,
-      "score": 91.4,
-      "metric": "5 votes · 131 views",
+      "rank": 4,
+      "score": 87,
+      "metric": "6 votes · 196 views",
       "summary": "Recent developments in parameter space learning demonstrate that the parameters of Low-Rank Adaptation (LoRA) encapsulate semantic information. Emerging research indicates that these parameters can be effectively learned, generated, and fused to achieve diverse functional objecti"
+    },
+    {
+      "id": "alpha-xiv-d30b5b4eff96",
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "url": "https://www.alphaxiv.org/abs/2607.09024",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-10T01:09:06.000Z",
+      "rank": 5,
+      "score": 84.8,
+      "metric": "56 votes · 956 views",
+      "summary": "Driven by next-token prediction, NLP shifted from task-specific models into powerful generalist foundation models. What, then, is the equivalent catalyst needed to achieve a general-purpose model in computer vision? In this paper, we contend that large-scale text-to-video generat"
+    },
+    {
+      "id": "alpha-xiv-a202d8d5b003",
+      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
+      "url": "https://www.alphaxiv.org/abs/2607.11881",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-13T17:58:37.000Z",
+      "rank": 6,
+      "score": 86.8,
+      "metric": "42 views",
+      "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have mad"
     },
     {
       "id": "alpha-xiv-7b21572daa8d",
@@ -183,10 +235,23 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-07-09T17:26:28.000Z",
-      "rank": 3,
-      "score": 89.2,
-      "metric": "63 votes · 1046 views",
+      "rank": 7,
+      "score": 80.4,
+      "metric": "66 votes · 1220 views",
       "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context "
+    },
+    {
+      "id": "alpha-xiv-94a6d272e2ee",
+      "title": "Qwen-Music Technical Report",
+      "url": "https://www.alphaxiv.org/abs/2607.11699",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-07-13T15:31:45.000Z",
+      "rank": 8,
+      "score": 81.8,
+      "metric": "35 views",
+      "summary": "In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions"
     },
     {
       "id": "alpha-xiv-d1802b6421d6",
@@ -196,9 +261,9 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-07-10T12:57:08.000Z",
-      "rank": 4,
-      "score": 87,
-      "metric": "13 votes · 395 views",
+      "rank": 9,
+      "score": 76,
+      "metric": "13 votes · 479 views",
       "summary": "We present Mach-Mind-4-Flash, a 35B-parameter Mixture-of-Experts (MoE) agentic model with 3B activated parameters. Through post-training optimization alone without scaling pre-training compute, the model achieves performance on par with or surpassing that of 100B-parameter-class "
     },
     {
@@ -209,75 +274,10 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-07-10T14:19:42.000Z",
-      "rank": 5,
-      "score": 84.8,
-      "metric": "1 votes · 311 views",
-      "summary": "Pre-trained Vision-Language Models (VLMs) such as CLIP achieve strong zero-shot generalization, but their performance degrades sharply under adversarial perturbations. Existing test-time adaptation methods typically rely on sample-level confidence heuristics, overlooking the intr"
-    },
-    {
-      "id": "alpha-xiv-4a71f9c81d89",
-      "title": "Scalable Visual Pretraining for Language Intelligence",
-      "url": "https://www.alphaxiv.org/abs/2607.09657",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-07-10T17:57:03.000Z",
-      "rank": 6,
-      "score": 82.6,
-      "metric": "21 votes · 252 views",
-      "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that can"
-    },
-    {
-      "id": "alpha-xiv-af833f8ace3d",
-      "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning",
-      "url": "https://www.alphaxiv.org/abs/2607.08393",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-07-09T12:17:28.000Z",
-      "rank": 7,
-      "score": 80.4,
-      "metric": "58 votes · 755 views",
-      "summary": "Fine-tuning LLMs to inject new knowledge faces a critical challenge: LLMs can quickly memorize new facts, yet fail to use them for downstream reasoning tasks. We formalize this failure as the \\textit{\\textbf{Knowing--Using Gap}}, characterized by an accuracy gap and a temporal la"
-    },
-    {
-      "id": "alpha-xiv-5e1506c01a6e",
-      "title": "PanoWorld: Real-World Panoramic Generation",
-      "url": "https://www.alphaxiv.org/abs/2607.09661",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-07-10T17:59:32.000Z",
-      "rank": 8,
-      "score": 78.2,
-      "metric": "7 votes · 189 views",
-      "summary": "In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric this http URL on this insight, we propose PanoWo"
-    },
-    {
-      "id": "alpha-xiv-92c151fd8356",
-      "title": "A complete ultrametric on von Neumann's incomplete tensor products",
-      "url": "https://www.alphaxiv.org/abs/2607.09627",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-07-10T17:25:32.000Z",
-      "rank": 9,
-      "score": 76,
-      "metric": "8 votes · 136 views",
-      "summary": "We revisit von Neumann's theory of infinite tensor products of Hilbert spaces. On the set $\\Gamma$ of equivalence classes of $C_0$-sequences, which labels the incomplete tensor products inside the complete tensor product, we introduce a natural pseudo-ultrametric $d$: the distanc"
-    },
-    {
-      "id": "alpha-xiv-ceec0680fc52",
-      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
-      "url": "https://www.alphaxiv.org/abs/2607.07508",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-07-08T15:02:19.000Z",
       "rank": 10,
       "score": 73.8,
-      "metric": "127 votes · 2002 views",
-      "summary": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged "
+      "metric": "1 votes · 344 views",
+      "summary": "Pre-trained Vision-Language Models (VLMs) such as CLIP achieve strong zero-shot generalization, but their performance degrades sharply under adversarial perturbations. Existing test-time adaptation methods typically rely on sample-level confidence heuristics, overlooking the intr"
     },
     {
       "id": "apollo-daily-spark-cbad4895eeaa",
@@ -288,7 +288,7 @@
       "category": "Macro & markets",
       "publishedAt": "2026-07-13T00:00:00.000Z",
       "rank": 1,
-      "score": 92.8,
+      "score": 92.4,
       "metric": "Financial Markets & Risk Dynamics",
       "summary": "Net foreign inflows into US equities have surged to a record high, driven in large part by overseas investors seeking AI exposure they cannot get in their home markets, see chart below."
     },
@@ -520,7 +520,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 1,
       "score": 116,
       "metric": "TypeScript · 1,229 stars today",
@@ -533,7 +533,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 2,
       "score": 113.8,
       "metric": "Rust · 1,295 stars today",
@@ -546,7 +546,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 3,
       "score": 111.6,
       "metric": "Python · 1,153 stars today",
@@ -559,7 +559,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 4,
       "score": 109.4,
       "metric": "TypeScript · 78 stars today",
@@ -572,7 +572,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 5,
       "score": 107.2,
       "metric": "Python · 996 stars today",
@@ -585,7 +585,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 6,
       "score": 105,
       "metric": "CSS · 794 stars today",
@@ -598,7 +598,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 7,
       "score": 102.8,
       "metric": "PowerShell · 118 stars today",
@@ -611,7 +611,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 8,
       "score": 100.6,
       "metric": "Python · 1,095 stars today",
@@ -624,7 +624,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 9,
       "score": 98.4,
       "metric": "HTML · 451 stars today",
@@ -637,7 +637,7 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-14T07:08:08.134Z",
+      "publishedAt": "2026-07-14T09:32:53.374Z",
       "rank": 10,
       "score": 96.2,
       "metric": "Python · 543 stars today",
@@ -782,8 +782,20 @@
       "category": "Community",
       "publishedAt": "2026-07-14T02:27:20.000Z",
       "rank": 1,
-      "score": 105.3,
-      "metric": "314 pts · 75 comments"
+      "score": 103.5,
+      "metric": "456 pts · 114 comments"
+    },
+    {
+      "id": "hacker-news-c1f680f7c3e1",
+      "title": "Alternative(s) to run CUDA on non-Nvidia hardware",
+      "url": "https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-14T08:24:49.000Z",
+      "rank": 2,
+      "score": 107.9,
+      "metric": "29 pts · 5 comments"
     },
     {
       "id": "hacker-news-1737b8f3486a",
@@ -793,21 +805,45 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-14T03:39:55.000Z",
-      "rank": 2,
-      "score": 104.3,
-      "metric": "78 pts · 15 comments"
+      "rank": 3,
+      "score": 99.9,
+      "metric": "119 pts · 37 comments"
     },
     {
       "id": "hacker-news-98210de058a0",
-      "title": "The Git history command deserves more attention",
+      "title": "The git history command",
       "url": "https://lalitm.com/post/git-history",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-14T00:57:11.000Z",
-      "rank": 3,
-      "score": 99.7,
-      "metric": "222 pts · 128 comments"
+      "rank": 4,
+      "score": 96.1,
+      "metric": "285 pts · 165 comments"
+    },
+    {
+      "id": "hacker-news-9ead3c90d423",
+      "title": "Australian energy retailers must provide three hours of free daytime electricity",
+      "url": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-14T04:31:48.000Z",
+      "rank": 5,
+      "score": 96.2,
+      "metric": "79 pts · 101 comments"
+    },
+    {
+      "id": "hacker-news-912cd27fd828",
+      "title": "Indian scientists produce most detailed 3D atlas of the human brainstem",
+      "url": "https://www.bbc.com/news/articles/cg53l737v1qo",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-07-14T06:43:28.000Z",
+      "rank": 6,
+      "score": 96.2,
+      "metric": "28 pts · 1 comments"
     },
     {
       "id": "hacker-news-c8b46ce139a2",
@@ -817,9 +853,9 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-14T02:10:19.000Z",
-      "rank": 4,
-      "score": 98.4,
-      "metric": "110 pts · 3 comments"
+      "rank": 7,
+      "score": 90.2,
+      "metric": "133 pts · 5 comments"
     },
     {
       "id": "hacker-news-5ebc0d2b6302",
@@ -829,9 +865,9 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-11T15:23:54.000Z",
-      "rank": 5,
-      "score": 87,
-      "metric": "53 pts · 13 comments"
+      "rank": 8,
+      "score": 80.4,
+      "metric": "79 pts · 30 comments"
     },
     {
       "id": "hacker-news-7dcab31e0715",
@@ -841,9 +877,9 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-13T18:22:16.000Z",
-      "rank": 6,
-      "score": 89.9,
-      "metric": "416 pts · 185 comments"
+      "rank": 9,
+      "score": 82.5,
+      "metric": "465 pts · 202 comments"
     },
     {
       "id": "hacker-news-d37fe22b39f5",
@@ -853,45 +889,9 @@
       "sourceKey": "hacker-news",
       "category": "Community",
       "publishedAt": "2026-07-14T01:35:23.000Z",
-      "rank": 7,
-      "score": 91.4,
-      "metric": "72 pts · 16 comments"
-    },
-    {
-      "id": "hacker-news-ab40e50be5ec",
-      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
-      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-13T16:06:08.000Z",
-      "rank": 8,
-      "score": 84.8,
-      "metric": "516 pts · 207 comments"
-    },
-    {
-      "id": "hacker-news-58d3c41eb9cd",
-      "title": "Is x86 ready to ACE it?",
-      "url": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-14T01:36:13.000Z",
-      "rank": 9,
-      "score": 87,
-      "metric": "57 pts · 7 comments"
-    },
-    {
-      "id": "hacker-news-57357993b3ab",
-      "title": "Satellite Tracker – Live Map of Starlink and 30k Satellites",
-      "url": "https://satellitemap.space",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-07-14T01:55:24.000Z",
       "rank": 10,
-      "score": 85,
-      "metric": "65 pts · 21 comments"
+      "score": 83.2,
+      "metric": "96 pts · 31 comments"
     },
     {
       "id": "hugging-face-fd32f40afed0",
@@ -902,8 +902,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 1,
-      "score": 101.3,
-      "metric": "3 upvotes",
+      "score": 100,
+      "metric": "6 upvotes",
       "summary": "Post-training is essential for refining the domain-specific capabilities of large language models (LLMs), yet existing reward optimization and distribution matching methods tightly couple policy exploration with distribution alignment. This coupling forces expensive exploration d"
     },
     {
@@ -915,7 +915,7 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 2,
-      "score": 99.1,
+      "score": 97.8,
       "metric": "1 upvotes",
       "summary": "Virtual try-on (VTO) has made significant progress in realistically transferring garments onto a target person. Yet most systems give the user little control over how a garment should be worn -- its size (loose or fitted), style (e.g., tucked in or untucked, open or closed), and "
     },
@@ -928,8 +928,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 3,
-      "score": 96.9,
-      "metric": "4 upvotes",
+      "score": 95.6,
+      "metric": "6 upvotes",
       "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have mad"
     },
     {
@@ -941,8 +941,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 4,
-      "score": 94.7,
-      "metric": "20 upvotes",
+      "score": 93.4,
+      "metric": "35 upvotes",
       "summary": "Existing volumetric capture of dynamic human performance achieves high fidelity with dense camera arrays. However, in real-world scenarios, only a handful of low-overlap cameras are available, which degrades the output quality and leaves large areas unobserved. Recent 4D reconstr"
     },
     {
@@ -954,7 +954,7 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 5,
-      "score": 92.5,
+      "score": 91.2,
       "metric": "1 upvotes",
       "summary": "This work explores the motion transfer from one video to another, which is crucial in animation for diverse characters. Previously, video motion transfer has been largely explored between human and human-like characters, enabling a lot of applications in digital creation. However"
     },
@@ -967,8 +967,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 6,
-      "score": 90.3,
-      "metric": "0 upvotes",
+      "score": 89,
+      "metric": "1 upvotes",
       "summary": "Flow matching over carefully designed latent representations has recently emerged as a powerful paradigm for topology-aware mesh generation. Existing approaches, however, model vertices and connectivity jointly in a joint latent space, entangling continuous vertex geometry with d"
     },
     {
@@ -980,8 +980,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 7,
-      "score": 88.1,
-      "metric": "18 upvotes",
+      "score": 86.8,
+      "metric": "45 upvotes",
       "summary": "Direct On-Policy Distillation transfers reinforcement learning improvements from smaller to larger models by using the policy shift induced by RL as an implicit reward signal, enabling efficient scaling of training without re-running expensive RL on the target model."
     },
     {
@@ -993,8 +993,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 8,
-      "score": 85.9,
-      "metric": "59 upvotes",
+      "score": 84.6,
+      "metric": "61 upvotes",
       "summary": "Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use, verification, and cross-embodiment execution. We present ABot-AgentOS, a general robotic Agen"
     },
     {
@@ -1006,7 +1006,7 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 9,
-      "score": 83.7,
+      "score": 82.4,
       "metric": "14 upvotes",
       "summary": "Large language models (LLMs) have achieved remarkable performance on high-school and olympiad-style mathematics, yet their capabilities on advanced mathematics remain poorly understood. Existing benchmarks, however, fall short in both scope and evaluation granularity: they provid"
     },
@@ -1019,8 +1019,8 @@
       "category": "Research",
       "publishedAt": "2026-07-14T00:00:00.000Z",
       "rank": 10,
-      "score": 81.5,
-      "metric": "26 upvotes",
+      "score": 80.2,
+      "metric": "27 upvotes",
       "summary": "Personal AI assistants on mobile and wearable devices continuously perceive users' daily lives through visual and audio streams. However, answering queries about past experiences requires lightweight multimodal memory that can continuously accumulate, organize, and retrieve long-"
     },
     {
@@ -1282,7 +1282,7 @@
       "category": "AI engineering",
       "publishedAt": "2026-07-14T01:22:27.000Z",
       "rank": 1,
-      "score": 93.8,
+      "score": 92.3,
       "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting..."
     },
     {
@@ -1459,19 +1459,6 @@
       "metric": "MGI research"
     },
     {
-      "id": "mckinsey-mgi-251af238888a",
-      "title": "Semiconductors: Etching the new map of strategic supply",
-      "url": "https://www.mckinsey.com/mgi/our-research/semiconductors-etching-the-new-map-of-strategic-supply",
-      "source": "McKinsey MGI",
-      "sourceKey": "mckinsey-mgi",
-      "category": "Business & economics",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
-      "rank": 6,
-      "score": 78.6,
-      "summary": "As geopolitics shift, more countries are wooing semiconductor manufacturers to enhance resilience. At the same time, demand for advanced semiconductors continues to grow.",
-      "metric": "MGI research"
-    },
-    {
       "id": "mckinsey-mgi-4275e70ffca6",
       "title": "Polyethylene: Widely produced—but not one-size-fits-all",
       "url": "https://www.mckinsey.com/mgi/our-research/polyethylene-widely-produced-but-not-one-size-fits-all",
@@ -1479,9 +1466,35 @@
       "sourceKey": "mckinsey-mgi",
       "category": "Business & economics",
       "publishedAt": "2026-06-29T16:00:00.000Z",
+      "rank": 6,
+      "score": 78.6,
+      "summary": "Manufacturing polyethylene is a highly competitive business. Success depends greatly on access to feedstocks, yet investment doesn’t always follow economics.",
+      "metric": "MGI research"
+    },
+    {
+      "id": "mckinsey-mgi-251af238888a",
+      "title": "Semiconductors: Etching the new map of strategic supply",
+      "url": "https://www.mckinsey.com/mgi/our-research/semiconductors-etching-the-new-map-of-strategic-supply",
+      "source": "McKinsey MGI",
+      "sourceKey": "mckinsey-mgi",
+      "category": "Business & economics",
+      "publishedAt": "2026-06-29T16:00:00.000Z",
       "rank": 7,
       "score": 76.4,
-      "summary": "Manufacturing polyethylene is a highly competitive business. Success depends greatly on access to feedstocks, yet investment doesn’t always follow economics.",
+      "summary": "As geopolitics shift, more countries are wooing semiconductor manufacturers to enhance resilience. At the same time, demand for advanced semiconductors continues to grow.",
+      "metric": "MGI research"
+    },
+    {
+      "id": "mckinsey-mgi-2c67b5f44797",
+      "title": "Pharmaceuticals: Innovating and advancing around the world",
+      "url": "https://www.mckinsey.com/mgi/our-research/pharmaceuticals-innovating-and-advancing-around-the-world",
+      "source": "McKinsey MGI",
+      "sourceKey": "mckinsey-mgi",
+      "category": "Business & economics",
+      "publishedAt": "2026-06-29T16:00:00.000Z",
+      "rank": 8,
+      "score": 74.2,
+      "summary": "The continued rise of monoclonal antibody therapies and demographic changes are powering growth in the pharmaceuticals industry.",
       "metric": "MGI research"
     },
     {
@@ -1492,8 +1505,8 @@
       "sourceKey": "mckinsey-mgi",
       "category": "Business & economics",
       "publishedAt": "2026-06-29T16:00:00.000Z",
-      "rank": 8,
-      "score": 74.2,
+      "rank": 9,
+      "score": 72,
       "summary": "Solar photovoltaic projects with battery energy storage systems are moving beyond low-cost generation by transforming intermittent output into more reliable, higher-value electricity.",
       "metric": "MGI research"
     },
@@ -1505,22 +1518,9 @@
       "sourceKey": "mckinsey-mgi",
       "category": "Business & economics",
       "publishedAt": "2026-06-29T16:00:00.000Z",
-      "rank": 9,
-      "score": 72,
-      "summary": "Demand for batteries is surging as electric vehicles and storage grow, but competitiveness depends on securing materials, ramping up gigafactories, and building the local ecosystems needed to compete.",
-      "metric": "MGI research"
-    },
-    {
-      "id": "mckinsey-mgi-2c67b5f44797",
-      "title": "Pharmaceuticals: Innovating and advancing around the world",
-      "url": "https://www.mckinsey.com/mgi/our-research/pharmaceuticals-innovating-and-advancing-around-the-world",
-      "source": "McKinsey MGI",
-      "sourceKey": "mckinsey-mgi",
-      "category": "Business & economics",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
       "rank": 10,
       "score": 69.8,
-      "summary": "The continued rise of monoclonal antibody therapies and demographic changes are powering growth in the pharmaceuticals industry.",
+      "summary": "Demand for batteries is surging as electric vehicles and storage grow, but competitiveness depends on securing materials, ramping up gigafactories, and building the local ecosystems needed to compete.",
       "metric": "MGI research"
     },
     {
@@ -1652,7 +1652,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-14T00:56:20.000Z",
       "rank": 1,
-      "score": 95.7,
+      "score": 94.3,
       "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" environment variable at the start of the workflow and then using"
     },
     {
@@ -1664,7 +1664,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-13T22:34:41.000Z",
       "rank": 2,
-      "score": 92.1,
+      "score": 91,
       "summary": "DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The result is a small, original Doom-like game in which SQL owns m"
     },
     {
@@ -1676,7 +1676,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-13T21:45:27.000Z",
       "rank": 3,
-      "score": 89.5,
+      "score": 88.5,
       "summary": "datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette"
     },
     {
@@ -1688,7 +1688,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T23:57:14.000Z",
       "rank": 4,
-      "score": 81.8,
+      "score": 81.4,
       "summary": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the suc"
     },
     {
@@ -1700,7 +1700,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T23:46:52.000Z",
       "rank": 5,
-      "score": 79.5,
+      "score": 79.2,
       "summary": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a second to start serving traffic. server: processes used by s"
     },
     {
@@ -1712,7 +1712,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T21:20:07.000Z",
       "rank": 6,
-      "score": 77,
+      "score": 76.7,
       "summary": "One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’"
     },
     {
@@ -1724,7 +1724,7 @@
       "category": "Applied AI",
       "publishedAt": "2026-07-12T20:55:30.000Z",
       "rank": 7,
-      "score": 74.7,
+      "score": 74.4,
       "summary": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError if called while a transaction is open with PRAGMA foreign_keys"
     },
     {
@@ -1772,7 +1772,7 @@
       "category": "Strategy",
       "publishedAt": "2026-07-13T10:00:00.000Z",
       "rank": 1,
-      "score": 90.2,
+      "score": 89.7,
       "summary": "Apple is suing AI for stealing trade secrets; there is one guilty employee, but this mostly feels like lashing out."
     },
     {
@@ -1884,6 +1884,18 @@
       "summary": "Apple is (finally) raising prices, but they're not shipping Siri AI to the E.U."
     },
     {
+      "id": "techcrunch-00c097625e63",
+      "title": "Pinwheel launches a retro-inspired landline phone for kids",
+      "url": "https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-07-14T09:00:00.000Z",
+      "rank": 1,
+      "score": 103.3,
+      "summary": "Kid-friendly tech company Pinwheel announced the launch of a new landline phone designed to let children stay connected without the distractions of a smartphone."
+    },
+    {
       "id": "techcrunch-78847ab0d8a7",
       "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
       "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again",
@@ -1891,8 +1903,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-14T02:46:42.000Z",
-      "rank": 1,
-      "score": 97.2,
+      "rank": 2,
+      "score": 93.1,
       "summary": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more."
     },
     {
@@ -1903,8 +1915,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-14T00:45:00.000Z",
-      "rank": 2,
-      "score": 93.4,
+      "rank": 3,
+      "score": 89.8,
       "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice."
     },
     {
@@ -1915,8 +1927,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "rank": 3,
-      "score": 90.7,
+      "rank": 4,
+      "score": 87.2,
       "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies."
     },
     {
@@ -1927,8 +1939,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-13T23:58:27.000Z",
-      "rank": 4,
-      "score": 88.5,
+      "rank": 5,
+      "score": 85,
       "summary": "The social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel."
     },
     {
@@ -1939,8 +1951,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-13T23:31:18.000Z",
-      "rank": 5,
-      "score": 86,
+      "rank": 6,
+      "score": 82.6,
       "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors."
     },
     {
@@ -1951,8 +1963,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-13T20:59:00.000Z",
-      "rank": 6,
-      "score": 82.6,
+      "rank": 7,
+      "score": 79.4,
       "summary": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses."
     },
     {
@@ -1963,8 +1975,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-13T20:00:17.000Z",
-      "rank": 7,
-      "score": 80,
+      "rank": 8,
+      "score": 76.9,
       "summary": "Apple would not comment on the \"security breach,\" which allegedly allowed a former employee to download sensitive files from Apple's network long after he departed the company for rival OpenAI."
     },
     {
@@ -1975,8 +1987,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-13T18:22:10.000Z",
-      "rank": 8,
-      "score": 77.1,
+      "rank": 9,
+      "score": 74.1,
       "summary": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims."
     },
     {
@@ -1987,21 +1999,33 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-07-13T17:28:37.000Z",
-      "rank": 9,
-      "score": 74.6,
+      "rank": 10,
+      "score": 71.7,
       "summary": "Responding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\""
     },
     {
-      "id": "techcrunch-b39c051f245e",
-      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
-      "url": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-07-13T17:03:11.000Z",
-      "rank": 10,
-      "score": 72.3,
-      "summary": "General Fusion started trading on the Nasdaq following a reverse merger that saw high redemptions."
+      "id": "techmeme-aaf707c56c74",
+      "title": "eMarketer: chatbots like ChatGPT and Google AI Mode will generate less than $1B in ad revenue in 2026; OpenAI projected $2.5B in ChatGPT ad revenue this year (Trishla Ostwal/Adweek)",
+      "url": "https://www.techmeme.com/260714/p4",
+      "source": "Techmeme",
+      "sourceKey": "techmeme",
+      "category": "Technology news",
+      "publishedAt": "2026-07-14T08:25:50.000Z",
+      "rank": 1,
+      "score": 103.9,
+      "summary": "Trishla Ostwal / Adweek : eMarketer: chatbots like ChatGPT and Google AI Mode will generate less than $1B in ad revenue in 2026; OpenAI projected $2.5B in ChatGPT ad revenue this year — OpenAI is projecting $100 billion in ad revenue by 2030. Emarketer puts the ceiling for the en"
+    },
+    {
+      "id": "techmeme-d312d1daaf15",
+      "title": "Google agrees to buy 100% of the initial output from the Steel River Energy Center's 1.6GW solar project in Arkansas when it becomes operational in 2029 (Martha Muir/Financial Times)",
+      "url": "https://www.techmeme.com/260714/p3",
+      "source": "Techmeme",
+      "sourceKey": "techmeme",
+      "category": "Technology news",
+      "publishedAt": "2026-07-14T07:55:47.000Z",
+      "rank": 2,
+      "score": 100.7,
+      "summary": "Martha Muir / Financial Times : Google agrees to buy 100% of the initial output from the Steel River Energy Center's 1.6GW solar project in Arkansas when it becomes operational in 2029 — Deal signals continued demand for renewable energy despite Trump administration's efforts to "
     },
     {
       "id": "techmeme-bcdf0d6eb0fd",
@@ -2011,8 +2035,8 @@
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-14T06:25:43.000Z",
-      "rank": 1,
-      "score": 105,
+      "rank": 3,
+      "score": 96.3,
       "summary": "Dan Goodin / Ars Technica : Researchers detail “context bombing”, where defenders use prompt injections to trigger guardrails of attackers' LLMs, cutting AI hacking success rates by ~90% — Prompt injections, the malicious commands attackers embed into content to entice large lang"
     },
     {
@@ -2023,8 +2047,8 @@
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-14T04:45:01.000Z",
-      "rank": 2,
-      "score": 99.4,
+      "rank": 4,
+      "score": 92.4,
       "summary": "Zijing Wu / Financial Times : Sources: Nvidia intensified due diligence and cut its authorized AI chip customers in Singapore, Malaysia, and Japan by 50%+ to prevent China diversions — Tougher vetting in Singapore, Malaysia and Japan reflects Washington's push to close export-con"
     },
     {
@@ -2035,8 +2059,8 @@
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-14T03:20:02.000Z",
-      "rank": 3,
-      "score": 95.5,
+      "rank": 5,
+      "score": 89.1,
       "summary": "Evelyn Cheng / CNBC : In the wake of China's “embodied AI” push, there's an urgency among China's 100+ humanoid startups to launch IPOs; LimX Dynamics raises $200M in a pre-IPO round — BEIJING — Humanoid startup LimX Dynamics is getting ready to go public, just over four years af"
     },
     {
@@ -2047,8 +2071,8 @@
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-14T00:45:01.000Z",
-      "rank": 4,
-      "score": 91.2,
+      "rank": 6,
+      "score": 85.4,
       "summary": "Ivan Mehta / TechCrunch : Singapore-based and Alibaba-backed video generation startup PixVerse says it closed a Series C extension to raise $439M total for the round, valuing it at $2B+ — Singapore-based video-generation startup PixVerse said today that it has closed its Series C"
     },
     {
@@ -2059,8 +2083,8 @@
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-14T00:10:39.000Z",
-      "rank": 5,
-      "score": 88.6,
+      "rank": 7,
+      "score": 82.9,
       "summary": "Jason Nelson / Decrypt : Anthropic research based on ~310K anonymized Claude conversations shows how Claude's expressed values and behaviors vary across models and languages — Claude doesn't behave the same way in every conversation. According to new research published Monday, AI"
     },
     {
@@ -2071,70 +2095,46 @@
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-13T23:45:02.000Z",
-      "rank": 6,
-      "score": 86.2,
+      "rank": 8,
+      "score": 80.5,
       "summary": "TechCrunch : Sources: Nous Research, the startup behind Hermes, an open-source agent and OpenClaw rival, is raising $75M+ at a $1.5B valuation led by Robot Ventures — Nous Research, the startup behind the open-source Hermes agent, is finalizing a new round of funding led by Robot"
     },
     {
       "id": "techmeme-7669db3393ee",
-      "title": "Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models (Benjamin Guggenheim/Washington Post)",
+      "title": "Sources: the Trump admin and industry groups discuss streamlining the releases of US open models of equal or lesser capability than leading Chinese open models (Benjamin Guggenheim/Washington Post)",
       "url": "https://www.techmeme.com/260713/p32",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-13T23:15:01.000Z",
-      "rank": 7,
-      "score": 83.7,
-      "summary": "Benjamin Guggenheim / Washington Post : Sources: Trump admin and industry groups have discussed streamlining releases of US open models of equal or lesser capability than leading Chinese open models — Plus, data centers could end up consuming less energy than we expect. — Exclusi"
+      "rank": 9,
+      "score": 78.1,
+      "summary": "Benjamin Guggenheim / Washington Post : Sources: the Trump admin and industry groups discuss streamlining the releases of US open models of equal or lesser capability than leading Chinese open models — Plus, data centers could end up consuming less energy than we expect. — Exclus"
     },
     {
       "id": "techmeme-4c627d20a110",
-      "title": "Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI (Will Shanklin/Engadget)",
+      "title": "Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the new Siri AI's first public launch (Will Shanklin/Engadget)",
       "url": "https://www.techmeme.com/260713/p31",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
       "publishedAt": "2026-07-13T22:55:35.000Z",
-      "rank": 8,
-      "score": 81.3,
-      "summary": "Will Shanklin / Engadget : Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI — Try the new Siri AI and system-wide performance improvements. — Adventurous early adopters, your mom"
-    },
-    {
-      "id": "techmeme-84d1028afae1",
-      "title": "Microsoft announces a Windows 11 search overhaul that prioritizes local results, removes promotional web content, and more, rolling out to Windows Insiders (Zac Bowden/Windows Central)",
-      "url": "https://www.techmeme.com/260713/p30",
-      "source": "Techmeme",
-      "sourceKey": "techmeme",
-      "category": "Technology news",
-      "publishedAt": "2026-07-13T19:15:03.000Z",
-      "rank": 9,
-      "score": 77.5,
-      "summary": "Zac Bowden / Windows Central : Microsoft announces a Windows 11 search overhaul that prioritizes local results, removes promotional web content, and more, rolling out to Windows Insiders — Windows 11's search user experience is getting a big update, with Microsoft moving to prior"
-    },
-    {
-      "id": "techmeme-8281bfb5ee21",
-      "title": "Q&A with Xinzhou Wu, head of automotive at Nvidia, on Nvidia's chips and AI models for autonomous driving, lidar's usefulness for Level 4 autonomy, and more (Nilay Patel/The Verge)",
-      "url": "https://www.techmeme.com/260713/p29",
-      "source": "Techmeme",
-      "sourceKey": "techmeme",
-      "category": "Technology news",
-      "publishedAt": "2026-07-13T18:00:01.000Z",
       "rank": 10,
-      "score": 74.8,
-      "summary": "Nilay Patel / The Verge : Q&A with Xinzhou Wu, head of automotive at Nvidia, on Nvidia's chips and AI models for autonomous driving, lidar's usefulness for Level 4 autonomy, and more — Xinzhou Wu on autonomy, Chinese cars, and if we really need lidar — Today, I'm talking with Xin"
+      "score": 75.8,
+      "summary": "Will Shanklin / Engadget : Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the new Siri AI's first public launch — Try the new Siri AI and system-wide performance improvements. — Adventurous early adopters, your m"
     }
   ],
   "topTen": [
     "github-e83635563f37",
     "github-3f7f2e4444aa",
+    "hacker-news-c1f680f7c3e1",
+    "techmeme-aaf707c56c74",
     "hacker-news-6c2979d84f32",
-    "techmeme-bcdf0d6eb0fd",
-    "hacker-news-1737b8f3486a",
+    "techcrunch-00c097625e63",
+    "techmeme-d312d1daaf15",
     "hugging-face-fd32f40afed0",
-    "techmeme-d6e6f9ec69b0",
     "hugging-face-ee9ec6d311ba",
-    "techcrunch-78847ab0d8a7",
-    "simon-willison-abcd43572d3b"
+    "alpha-xiv-024823d222cd"
   ],
   "errors": []
 }

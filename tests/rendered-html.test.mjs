@@ -12,6 +12,8 @@ test("exports the Infomap dashboard", async () => {
   assert.match(html, /Source desks/);
   assert.match(html, /Use Mono minimal theme/);
   assert.match(html, /Use Noir black theme/);
+  assert.match(html, /Update now/);
+  assert.match(html, /Scan all sources for the latest information/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
 });
 

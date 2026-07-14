@@ -38,6 +38,10 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+`npm run dev` starts both the dashboard and a loopback-only refresh service.
+Use **Update now** in the header to run the full collector immediately; the
+dashboard replaces its current feed as soon as the scan finishes.
+
 ## Validation
 
 ```bash
@@ -51,6 +55,13 @@ node --test tests/rendered-html.test.mjs
 The workflow in `.github/workflows/daily-pages.yml` runs every day at 07:30
 Singapore time, refreshes the data, commits the daily archive, builds the static
 site, and deploys it to GitHub Pages.
+
+GitHub Pages is static, so its browser cannot run the Node.js collector directly.
+To enable **Update now** on a hosted copy, point `NEXT_PUBLIC_REFRESH_ENDPOINT`
+at a server-side POST endpoint that runs the collector and returns the generated
+feed. Never place a GitHub token or other private key in this public environment
+variable. Without that endpoint, the scheduled daily workflow remains the
+hosted site's update mechanism.
 
 After pushing the repository to GitHub, open **Settings → Pages** and select
 **GitHub Actions** as the source. Run the workflow manually once to publish the
