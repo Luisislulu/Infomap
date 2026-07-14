@@ -51,12 +51,36 @@ const SOURCE_DEFINITIONS = [
     weight: 8,
   },
   {
+    key: "semi-analysis",
+    name: "SemiAnalysis",
+    category: "AI infrastructure",
+    description: "Deep research on semiconductors, AI systems, datacenters, and the economics of compute.",
+    url: "https://semianalysis.com/",
+    weight: 9,
+  },
+  {
     key: "stratechery",
     name: "Stratechery",
     category: "Strategy",
     description: "Technology strategy and business analysis by Ben Thompson.",
     url: "https://stratechery.com/",
     weight: 7,
+  },
+  {
+    key: "goldman-sachs",
+    name: "Goldman Sachs Research",
+    category: "Capital markets",
+    description: "Research on global markets, macroeconomics, industries, and investment themes.",
+    url: "https://www.goldmansachs.com/insights/goldman-sachs-research",
+    weight: 8,
+  },
+  {
+    key: "mckinsey-mgi",
+    name: "McKinsey MGI",
+    category: "Business & economics",
+    description: "Research on productivity, capital, technology, labor, and global economic shifts.",
+    url: "https://www.mckinsey.com/mgi/our-research/all-research",
+    weight: 8,
   },
   {
     key: "interconnects",
@@ -86,6 +110,7 @@ const SOURCE_DEFINITIONS = [
 
 const RSS_SOURCES = [
   ["techmeme", "https://www.techmeme.com/feed.xml"],
+  ["semi-analysis", "https://newsletter.semianalysis.com/feed"],
   ["stratechery", "https://stratechery.com/feed/"],
   ["interconnects", "https://www.interconnects.ai/feed"],
   ["latent-space", "https://www.latent.space/feed"],
@@ -180,13 +205,16 @@ function getLink(block) {
   return atomLink ? decodeEntities(atomLink[1]) : "";
 }
 
-function parseRss(sourceKey, xml) {
-  const blocks = [...xml.matchAll(/<(item|entry)\b[\s\S]*?<\/\1>/gi)].map((match) => match[0]);
+function parseRss(sourceKey, xml, predicate = () => true) {
+  const blocks = [...xml.matchAll(/<(item|entry)\b[\s\S]*?<\/\1>/gi)]
+    .map((match) => match[0])
+    .filter(predicate);
   return blocks.slice(0, 10).flatMap((block, index) => {
     const title = getTag(block, ["title"]);
     const url = getLink(block);
     if (!title || !url) return [];
     const published = getTag(block, ["pubDate", "published", "updated", "dc:date"]);
+    const summary = getTag(block, ["description", "summary", "content:encoded"]);
     return [
       makeItem({
         sourceKey,
@@ -194,6 +222,7 @@ function parseRss(sourceKey, xml) {
         url,
         publishedAt: published || now.toISOString(),
         rank: index + 1,
+        summary: summary || undefined,
       }),
     ];
   });
@@ -348,6 +377,40 @@ async function fetchAlphaXiv() {
   });
 }
 
+async function fetchGoldmanSachs() {
+  const rows = JSON.parse(await fetchText("https://www.goldmansachs.com/feeds/insights.json"));
+  return rows
+    .filter((row) => row.path?.startsWith("/insights/goldman-sachs-research/"))
+    .sort(
+      (a, b) =>
+        new Date(b.cmsPageProps?.publishDate ?? 0).getTime() -
+        new Date(a.cmsPageProps?.publishDate ?? 0).getTime(),
+    )
+    .slice(0, 10)
+    .flatMap((row, index) => {
+      if (!row.title || !row.path) return [];
+      const topic = row.cmsPageProps?.primaryTopic?.[0]?.title;
+      return [
+        makeItem({
+          sourceKey: "goldman-sachs",
+          title: row.title,
+          url: `https://www.goldmansachs.com${row.path}`,
+          publishedAt: row.cmsPageProps?.publishDate ?? now,
+          rank: index + 1,
+          metric: topic || "Goldman Sachs Research",
+          summary: row.description,
+        }),
+      ];
+    });
+}
+
+async function fetchMckinseyMgi() {
+  const xml = await fetchText("https://www.mckinsey.com/insights/rss");
+  return parseRss("mckinsey-mgi", xml, (block) =>
+    /\/mgi\/our-research\/|McKinsey Global Institute|MGI Research/i.test(block),
+  ).map((item) => ({ ...item, metric: "MGI research" }));
+}
+
 async function fetchRssSource(sourceKey, url) {
   return parseRss(sourceKey, await fetchText(url));
 }
@@ -427,6 +490,8 @@ async function main() {
     ["hacker-news", fetchHackerNews],
     ["hugging-face", fetchHuggingFace],
     ["alpha-xiv", fetchAlphaXiv],
+    ["goldman-sachs", fetchGoldmanSachs],
+    ["mckinsey-mgi", fetchMckinseyMgi],
     ...RSS_SOURCES.map(([key, url]) => [key, () => fetchRssSource(key, url)]),
   ];
 

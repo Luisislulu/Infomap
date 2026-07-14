@@ -555,7 +555,10 @@ input:focus-visible {
 .source-pill[data-source="hugging-face"] .source-dot { background: #e7b900; }
 .source-pill[data-source="alpha-xiv"] .source-dot { background: #e14d72; }
 .source-pill[data-source="techmeme"] .source-dot { background: #3577e5; }
+.source-pill[data-source="semi-analysis"] .source-dot { background: #0d9488; }
 .source-pill[data-source="stratechery"] .source-dot { background: #7f58af; }
+.source-pill[data-source="goldman-sachs"] .source-dot { background: #5b9bd5; }
+.source-pill[data-source="mckinsey-mgi"] .source-dot { background: #144b7a; }
 .source-pill[data-source="interconnects"] .source-dot { background: #0b8f78; }
 .source-pill[data-source="latent-space"] .source-dot { background: #ca3e6b; }
 .source-pill[data-source="simon-willison"] .source-dot { background: #975a16; }
@@ -711,7 +714,10 @@ input:focus-visible {
 .source-card[data-source="hugging-face"] { --source-accent: #d8ad00; }
 .source-card[data-source="alpha-xiv"] { --source-accent: #e14d72; }
 .source-card[data-source="techmeme"] { --source-accent: #3577e5; }
+.source-card[data-source="semi-analysis"] { --source-accent: #0d9488; }
 .source-card[data-source="stratechery"] { --source-accent: #7f58af; }
+.source-card[data-source="goldman-sachs"] { --source-accent: #5b9bd5; }
+.source-card[data-source="mckinsey-mgi"] { --source-accent: #144b7a; }
 .source-card[data-source="interconnects"] { --source-accent: #0b8f78; }
 .source-card[data-source="latent-space"] { --source-accent: #ca3e6b; }
 .source-card[data-source="simon-willison"] { --source-accent: #975a16; }

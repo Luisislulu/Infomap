@@ -11,7 +11,10 @@ publishes a static dashboard on GitHub Pages.
 - Hugging Face Papers
 - alphaXiv Trending Papers
 - Techmeme
+- SemiAnalysis
 - Stratechery
+- Goldman Sachs Research
+- McKinsey Global Institute
 - Interconnects
 - Latent Space
 - Simon Willison
