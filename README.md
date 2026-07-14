@@ -11,10 +11,14 @@ publishes a static dashboard on GitHub Pages.
 - Hugging Face Papers
 - alphaXiv Trending Papers
 - Techmeme
+- TechCrunch
 - SemiAnalysis
 - Stratechery
 - Goldman Sachs Research
 - McKinsey Global Institute
+- Apollo Daily Spark
+- BlackRock Investment Institute
+- IMF Blog
 - Interconnects
 - Latent Space
 - Simon Willison
@@ -52,5 +56,7 @@ After pushing the repository to GitHub, open **Settings → Pages** and select
 **GitHub Actions** as the source. Run the workflow manually once to publish the
 first edition.
 
-No API keys are required for the current source set. Future private keys should
-be stored in GitHub Actions Secrets and used only by the collector.
+No API keys are required for the current source set. The IMF collector reads
+the site's public structured data and discovers its current build identifier at
+runtime. Future private keys should be stored in GitHub Actions Secrets and used
+only by the collector.

@@ -51,6 +51,14 @@ const SOURCE_DEFINITIONS = [
     weight: 8,
   },
   {
+    key: "techcrunch",
+    name: "TechCrunch",
+    category: "Startups & venture",
+    description: "Startup funding, venture capital, products, and the companies shaping technology markets.",
+    url: "https://techcrunch.com/",
+    weight: 7,
+  },
+  {
     key: "semi-analysis",
     name: "SemiAnalysis",
     category: "AI infrastructure",
@@ -83,6 +91,30 @@ const SOURCE_DEFINITIONS = [
     weight: 8,
   },
   {
+    key: "apollo-daily-spark",
+    name: "Apollo Daily Spark",
+    category: "Macro & markets",
+    description: "Daily, chart-led analysis of the US economy, inflation, credit, and capital markets.",
+    url: "https://www.apollo.com/institutional/insights-news/insights/daily-spark",
+    weight: 9,
+  },
+  {
+    key: "blackrock-bii",
+    name: "BlackRock Investment Institute",
+    category: "Investment strategy",
+    description: "Portfolio views and research on markets, macroeconomics, geopolitics, and long-run themes.",
+    url: "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications",
+    weight: 8,
+  },
+  {
+    key: "imf-blog",
+    name: "IMF Blog",
+    category: "Global macro",
+    description: "Policy analysis on the global economy, financial stability, fiscal affairs, and development.",
+    url: "https://www.imf.org/en/Blogs",
+    weight: 8,
+  },
+  {
     key: "interconnects",
     name: "Interconnects",
     category: "Frontier AI",
@@ -110,6 +142,7 @@ const SOURCE_DEFINITIONS = [
 
 const RSS_SOURCES = [
   ["techmeme", "https://www.techmeme.com/feed.xml"],
+  ["techcrunch", "https://techcrunch.com/feed/"],
   ["semi-analysis", "https://newsletter.semianalysis.com/feed"],
   ["stratechery", "https://stratechery.com/feed/"],
   ["interconnects", "https://www.interconnects.ai/feed"],
@@ -186,6 +219,17 @@ async function fetchText(url) {
     signal: AbortSignal.timeout(25_000),
   });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  return response.text();
+}
+
+async function fetchTextUnchecked(url) {
+  const response = await fetch(url, {
+    headers: {
+      accept: "application/json, text/html;q=0.9, */*;q=0.8",
+      "user-agent": "InfomapDaily/0.1 (+https://github.com/)",
+    },
+    signal: AbortSignal.timeout(25_000),
+  });
   return response.text();
 }
 
@@ -411,6 +455,198 @@ async function fetchMckinseyMgi() {
   ).map((item) => ({ ...item, metric: "MGI research" }));
 }
 
+async function fetchApolloDailySpark() {
+  const html = await fetchText(
+    "https://www.apollo.com/institutional/insights-news/insights/daily-spark",
+  );
+  const seen = new Set();
+  const details = [...html.matchAll(/data-itemDetails=(["'])([\s\S]*?)\1/gi)]
+    .flatMap((match) => {
+      try {
+        return [JSON.parse(decodeEntities(match[2]))];
+      } catch {
+        return [];
+      }
+    })
+    .filter((detail) => {
+      const key = detail.blogId ?? detail.detailLink;
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => new Date(b.blogDate ?? 0).getTime() - new Date(a.blogDate ?? 0).getTime())
+    .slice(0, 10);
+
+  if (!details.length) throw new Error("Daily Spark article data was not found");
+
+  return details.flatMap((detail, index) => {
+    if (!detail.title || !detail.detailLink) return [];
+    return [
+      makeItem({
+        sourceKey: "apollo-daily-spark",
+        title: detail.title,
+        url: new URL(detail.detailLink, "https://www.apollo.com").toString(),
+        publishedAt: detail.blogDate ?? now,
+        rank: index + 1,
+        metric: cleanText(detail.eyebrowText) || "Daily macro",
+        summary: detail.description,
+      }),
+    ];
+  });
+}
+
+function htmlAttribute(block, name) {
+  const match = block.match(new RegExp(`\\b${name}=["']([^"']*)["']`, "i"));
+  return match ? decodeEntities(match[1]) : "";
+}
+
+function htmlMeta(html, name) {
+  const match = html.match(
+    new RegExp(`<meta\\s+name=["']${name}["']\\s+content=["']([^"']*)["']`, "i"),
+  );
+  return match ? decodeEntities(match[1]) : "";
+}
+
+async function fetchBlackRockBii() {
+  const [html, weeklyHtml] = await Promise.all([
+    fetchText(
+      "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications",
+    ),
+    fetchText(
+      "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary",
+    ),
+  ]);
+  const weeklyUrl =
+    "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary";
+  const weekly = {
+    title: htmlMeta(weeklyHtml, "articleTitle"),
+    publishedAt: htmlMeta(weeklyHtml, "publicationDate"),
+    summary: htmlMeta(weeklyHtml, "pageSummary"),
+  };
+  const cards = [
+    ...html.matchAll(/<li\b[^>]*class=["'][^"']*article-cntnr[^"']*["'][\s\S]*?<\/li>/gi),
+  ].map((match) => match[0]);
+
+  const items = cards.flatMap((card) => {
+    const linkTag = card.match(/<a\b[^>]*class=["'][^"']*article-wrapper-link[^"']*["'][^>]*>/i)?.[0];
+    const url = linkTag ? htmlAttribute(linkTag, "href") : "";
+    const listedTitle = linkTag ? htmlAttribute(linkTag, "title") : "";
+    const published = card.match(
+      /<div\b[^>]*class=["'][^"']*attribution-text\s+date[^"']*["'][\s\S]*?<span>([\s\S]*?)<\/span>/i,
+    )?.[1];
+    const description = card.match(
+      /<div\b[^>]*class=["'][^"']*description[^"']*["'][^>]*>([\s\S]*?)<\/div>/i,
+    )?.[1];
+    const topics = htmlAttribute(card, "data-topics");
+    const isWeekly = canonicalUrl(url) === canonicalUrl(weeklyUrl);
+    const title = isWeekly && weekly.title ? weekly.title : listedTitle;
+    if (!title || !url) return [];
+    return [
+      {
+        title,
+        url,
+        publishedAt: isWeekly && weekly.publishedAt ? weekly.publishedAt : cleanText(published),
+        metric: topics.split(",")[0] || "BII research",
+        summary: isWeekly && weekly.summary ? weekly.summary : cleanText(description),
+      },
+    ];
+  });
+
+  if (!items.length) throw new Error("BlackRock Investment Institute publications were not found");
+
+  return items.slice(0, 10).map((item, index) =>
+    makeItem({
+      sourceKey: "blackrock-bii",
+      ...item,
+      publishedAt: item.publishedAt || now,
+      rank: index + 1,
+    }),
+  );
+}
+
+function sitecoreValue(field) {
+  return field?.jsonValue?.value ?? field?.value ?? "";
+}
+
+function sitecoreDate(value) {
+  const compact = String(value).match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+  return compact
+    ? `${compact[1]}-${compact[2]}-${compact[3]}T${compact[4]}:${compact[5]}:${compact[6]}Z`
+    : value;
+}
+
+function normalizeImfBlog(entry) {
+  const fields = entry?.fields ?? entry;
+  const title = sitecoreValue(fields?.Title);
+  const publishedAt = sitecoreDate(sitecoreValue(fields?.PublicationDate));
+  const rawUrl =
+    (typeof entry?.url === "string" ? entry.url : entry?.url?.url ?? entry?.url?.path) ??
+    fields?.url?.url ??
+    fields?.url?.path;
+  const summary = sitecoreValue(fields?.Subtitle) || sitecoreValue(fields?.SubTitle);
+  const topic =
+    entry?.topic?.targetItem?.title?.value ??
+    fields?.topic?.targetItem?.title?.value ??
+    fields?.BlogTopic?.fields?.TopicTitle?.value ??
+    fields?.BlogTopic?.targetItem?.TopicTitle?.value ??
+    "IMF Blog";
+  if (!title || !publishedAt || !rawUrl) return null;
+  return {
+    title,
+    publishedAt,
+    url: new URL(rawUrl, "https://www.imf.org").toString(),
+    metric: topic,
+    summary,
+  };
+}
+
+async function fetchImfBlog() {
+  const marker = await fetchTextUnchecked(
+    "https://www.imf.org/_next/data/infomap-daily/en/Blogs.json",
+  );
+  const buildId = marker.match(/"buildId":"([^"]+)"/)?.[1];
+  if (!buildId) throw new Error("Current IMF site build ID was not found");
+
+  const [landing, authors] = await Promise.all([
+    fetchText(`https://www.imf.org/_next/data/${buildId}/en/Blogs.json`).then(JSON.parse),
+    fetchText(`https://www.imf.org/_next/data/${buildId}/en/Blogs/authors.json`).then(JSON.parse),
+  ]);
+  const landingComponents = Object.values(landing.pageProps?.componentProps ?? {});
+  const rawEntries = landingComponents.flatMap((component) => [
+    ...(component?.fields?.FeaturedHeroContent ? [component.fields.FeaturedHeroContent] : []),
+    ...(component?.blogs ?? []),
+    ...(component?.blog ? [component.blog] : []),
+    ...(component?.featuredBlog ? [component.featuredBlog] : []),
+    ...(component?.firstRowBlogs ?? []),
+    ...(component?.secondRowBlogs ?? []),
+  ]);
+  const authorEntries = Object.values(authors.pageProps?.componentProps ?? {}).flatMap(
+    (component) => component?.blogs?.search?.results ?? [],
+  );
+  const seen = new Set();
+  const items = [...authorEntries, ...rawEntries]
+    .map(normalizeImfBlog)
+    .filter(Boolean)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .filter((item) => {
+      const url = canonicalUrl(item.url);
+      if (seen.has(url)) return false;
+      seen.add(url);
+      return true;
+    })
+    .slice(0, 10);
+
+  if (!items.length) throw new Error("IMF Blog article data was not found");
+
+  return items.map((item, index) =>
+    makeItem({
+      sourceKey: "imf-blog",
+      ...item,
+      rank: index + 1,
+    }),
+  );
+}
+
 async function fetchRssSource(sourceKey, url) {
   return parseRss(sourceKey, await fetchText(url));
 }
@@ -429,13 +665,10 @@ function scoreItem(item) {
 
 function deduplicate(items) {
   const seenUrls = new Set();
-  const seenTitles = new Set();
   return items.filter((item) => {
     const url = `${item.sourceKey}:${canonicalUrl(item.url)}`;
-    const title = `${item.sourceKey}:${normalizeTitle(item.title)}`;
-    if (seenUrls.has(url) || seenTitles.has(title)) return false;
+    if (seenUrls.has(url)) return false;
     seenUrls.add(url);
-    seenTitles.add(title);
     return true;
   });
 }
@@ -492,6 +725,9 @@ async function main() {
     ["alpha-xiv", fetchAlphaXiv],
     ["goldman-sachs", fetchGoldmanSachs],
     ["mckinsey-mgi", fetchMckinseyMgi],
+    ["apollo-daily-spark", fetchApolloDailySpark],
+    ["blackrock-bii", fetchBlackRockBii],
+    ["imf-blog", fetchImfBlog],
     ...RSS_SOURCES.map(([key, url]) => [key, () => fetchRssSource(key, url)]),
   ];
 

@@ -251,14 +251,14 @@ export function Dashboard({ feed }: { feed: FeedData }) {
 
       <section className="masthead" id="top">
         <div>
-          <p className="eyebrow">DAILY AI & TECHNOLOGY SIGNALS</p>
+          <p className="eyebrow">DAILY AI, TECHNOLOGY & MARKET SIGNALS</p>
           <h1>What matters,<br />without the noise.</h1>
         </div>
         <div className="masthead-note">
           <p>{issueDate(feed.issueDate)}</p>
           <p>
-            A source-aware scan across builders, researchers, analysts, and the
-            technology press. Updated once every day.
+            A source-aware scan across builders, researchers, analysts,
+            institutions, and the technology press. Updated once every day.
           </p>
           <div className="masthead-stats">
             <span><strong>{feed.items.length}</strong> signals</span>

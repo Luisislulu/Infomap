@@ -5,7 +5,7 @@ import { Dashboard, type FeedData } from "./Dashboard";
 export const metadata: Metadata = {
   title: "Infomap — Daily AI & Technology Signals",
   description:
-    "A daily, source-aware briefing of the most useful signals in AI and technology.",
+    "A daily, source-aware briefing of useful signals in AI, technology, business, and markets.",
 };
 
 export default function Home() {

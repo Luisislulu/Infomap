@@ -25,6 +25,10 @@ test("ships current, source-aware data", async () => {
   assert.ok(data.sources.some((source) => source.key === "semi-analysis"));
   assert.ok(data.sources.some((source) => source.key === "goldman-sachs"));
   assert.ok(data.sources.some((source) => source.key === "mckinsey-mgi"));
+  assert.ok(data.sources.some((source) => source.key === "apollo-daily-spark"));
+  assert.ok(data.sources.some((source) => source.key === "blackrock-bii"));
+  assert.ok(data.sources.some((source) => source.key === "imf-blog"));
+  assert.ok(data.sources.some((source) => source.key === "techcrunch"));
   assert.ok(data.items.length >= 20);
   assert.ok(data.topTen.length === 10);
   assert.ok(data.items.every((item) => item.title && item.url && item.sourceKey));
