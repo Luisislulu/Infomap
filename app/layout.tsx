@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <Script id="infomap-theme" strategy="beforeInteractive">
           {'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet","forest","rose","mono","noir"].includes(t))document.documentElement.dataset.theme=t}catch{}'}

@@ -293,19 +293,19 @@ input:focus-visible {
   height: 12px;
   border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
   border-radius: 50%;
-  background: var(--swatch-color);
+  background: #fff;
 }
 
-.theme-swatch[data-theme-option="signal"] { --swatch-color: #d9ff57; }
-.theme-swatch[data-theme-option="ocean"] { --swatch-color: #5ad8ff; }
-.theme-swatch[data-theme-option="ember"] { --swatch-color: #ff8259; }
-.theme-swatch[data-theme-option="violet"] { --swatch-color: #c1a8ff; }
-.theme-swatch[data-theme-option="forest"] { --swatch-color: #86dda0; }
-.theme-swatch[data-theme-option="rose"] { --swatch-color: #ff91b5; }
+.theme-swatch[data-theme-option="signal"] > span { background: #d9ff57; }
+.theme-swatch[data-theme-option="ocean"] > span { background: #5ad8ff; }
+.theme-swatch[data-theme-option="ember"] > span { background: #ff8259; }
+.theme-swatch[data-theme-option="violet"] > span { background: #c1a8ff; }
+.theme-swatch[data-theme-option="forest"] > span { background: #86dda0; }
+.theme-swatch[data-theme-option="rose"] > span { background: #ff91b5; }
 .theme-swatch[data-theme-option="mono"] > span {
   background: linear-gradient(135deg, #fff 0 48%, #080808 52% 100%);
 }
-.theme-swatch[data-theme-option="noir"] { --swatch-color: #080808; }
+.theme-swatch[data-theme-option="noir"] > span { background: #080808; }
 
 .theme-swatch.is-active {
   box-shadow:
