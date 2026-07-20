@@ -25,6 +25,9 @@ publishes a static dashboard on GitHub Pages.
 
 The collector keeps ten items per source, creates a cross-source daily Top 10,
 and retains the latest 30 daily snapshots under `public/data/archive`.
+New titles are translated into Simplified Chinese during the GitHub Actions run
+with GitHub Models. Existing translations are reused, and the English original
+remains the fallback if translation is temporarily unavailable.
 
 ## Local development
 
@@ -47,7 +50,7 @@ dashboard replaces its current feed as soon as the scan finishes.
 ```bash
 npm run lint
 npm run build
-node --test tests/rendered-html.test.mjs
+node --test tests/*.test.mjs
 ```
 
 ## GitHub Pages

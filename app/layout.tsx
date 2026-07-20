@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <Script id="infomap-theme" strategy="beforeInteractive">
-          {'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet","forest","rose","mono","noir"].includes(t))document.documentElement.dataset.theme=t}catch{}'}
+          {'try{const t=localStorage.getItem("infomap:theme");if(["signal","ocean","ember","violet","forest","rose","mono","noir"].includes(t))document.documentElement.dataset.theme=t;const l=localStorage.getItem("infomap:language");if(l==="zh"){document.documentElement.lang="zh-CN";document.documentElement.dataset.language="zh"}}catch{}'}
         </Script>
         {children}
       </body>

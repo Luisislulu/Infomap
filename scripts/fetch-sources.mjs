@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { addChineseTranslations } from "./translate-items.mjs";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataRoot = path.join(projectRoot, "public", "data");
@@ -14,7 +15,9 @@ const SOURCE_DEFINITIONS = [
     key: "github",
     name: "GitHub Trending",
     category: "Open source",
+    categoryZh: "开源",
     description: "Repositories gaining the most attention from developers today.",
+    descriptionZh: "今天最受开发者关注的开源项目。",
     url: "https://github.com/trending",
     weight: 10,
   },
@@ -22,7 +25,9 @@ const SOURCE_DEFINITIONS = [
     key: "hacker-news",
     name: "Hacker News",
     category: "Community",
+    categoryZh: "技术社区",
     description: "The strongest technology discussions from the Hacker News front page.",
+    descriptionZh: "Hacker News 首页最值得关注的技术讨论。",
     url: "https://news.ycombinator.com/",
     weight: 9,
   },
@@ -30,7 +35,9 @@ const SOURCE_DEFINITIONS = [
     key: "hugging-face",
     name: "Hugging Face Papers",
     category: "Research",
+    categoryZh: "研究",
     description: "AI papers selected and discussed by the Hugging Face research community.",
+    descriptionZh: "Hugging Face 研究社区关注和讨论的 AI 论文。",
     url: "https://huggingface.co/papers",
     weight: 8,
   },
@@ -38,7 +45,9 @@ const SOURCE_DEFINITIONS = [
     key: "alpha-xiv",
     name: "alphaXiv",
     category: "Research discovery",
+    categoryZh: "研究发现",
     description: "Trending research papers ranked by attention and discussion on alphaXiv.",
+    descriptionZh: "按关注度和讨论热度排序的前沿研究论文。",
     url: "https://www.alphaxiv.org/",
     weight: 8,
   },
@@ -46,7 +55,9 @@ const SOURCE_DEFINITIONS = [
     key: "techmeme",
     name: "Techmeme",
     category: "Technology news",
+    categoryZh: "科技新闻",
     description: "Important technology events clustered from reporting across the web.",
+    descriptionZh: "从全网报道中聚合的重要科技事件。",
     url: "https://www.techmeme.com/",
     weight: 8,
   },
@@ -54,7 +65,9 @@ const SOURCE_DEFINITIONS = [
     key: "techcrunch",
     name: "TechCrunch",
     category: "Startups & venture",
+    categoryZh: "创业与风投",
     description: "Startup funding, venture capital, products, and the companies shaping technology markets.",
+    descriptionZh: "创业融资、风险投资、产品以及塑造科技市场的公司。",
     url: "https://techcrunch.com/",
     weight: 7,
   },
@@ -62,7 +75,9 @@ const SOURCE_DEFINITIONS = [
     key: "semi-analysis",
     name: "SemiAnalysis",
     category: "AI infrastructure",
+    categoryZh: "AI 基础设施",
     description: "Deep research on semiconductors, AI systems, datacenters, and the economics of compute.",
+    descriptionZh: "半导体、AI 系统、数据中心与算力经济的深度研究。",
     url: "https://semianalysis.com/",
     weight: 9,
   },
@@ -70,7 +85,9 @@ const SOURCE_DEFINITIONS = [
     key: "stratechery",
     name: "Stratechery",
     category: "Strategy",
+    categoryZh: "科技战略",
     description: "Technology strategy and business analysis by Ben Thompson.",
+    descriptionZh: "Ben Thompson 撰写的科技战略与商业分析。",
     url: "https://stratechery.com/",
     weight: 7,
   },
@@ -78,7 +95,9 @@ const SOURCE_DEFINITIONS = [
     key: "goldman-sachs",
     name: "Goldman Sachs Research",
     category: "Capital markets",
+    categoryZh: "资本市场",
     description: "Research on global markets, macroeconomics, industries, and investment themes.",
+    descriptionZh: "全球市场、宏观经济、行业与投资主题研究。",
     url: "https://www.goldmansachs.com/insights/goldman-sachs-research",
     weight: 8,
   },
@@ -86,7 +105,9 @@ const SOURCE_DEFINITIONS = [
     key: "mckinsey-mgi",
     name: "McKinsey MGI",
     category: "Business & economics",
+    categoryZh: "商业与经济",
     description: "Research on productivity, capital, technology, labor, and global economic shifts.",
+    descriptionZh: "生产率、资本、技术、劳动力与全球经济变化研究。",
     url: "https://www.mckinsey.com/mgi/our-research/all-research",
     weight: 8,
   },
@@ -94,7 +115,9 @@ const SOURCE_DEFINITIONS = [
     key: "apollo-daily-spark",
     name: "Apollo Daily Spark",
     category: "Macro & markets",
+    categoryZh: "宏观与市场",
     description: "Daily, chart-led analysis of the US economy, inflation, credit, and capital markets.",
+    descriptionZh: "以图表呈现美国经济、通胀、信贷和资本市场的每日分析。",
     url: "https://www.apollo.com/institutional/insights-news/insights/daily-spark",
     weight: 9,
   },
@@ -102,7 +125,9 @@ const SOURCE_DEFINITIONS = [
     key: "blackrock-bii",
     name: "BlackRock Investment Institute",
     category: "Investment strategy",
+    categoryZh: "投资策略",
     description: "Portfolio views and research on markets, macroeconomics, geopolitics, and long-run themes.",
+    descriptionZh: "市场、宏观经济、地缘政治与长期主题的投资观点。",
     url: "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications",
     weight: 8,
   },
@@ -110,7 +135,9 @@ const SOURCE_DEFINITIONS = [
     key: "imf-blog",
     name: "IMF Blog",
     category: "Global macro",
+    categoryZh: "全球宏观",
     description: "Policy analysis on the global economy, financial stability, fiscal affairs, and development.",
+    descriptionZh: "全球经济、金融稳定、财政与发展议题的政策分析。",
     url: "https://www.imf.org/en/Blogs",
     weight: 8,
   },
@@ -118,7 +145,9 @@ const SOURCE_DEFINITIONS = [
     key: "interconnects",
     name: "Interconnects",
     category: "Frontier AI",
+    categoryZh: "前沿 AI",
     description: "Models, training methods, and the trajectory of the open AI ecosystem.",
+    descriptionZh: "模型、训练方法与开放 AI 生态的发展方向。",
     url: "https://www.interconnects.ai/",
     weight: 7,
   },
@@ -126,7 +155,9 @@ const SOURCE_DEFINITIONS = [
     key: "latent-space",
     name: "Latent Space",
     category: "AI engineering",
+    categoryZh: "AI 工程",
     description: "Agents, models, infrastructure, and the people building the AI stack.",
+    descriptionZh: "智能体、模型、基础设施以及构建 AI 技术栈的人。",
     url: "https://www.latent.space/",
     weight: 6,
   },
@@ -134,7 +165,9 @@ const SOURCE_DEFINITIONS = [
     key: "simon-willison",
     name: "Simon Willison",
     category: "Applied AI",
+    categoryZh: "应用 AI",
     description: "Practical notes on LLMs, developer tools, data, and software craft.",
+    descriptionZh: "关于大模型、开发工具、数据与软件实践的实用笔记。",
     url: "https://simonwillison.net/",
     weight: 7,
   },
@@ -754,15 +787,20 @@ async function main() {
     }
   });
 
-  const items = deduplicate(collected)
+  const scoredItems = deduplicate(collected)
     .map((item) => ({ ...item, score: scoreItem(item) }))
     .sort((a, b) => a.sourceKey.localeCompare(b.sourceKey) || a.rank - b.rank);
+  const { items, warnings: translationWarnings } = await addChineseTranslations(scoredItems, {
+    previousItems: previous.items,
+  });
   const issueDate = singaporeDate(now);
   const sources = SOURCE_DEFINITIONS.map((source) => ({
     key: source.key,
     name: source.name,
     category: source.category,
+    categoryZh: source.categoryZh,
     description: source.description,
+    descriptionZh: source.descriptionZh,
     url: source.url,
     count: items.filter((item) => item.sourceKey === source.key).length,
     status: statuses.get(source.key) ?? "error",
@@ -782,6 +820,9 @@ async function main() {
   await pruneArchives();
   process.stdout.write(`Infomap collected ${items.length} signals from ${sources.filter((source) => source.status !== "error").length} sources.\n`);
   if (errors.length) process.stdout.write(`Warnings: ${errors.join(" | ")}\n`);
+  if (translationWarnings.length) {
+    process.stdout.write(`Translation warnings: ${translationWarnings.join(" | ")}\n`);
+  }
 }
 
 main().catch((error) => {

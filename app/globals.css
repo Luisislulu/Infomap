@@ -256,6 +256,36 @@ input:focus-visible {
   gap: 12px;
 }
 
+.language-picker {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper-raised) 72%, transparent);
+}
+
+.language-picker button {
+  min-width: 32px;
+  min-height: 24px;
+  padding: 3px 8px;
+  border: 0;
+  border-radius: 999px;
+  color: var(--muted);
+  background: transparent;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.language-picker button.is-active {
+  color: var(--accent-ink);
+  background: var(--accent);
+}
+
 .refresh-button {
   display: inline-flex;
   align-items: center;
@@ -399,6 +429,12 @@ input:focus-visible {
   font-weight: 400;
   letter-spacing: -0.065em;
   line-height: 0.83;
+}
+
+.masthead h1.is-chinese {
+  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", Georgia, serif;
+  letter-spacing: -0.055em;
+  line-height: 0.92;
 }
 
 .masthead-note {
@@ -972,6 +1008,11 @@ input:focus-visible {
     gap: 6px;
   }
 
+  .language-picker button {
+    min-width: 28px;
+    padding-inline: 6px;
+  }
+
   .refresh-button {
     min-height: 28px;
     padding-inline: 8px;
@@ -1057,6 +1098,11 @@ input:focus-visible {
     width: 28px;
     padding: 0;
     justify-content: center;
+  }
+
+  .language-picker button {
+    min-width: 26px;
+    padding-inline: 5px;
   }
 }
 

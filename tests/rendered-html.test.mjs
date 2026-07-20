@@ -14,6 +14,8 @@ test("exports the Infomap dashboard", async () => {
   assert.match(html, /Use Noir black theme/);
   assert.match(html, /Update now/);
   assert.match(html, /Scan all sources for the latest information/);
+  assert.match(html, /aria-label="Language"/);
+  assert.match(html, />中文</);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
 });
 
@@ -34,4 +36,5 @@ test("ships current, source-aware data", async () => {
   assert.ok(data.items.length >= 20);
   assert.ok(data.topTen.length === 10);
   assert.ok(data.items.every((item) => item.title && item.url && item.sourceKey));
+  assert.ok(data.sources.every((source) => source.category && source.description));
 });

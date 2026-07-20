@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  models: read
   pages: write
   id-token: write
 
@@ -36,6 +37,8 @@ jobs:
         run: npm ci
 
       - name: Collect daily signals
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run fetch
 
       - name: Keep the daily archive
