@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T09:03:25.549Z",
+  "generatedAt": "2026-07-20T09:05:24.982Z",
   "issueDate": "2026-07-20",
   "issueNumber": "2026.07.20",
   "sources": [
@@ -191,8 +191,9 @@
       "publishedAt": "2026-07-16T09:57:18.000Z",
       "rank": 1,
       "score": 93.6,
-      "metric": "102 votes · 1990 views",
-      "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level "
+      "metric": "103 votes · 1990 views",
+      "summary": "Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level ",
+      "titleZh": "SEED：用于自主强化学习的自我进化在策略蒸馏"
     },
     {
       "id": "alpha-xiv-37605ef5f625",
@@ -205,7 +206,8 @@
       "rank": 2,
       "score": 91.4,
       "metric": "34 votes · 503 views",
-      "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-policy distillation has been studied and applied across various "
+      "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-policy distillation has been studied and applied across various ",
+      "titleZh": "在策略增量蒸馏"
     },
     {
       "id": "alpha-xiv-3f6118c17490",
@@ -218,7 +220,8 @@
       "rank": 3,
       "score": 89.2,
       "metric": "1 votes · 115 views",
-      "summary": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining ch"
+      "summary": "Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining ch",
+      "titleZh": "从预训练到后训练理解推理"
     },
     {
       "id": "alpha-xiv-3010a2841396",
@@ -231,7 +234,8 @@
       "rank": 4,
       "score": 87,
       "metric": "50 votes · 733 views",
-      "summary": "We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a video is a world plus an event stream. The world is the persistent context in which a video unfolds, including the environment, scene, subjects, ambient acoustic "
+      "summary": "We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a video is a world plus an event stream. The world is the persistent context in which a video unfolds, including the environment, scene, subjects, ambient acoustic ",
+      "titleZh": "视频=世界+事件流"
     },
     {
       "id": "alpha-xiv-95d4f190f4ba",
@@ -244,7 +248,8 @@
       "rank": 5,
       "score": 84.8,
       "metric": "47 votes · 478 views",
-      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-ar"
+      "summary": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-ar",
+      "titleZh": "RoboTTT：机器人策略的上下文扩展"
     },
     {
       "id": "alpha-xiv-2c195304ee76",
@@ -257,7 +262,8 @@
       "rank": 6,
       "score": 82.6,
       "metric": "1 votes · 56 views",
-      "summary": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge"
+      "summary": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge",
+      "titleZh": "Loop the Loopies！"
     },
     {
       "id": "alpha-xiv-cd2437e7b82c",
@@ -270,7 +276,8 @@
       "rank": 7,
       "score": 80.4,
       "metric": "41 votes · 538 views",
-      "summary": "Recent advances in video understanding have spanned motion, long video, and streaming interaction, driving this field toward real-world applications. Despite this progress, current open-source models remain limited in several ways. They often struggle to generalize across diverse"
+      "summary": "Recent advances in video understanding have spanned motion, long video, and streaming interaction, driving this field toward real-world applications. Despite this progress, current open-source models remain limited in several ways. They often struggle to generalize across diverse",
+      "titleZh": "VideoChat3：高效通用的视频多模态大模型开源方案"
     },
     {
       "id": "alpha-xiv-e89ec14ada2c",
@@ -283,7 +290,8 @@
       "rank": 8,
       "score": 78.2,
       "metric": "32 votes · 329 views",
-      "summary": "Transformer reasoning is limited by autoregressive decoding, which repeat edly compresses rich hidden computation through token space and makes it difficult for intermediate reasoning states to persist across time. We in troduce Transformers with Temporal Middle-Layer Recurrence "
+      "summary": "Transformer reasoning is limited by autoregressive decoding, which repeat edly compresses rich hidden computation through token space and makes it difficult for intermediate reasoning states to persist across time. We in troduce Transformers with Temporal Middle-Layer Recurrence ",
+      "titleZh": "T^2MLR：带时间中间层递归的Transformer"
     },
     {
       "id": "alpha-xiv-f1b3cc4c1ccc",
@@ -296,7 +304,8 @@
       "rank": 9,
       "score": 76,
       "metric": "29 votes · 281 views",
-      "summary": "Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emer"
+      "summary": "Humanoid control requires natural whole-body coordination, precise real-time responses to control signals, and robust generalization across diverse environmental contexts, making it a cornerstone for generalist embodied agents. Behavior Foundation Models (BFMs) have recently emer",
+      "titleZh": "类人机器人行为基础模型的扩展行为表现"
     },
     {
       "id": "alpha-xiv-1c2a4465a09f",
@@ -309,7 +318,8 @@
       "rank": 10,
       "score": 73.8,
       "metric": "23 votes · 278 views",
-      "summary": "Predictive world models enable robots to plan by imagining the outcomes of their actions, but their value for control hinges on generating many rollouts quickly. This creates a bottleneck for diffusion-based world models: multistep sampling makes each rollout expensive, limiting "
+      "summary": "Predictive world models enable robots to plan by imagining the outcomes of their actions, but their value for control hinges on generating many rollouts quickly. This creates a bottleneck for diffusion-based world models: multistep sampling makes each rollout expensive, limiting ",
+      "titleZh": "DriftWorld：通过漂移实现快速世界建模"
     },
     {
       "id": "apollo-daily-spark-733a86460086",
@@ -322,7 +332,9 @@
       "rank": 1,
       "score": 92.5,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "Six years after the pandemic, weekend subway ridership in New York has recovered to nearly 90% of its 2019 level while weekdays remain stuck near 75%, consistent with Nick Bloom's finding that the shift to hybrid work has permanently thinned the weekday commute, see chart below a"
+      "summary": "Six years after the pandemic, weekend subway ridership in New York has recovered to nearly 90% of its 2019 level while weekdays remain stuck near 75%, consistent with Nick Bloom's finding that the shift to hybrid work has permanently thinned the weekday commute, see chart below a",
+      "titleZh": "纽约地铁周末客流已恢复，工作日仍未回升",
+      "summaryZh": "疫情六年后，纽约周末地铁客流恢复至2019年水平的近90%，而工作日仍停留在约75%，与Nick Bloom发现的混合办公永久减少工作日通勤一致。"
     },
     {
       "id": "apollo-daily-spark-2fc23a81e4c6",
@@ -335,7 +347,9 @@
       "rank": 2,
       "score": 89.6,
       "metric": "Monetary & Fiscal Policy",
-      "summary": "The effective tariff rate has declined from 11% at the peak to between 6% and 7% today, see chart below."
+      "summary": "The effective tariff rate has declined from 11% at the peak to between 6% and 7% today, see chart below.",
+      "titleZh": "关税6-7",
+      "summaryZh": "有效关税率已从峰值11%下降至目前的6%至7%之间。"
     },
     {
       "id": "apollo-daily-spark-17d9b3f6ca23",
@@ -348,7 +362,9 @@
       "rank": 3,
       "score": 87.4,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "With the Fed estimating the non-accelerating inflation rate of unemployment (NAIRU) at below 4.5%, and unemployment having stayed at or below that level for 57 months, tied for the longest such streak on record, the labor market has been operating in excess-demand territory for a"
+      "summary": "With the Fed estimating the non-accelerating inflation rate of unemployment (NAIRU) at below 4.5%, and unemployment having stayed at or below that level for 57 months, tied for the longest such streak on record, the labor market has been operating in excess-demand territory for a",
+      "titleZh": "劳动力市场解释通胀难消的原因",
+      "summaryZh": "美联储估计非加速通胀失业率（NAIRU）低于4.5%，且失业率已连续57个月维持在该水平或以下，创历史最长纪录，劳动力市场处于供不应求状态。"
     },
     {
       "id": "apollo-daily-spark-740c085fd9e5",
@@ -361,7 +377,9 @@
       "rank": 4,
       "score": 85.2,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "The Epoch Capabilities Index combines scores from many different AI benchmarks into a single \"general capability\" scale, and the chart below shows that open-weight models trail the closed-weight frontier by around four months."
+      "summary": "The Epoch Capabilities Index combines scores from many different AI benchmarks into a single \"general capability\" scale, and the chart below shows that open-weight models trail the closed-weight frontier by around four months.",
+      "titleZh": "中国模型与前沿模型对比",
+      "summaryZh": "Epoch能力指数将多项AI基准分数合并为单一“通用能力”尺度，图表显示开源权重模型落后封闭权重前沿约四个月。"
     },
     {
       "id": "apollo-daily-spark-ecbe2d0235ab",
@@ -374,7 +392,9 @@
       "rank": 5,
       "score": 83,
       "metric": "Financial Markets & Risk Dynamics",
-      "summary": "The cover ratio measures how many dollars of investor orders a bond deal receives for every dollar of bonds issued."
+      "summary": "The cover ratio measures how many dollars of investor orders a bond deal receives for every dollar of bonds issued.",
+      "titleZh": "超大规模云服务商债券的覆盖率下降",
+      "summaryZh": "覆盖率衡量债券发行每美元获得的投资者订单金额。"
     },
     {
       "id": "apollo-daily-spark-423176ec2167",
@@ -387,7 +407,9 @@
       "rank": 6,
       "score": 80.8,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "To gauge how much AI affects a job, researchers rate it from 0 to 1 based on how many of its tasks could be, or already are, done with AI."
+      "summary": "To gauge how much AI affects a job, researchers rate it from 0 to 1 based on how many of its tasks could be, or already are, done with AI.",
+      "titleZh": "你的工作受AI影响有多大？专家意见不一",
+      "summaryZh": "研究人员根据工作中可由AI完成或已由AI完成的任务比例，将工作受AI影响程度评分从0到1。"
     },
     {
       "id": "apollo-daily-spark-cbad4895eeaa",
@@ -400,7 +422,9 @@
       "rank": 7,
       "score": 78.6,
       "metric": "Financial Markets & Risk Dynamics",
-      "summary": "Net foreign inflows into US equities have surged to a record high, driven in large part by overseas investors seeking AI exposure they cannot get in their home markets, see chart below."
+      "summary": "Net foreign inflows into US equities have surged to a record high, driven in large part by overseas investors seeking AI exposure they cannot get in their home markets, see chart below.",
+      "titleZh": "美元对AI贸易的隐性依赖",
+      "summaryZh": "美国股票的净外资流入创历史新高，主要由海外投资者寻求本国市场无法获得的AI相关敞口推动。"
     },
     {
       "id": "apollo-daily-spark-b45b6ed18ae1",
@@ -413,7 +437,9 @@
       "rank": 8,
       "score": 76.4,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "A new study from Ramp, linking observed AI spending to workforce records across 21,559 US firms, finds that companies adopting AI grow their headcount 10% over the two years following adoption."
+      "summary": "A new study from Ramp, linking observed AI spending to workforce records across 21,559 US firms, finds that companies adopting AI grow their headcount 10% over the two years following adoption.",
+      "titleZh": "杰文斯悖论：AI采用对就业的积极影响新证据",
+      "summaryZh": "Ramp最新研究将AI支出与21559家美国公司的员工记录关联，发现采用AI的公司在两年内员工数量增长10%。"
     },
     {
       "id": "apollo-daily-spark-3ce96def0830",
@@ -426,7 +452,9 @@
       "rank": 9,
       "score": 74.2,
       "metric": "Financial Markets & Risk Dynamics",
-      "summary": "Hyperscaler debt issuance continues to grow, reshaping dynamics across financial markets."
+      "summary": "Hyperscaler debt issuance continues to grow, reshaping dynamics across financial markets.",
+      "titleZh": "监测AI贸易：不断增长的债务发行如何重塑格局",
+      "summaryZh": "超大规模云服务商的债务发行持续增长，正在重塑金融市场动态。"
     },
     {
       "id": "apollo-daily-spark-b256572658e4",
@@ -439,7 +467,9 @@
       "rank": 10,
       "score": 72,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "Since congestion pricing launched in January 2025, about 500,000 vehicles enter Manhattan's Congestion Relief Zone on a typical weekday."
+      "summary": "Since congestion pricing launched in January 2025, about 500,000 vehicles enter Manhattan's Congestion Relief Zone on a typical weekday.",
+      "titleZh": "拥堵收费使曼哈顿街道日均减少约14万辆车",
+      "summaryZh": "自2025年1月实施拥堵收费以来，曼哈顿拥堵缓解区工作日平均约有50万辆车进入。"
     },
     {
       "id": "blackrock-bii-8c3c11745577",
@@ -448,11 +478,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2026-07-12T16:00:00.000Z",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
       "rank": 1,
       "score": 89.6,
       "metric": "Publications",
-      "summary": "Japan offers a clear example of how shifting Federal Reserve expectations are reverberating worldwide. We favor income and stay selective in this environment."
+      "summary": "Japan offers a clear example of how shifting Federal Reserve expectations are reverberating worldwide. We favor income and stay selective in this environment.",
+      "titleZh": "日本债券讲述全球重新定价故事",
+      "summaryZh": "日本清晰展示了美联储预期变化如何在全球产生连锁反应。我们偏好收益并在此环境中保持精选。"
     },
     {
       "id": "blackrock-bii-3facc541699f",
@@ -461,11 +493,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2026-06-29T16:00:00.000Z",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
       "rank": 2,
       "score": 87.4,
       "metric": "Publications",
-      "summary": "Could AI accelerate innovation and lift economic growth, ushering the world into a new era of abundance? Or will scarcity in power, labor, capital and materials dominate? Our 2026 Midyear Global Outlook looks at the big calls investors can’t avoid — ..."
+      "summary": "Could AI accelerate innovation and lift economic growth, ushering the world into a new era of abundance? Or will scarcity in power, labor, capital and materials dominate? Our 2026 Midyear Global Outlook looks at the big calls investors can’t avoid — ...",
+      "titleZh": "稀缺与丰富",
+      "summaryZh": "AI能否加速创新并推动经济增长，开启一个丰富时代？还是电力、劳动力、资本和材料的稀缺将占主导？我们的2026年年中全球展望探讨投资者无法回避的重要议题。"
     },
     {
       "id": "blackrock-bii-1094f2fd7366",
@@ -474,11 +508,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2026-06-21T16:00:00.000Z",
+      "publishedAt": "2026-06-22T00:00:00.000Z",
       "rank": 3,
       "score": 85.2,
       "metric": "Publications",
-      "summary": "BlackRock Investment Institute on how geopolitical shocks and AI power demand are reshaping energy security, electrification and investment opportunities."
+      "summary": "BlackRock Investment Institute on how geopolitical shocks and AI power demand are reshaping energy security, electrification and investment opportunities.",
+      "titleZh": "供应塑造的世界中的能源安全",
+      "summaryZh": "贝莱德投资研究院探讨地缘政治冲击和AI驱动需求如何重塑能源安全、电气化及投资机会。"
     },
     {
       "id": "blackrock-bii-57aeb22f079c",
@@ -487,11 +523,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2026-05-04T16:00:00.000Z",
+      "publishedAt": "2026-05-05T00:00:00.000Z",
       "rank": 4,
       "score": 83,
       "metric": "Publications",
-      "summary": "The Middle East conflict is driving a structural reset for GCC economies — widening dispersion, redirecting capital inward and shifting growth toward resilience and strategic sectors. Read more in our latest Global Insights."
+      "summary": "The Middle East conflict is driving a structural reset for GCC economies — widening dispersion, redirecting capital inward and shifting growth toward resilience and strategic sectors. Read more in our latest Global Insights.",
+      "titleZh": "全球洞察",
+      "summaryZh": "中东冲突推动海湾合作委员会经济体结构性重置——加大分化、资本内流并转向韧性与战略性行业。详见我们最新全球洞察。"
     },
     {
       "id": "blackrock-bii-4d03e5bebb60",
@@ -500,11 +538,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2026-03-01T16:00:00.000Z",
+      "publishedAt": "2026-03-02T00:00:00.000Z",
       "rank": 5,
       "score": 80.8,
       "metric": "Geopolitics",
-      "summary": "Middle East military escalation puts energy flows and oil prices in focus. We see this as a volatility shock rather than a sustained supply shock supply chains and would lean against market overreactions."
+      "summary": "Middle East military escalation puts energy flows and oil prices in focus. We see this as a volatility shock rather than a sustained supply shock supply chains and would lean against market overreactions.",
+      "titleZh": "中东冲突：聚焦能源风险",
+      "summaryZh": "中东军事升级使能源流动和油价成为焦点。我们视其为波动性冲击而非持续供应冲击，供应链方面倾向于反对市场过度反应。"
     },
     {
       "id": "blackrock-bii-c0934a8bbab6",
@@ -513,11 +553,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2026-01-04T16:00:00.000Z",
+      "publishedAt": "2026-01-05T00:00:00.000Z",
       "rank": 6,
       "score": 78.6,
       "metric": "Geopolitics",
-      "summary": "U.S. action in Venezuela underscores deeper geopolitical fragmentation but limited spillovers to global markets. We remain risk-on, overweight U.S. equities and EM hard-currency bonds."
+      "summary": "U.S. action in Venezuela underscores deeper geopolitical fragmentation but limited spillovers to global markets. We remain risk-on, overweight U.S. equities and EM hard-currency bonds.",
+      "titleZh": "美委内瑞拉关系：对全球市场风险有限",
+      "summaryZh": "美国对委内瑞拉的行动凸显更深层地缘政治分裂，但对全球市场溢出效应有限。我们维持风险偏好，超配美国股票和新兴市场硬货币债券。"
     },
     {
       "id": "blackrock-bii-478fbfce4686",
@@ -526,11 +568,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2025-11-13T16:00:00.000Z",
+      "publishedAt": "2025-11-14T00:00:00.000Z",
       "rank": 7,
       "score": 76.4,
       "metric": "Publications",
-      "summary": "The future of finance is taking shape in the Middle East as GCC economies accelerate efforts to diversify beyond hydrocarbons. Read more in our latest Global Insights."
+      "summary": "The future of finance is taking shape in the Middle East as GCC economies accelerate efforts to diversify beyond hydrocarbons. Read more in our latest Global Insights.",
+      "titleZh": "全球洞察",
+      "summaryZh": "随着海湾合作委员会经济体加速多元化超越碳氢化合物，金融未来正在中东成形。详见我们最新全球洞察。"
     },
     {
       "id": "blackrock-bii-fb6fac57fc5a",
@@ -539,11 +583,13 @@
       "source": "BlackRock Investment Institute",
       "sourceKey": "blackrock-bii",
       "category": "Investment strategy",
-      "publishedAt": "2025-07-23T16:00:00.000Z",
+      "publishedAt": "2025-07-24T00:00:00.000Z",
       "rank": 8,
       "score": 74.2,
       "metric": "Market trends",
-      "summary": "The global labor force is growing more slowly than it has since the Second World War, according to NBER data. Read what that could mean for the economy and markets."
+      "summary": "The global labor force is growing more slowly than it has since the Second World War, according to NBER data. Read what that could mean for the economy and markets.",
+      "titleZh": "人口结构分化",
+      "summaryZh": "根据NBER数据，全球劳动力增长速度为二战以来最慢。阅读其对经济和市场可能产生的影响。"
     },
     {
       "id": "github-ad18a56beeed",
@@ -552,12 +598,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 1,
       "score": 116,
       "metric": "Python · 663 stars today",
       "summary": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "titleZh": "tirth8205 / code-review-graph"
+      "titleZh": "tirth8205 / code-review-graph",
+      "summaryZh": "面向MCP和CLI的本地优先代码智能图谱。构建代码库持久映射，使AI编码工具仅读取相关内容，在代码审查和大型仓库工作流中实现上下文显著减少。"
     },
     {
       "id": "github-0e1a94ec72f9",
@@ -566,12 +613,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 2,
       "score": 113.8,
       "metric": "Python · 360 stars today",
       "summary": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-      "titleZh": "kvcache-ai / ktransformers"
+      "titleZh": "kvcache-ai / ktransformers",
+      "summaryZh": "一个灵活框架，用于体验异构大型语言模型推理/微调优化。"
     },
     {
       "id": "github-1261f03c93da",
@@ -580,12 +628,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 3,
       "score": 111.6,
       "metric": "Python · 501 stars today",
       "summary": "Learn it. Build it. Ship it for others.",
-      "titleZh": "rohitg00 / ai-engineering-from-scratch"
+      "titleZh": "rohitg00 / ai-engineering-from-scratch",
+      "summaryZh": "学习它，构建它，交付给他人。"
     },
     {
       "id": "github-c04b1b26ea96",
@@ -594,12 +643,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 4,
       "score": 109.4,
       "metric": "TypeScript · 610 stars today",
       "summary": "The open-source AI voice studio. Clone, dictate, create.",
-      "titleZh": "jamiepine / voicebox"
+      "titleZh": "jamiepine / voicebox",
+      "summaryZh": "开源AI语音工作室。克隆、口述、创作。"
     },
     {
       "id": "github-9fedc9b4f3d8",
@@ -608,12 +658,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 5,
       "score": 107.2,
       "metric": "TypeScript · 595 stars today",
       "summary": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-      "titleZh": "KnockOutEZ / wigolo"
+      "titleZh": "KnockOutEZ / wigolo",
+      "summaryZh": "你的AI编码代理首选网站——本地优先搜索、获取、爬取与研究MCP。无需API密钥，无云服务，零成本查询。公测中。"
     },
     {
       "id": "github-293a5b938f9a",
@@ -622,12 +673,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 6,
       "score": 105,
       "metric": "Rust · 43 stars today",
       "summary": "An unofficial desktop client for Jellyfin",
-      "titleZh": "andrewrabert / jellium-desktop"
+      "titleZh": "andrewrabert / jellium-desktop",
+      "summaryZh": "Jellyfin的非官方桌面客户端。"
     },
     {
       "id": "github-25246c2b662a",
@@ -636,12 +688,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 7,
       "score": 102.8,
       "metric": "Java · 39 stars today",
       "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "titleZh": "github / copilot-sdk"
+      "titleZh": "github / copilot-sdk",
+      "summaryZh": "集成GitHub Copilot代理到应用和服务的多平台SDK。"
     },
     {
       "id": "github-f71cd1ab9a9c",
@@ -650,12 +703,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 8,
       "score": 100.6,
       "metric": "Python · 411 stars today",
       "summary": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship",
-      "titleZh": "PostHog / posthog"
+      "titleZh": "PostHog / posthog",
+      "summaryZh": "🦔 PostHog是构建自动化产品的领先平台。我们的开发者工具——AI可观测性、分析、会话回放、标记、实验、错误跟踪、日志等——捕获代理诊断问题、发现机会和发布所需的全部上下文。"
     },
     {
       "id": "github-1044702c29f5",
@@ -664,12 +718,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 9,
       "score": 98.4,
       "metric": "C++ · 59 stars today",
       "summary": "The new Windows Terminal and the original Windows console host, all in the same place!",
-      "titleZh": "microsoft / terminal"
+      "titleZh": "microsoft / terminal",
+      "summaryZh": "全新Windows终端及原始Windows控制台主机，尽在同一处！"
     },
     {
       "id": "github-1739a2341816",
@@ -678,12 +733,13 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-07-20T09:03:25.549Z",
+      "publishedAt": "2026-07-20T09:05:24.982Z",
       "rank": 10,
       "score": 96.2,
       "metric": "Python · 83 stars today",
       "summary": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "titleZh": "AstrBotDevs / AstrBot"
+      "titleZh": "AstrBotDevs / AstrBot",
+      "summaryZh": "AI代理助手及开发框架，集成多种即时通讯平台、大型语言模型、插件和AI功能，可作为你的OpenClaw替代方案。✨"
     },
     {
       "id": "goldman-sachs-bfdb878d681e",
@@ -692,11 +748,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-07-01T16:00:00.000Z",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
       "rank": 1,
       "score": 89.6,
       "metric": "Goldman Sachs Research",
-      "summary": "Goldman Sachs Research’s framework identifies the sectors that are expected to have the greatest increase in demand as a result of aging populations."
+      "summary": "Goldman Sachs Research’s framework identifies the sectors that are expected to have the greatest increase in demand as a result of aging populations.",
+      "titleZh": "高盛可持续发展：人口老龄化与减少将驱动产品和公司需求增长",
+      "summaryZh": "高盛研究框架识别出因人口老龄化预计需求增长最大的行业。"
     },
     {
       "id": "goldman-sachs-966ac08d9b63",
@@ -705,11 +763,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-06-14T16:00:00.000Z",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
       "rank": 2,
       "score": 87.4,
       "metric": "Europe",
-      "summary": "Increasing social mobility, an important objective in its own right, would also likely have economic benefits, according to Goldman Sachs Research."
+      "summary": "Increasing social mobility, an important objective in its own right, would also likely have economic benefits, according to Goldman Sachs Research.",
+      "titleZh": "英国社会流动性：依然艰难但值得追求",
+      "summaryZh": "根据高盛研究，提高社会流动性不仅是重要目标，也可能带来经济效益。"
     },
     {
       "id": "goldman-sachs-73063c30adf8",
@@ -718,11 +778,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-06-01T16:00:00.000Z",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
       "rank": 3,
       "score": 85.2,
       "metric": "Europe",
-      "summary": "The UK economy is beset by weak growth, soft productivity gains, persistent inflation, and pressure on fiscal policy. However the UK retains important strengths and has opportunities in the medium-term to boost economic growth, according to Goldman Sachs Research."
+      "summary": "The UK economy is beset by weak growth, soft productivity gains, persistent inflation, and pressure on fiscal policy. However the UK retains important strengths and has opportunities in the medium-term to boost economic growth, according to Goldman Sachs Research.",
+      "titleZh": "投资者可能忽视了英国的经济潜力",
+      "summaryZh": "高盛研究指出，尽管英国经济面临增长疲软、生产率提升缓慢、持续通胀和财政政策压力，但英国仍具备重要优势，并在中期内有机会促进经济增长。"
     },
     {
       "id": "goldman-sachs-3d3287c2eda2",
@@ -731,11 +793,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-05-11T16:00:00.000Z",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
       "rank": 4,
       "score": 83,
       "metric": "Artificial Intelligence",
-      "summary": "Goldman Sachs Research forecasts the total addressable market (TAM) for the AI networking sector to increase by 9 times to $154 billion."
+      "summary": "Goldman Sachs Research forecasts the total addressable market (TAM) for the AI networking sector to increase by 9 times to $154 billion.",
+      "titleZh": "光网络：AI基础设施的下一个大趋势",
+      "summaryZh": "高盛研究预测，AI网络领域的总可寻址市场规模将增长9倍，达到1540亿美元。"
     },
     {
       "id": "goldman-sachs-299f33b004cf",
@@ -744,11 +808,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-04-22T16:00:00.000Z",
+      "publishedAt": "2026-04-23T00:00:00.000Z",
       "rank": 5,
       "score": 80.8,
       "metric": "Energy",
-      "summary": "Higher energy prices driven by the conflict in the Middle East are forecast to reduce European industrial production by 2% by the end of 2027 compared to its pre-conflict baseline, according to Goldman Sachs Research."
+      "summary": "Higher energy prices driven by the conflict in the Middle East are forecast to reduce European industrial production by 2% by the end of 2027 compared to its pre-conflict baseline, according to Goldman Sachs Research.",
+      "titleZh": "能源价格上涨对欧洲制造业的影响",
+      "summaryZh": "高盛研究预测，中东冲突导致的能源价格上涨将使欧洲工业产出到2027年底较冲突前基线减少2%。"
     },
     {
       "id": "goldman-sachs-6b6bde2dcc93",
@@ -757,11 +823,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-03-23T16:00:00.000Z",
+      "publishedAt": "2026-03-24T00:00:00.000Z",
       "rank": 6,
       "score": 78.6,
       "metric": "Macroeconomics",
-      "summary": "Goldman Sachs Research analysts introduce the \"HALO\" framework—Heavy Assets, Low Obsolescence—to identify companies that are less exposed to technological obsolescence."
+      "summary": "Goldman Sachs Research analysts introduce the \"HALO\" framework—Heavy Assets, Low Obsolescence—to identify companies that are less exposed to technological obsolescence.",
+      "titleZh": "HALO效应：AI时代的重资产、低淘汰率",
+      "summaryZh": "高盛研究分析师提出“HALO”框架——重资产、低淘汰率，用以识别技术淘汰风险较低的公司。"
     },
     {
       "id": "goldman-sachs-b009dfba713b",
@@ -770,11 +838,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-03-03T16:00:00.000Z",
+      "publishedAt": "2026-03-04T00:00:00.000Z",
       "rank": 7,
       "score": 76.4,
       "metric": "Artificial Intelligence",
-      "summary": "Goldman Sachs Research raises their data center power demand outlook and now expects 220% growth by 2030 vs. 2023 levels (vs +175% previously)."
+      "summary": "Goldman Sachs Research raises their data center power demand outlook and now expects 220% growth by 2030 vs. 2023 levels (vs +175% previously).",
+      "titleZh": "GS SUSTAIN：超大规模云服务商再投资如何影响推动电力增长的6个因素/限制",
+      "summaryZh": "高盛研究上调数据中心电力需求预期，预计到2030年较2023年增长220%（此前为175%）。"
     },
     {
       "id": "goldman-sachs-66efa928ef4a",
@@ -783,11 +853,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-02-02T16:00:00.000Z",
+      "publishedAt": "2026-02-03T00:00:00.000Z",
       "rank": 8,
       "score": 74.2,
       "metric": "Real Estate & Housing",
-      "summary": "From 1970 to 2024, productivity in the US construction industry fell by 30% while economy-wide productivity more than doubled."
+      "summary": "From 1970 to 2024, productivity in the US construction industry fell by 30% while economy-wide productivity more than doubled.",
+      "titleZh": "建筑行业生产率停滞：国际视角",
+      "summaryZh": "1970年至2024年，美国建筑行业生产率下降了30%，而整体经济生产率则翻了一番多。"
     },
     {
       "id": "goldman-sachs-fd34a7e28997",
@@ -796,11 +868,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-01-20T16:00:00.000Z",
+      "publishedAt": "2026-01-21T00:00:00.000Z",
       "rank": 9,
       "score": 72,
       "metric": "Outlooks",
-      "summary": "Goldman Sachs Research expects the dollar to continue weakening in 2026 as demand for US assets diminishes."
+      "summary": "Goldman Sachs Research expects the dollar to continue weakening in 2026 as demand for US assets diminishes.",
+      "titleZh": "2026年全球外汇展望：美元下行不同态势",
+      "summaryZh": "高盛研究预计，随着对美国资产需求减少，美元将在2026年继续走弱。"
     },
     {
       "id": "goldman-sachs-67bea7f5d6c8",
@@ -809,11 +883,13 @@
       "source": "Goldman Sachs Research",
       "sourceKey": "goldman-sachs",
       "category": "Capital markets",
-      "publishedAt": "2026-01-07T16:00:00.000Z",
+      "publishedAt": "2026-01-08T00:00:00.000Z",
       "rank": 10,
       "score": 69.8,
       "metric": "Outlooks",
-      "summary": "Goldman Sachs Research expects 2026 to be a better year for the euro area economy than 2025 given prospects for cyclical improvement. That said, our economists only look for a small growth improvement as Europe faces several structural headwinds at home and abroad."
+      "summary": "Goldman Sachs Research expects 2026 to be a better year for the euro area economy than 2025 given prospects for cyclical improvement. That said, our economists only look for a small growth improvement as Europe faces several structural headwinds at home and abroad.",
+      "titleZh": "2026年欧元区展望：周期性提振，结构性拖累，利率维持不变",
+      "summaryZh": "高盛研究预计，鉴于周期性改善前景，2026年欧元区经济将优于2025年，但因面临多重结构性阻力，经济增长改善幅度有限。"
     },
     {
       "id": "hacker-news-70389c25f144",
@@ -825,7 +901,8 @@
       "publishedAt": "2026-07-19T14:41:16.000Z",
       "rank": 1,
       "score": 99.3,
-      "metric": "2254 pts · 239 comments"
+      "metric": "2259 pts · 241 comments",
+      "titleZh": "展示HN：我用1600美元的ESP32替换了12万美元的保龄球中心系统"
     },
     {
       "id": "hacker-news-c0002c6bb9c0",
@@ -837,7 +914,8 @@
       "publishedAt": "2026-07-20T00:16:50.000Z",
       "rank": 2,
       "score": 100.4,
-      "metric": "162 pts · 71 comments"
+      "metric": "164 pts · 72 comments",
+      "titleZh": "Moonshine：让你从PC向任何运行Moonlight的设备串流游戏"
     },
     {
       "id": "hacker-news-157f79bd67e3",
@@ -849,7 +927,8 @@
       "publishedAt": "2026-07-20T04:24:48.000Z",
       "rank": 3,
       "score": 100.9,
-      "metric": "69 pts · 8 comments"
+      "metric": "71 pts · 8 comments",
+      "titleZh": "LoRA速通——公开的微调技术实时时钟排行榜"
     },
     {
       "id": "hacker-news-64a7e1cc9c32",
@@ -861,7 +940,8 @@
       "publishedAt": "2026-07-15T08:35:46.000Z",
       "rank": 4,
       "score": 89.2,
-      "metric": "28 pts · 19 comments"
+      "metric": "28 pts · 21 comments",
+      "titleZh": "埃及发现密封墓穴，内有壁画和铭文"
     },
     {
       "id": "hacker-news-7320f7e5e5d8",
@@ -873,7 +953,8 @@
       "publishedAt": "2026-07-20T04:45:15.000Z",
       "rank": 5,
       "score": 96.8,
-      "metric": "183 pts · 123 comments"
+      "metric": "184 pts · 123 comments",
+      "titleZh": "小米机器人-1"
     },
     {
       "id": "hacker-news-00ba61e48a5c",
@@ -885,7 +966,8 @@
       "publishedAt": "2026-07-10T15:44:36.000Z",
       "rank": 6,
       "score": 84.8,
-      "metric": "34 pts · 15 comments"
+      "metric": "34 pts · 15 comments",
+      "titleZh": "自供能拖车承诺更精简的货运运行"
     },
     {
       "id": "hacker-news-5660439cb621",
@@ -897,7 +979,8 @@
       "publishedAt": "2026-07-16T16:50:32.000Z",
       "rank": 7,
       "score": 82.6,
-      "metric": "30 pts · 9 comments"
+      "metric": "30 pts · 9 comments",
+      "titleZh": "浏览器中的1位LLM"
     },
     {
       "id": "hacker-news-dbd57b2637da",
@@ -909,7 +992,8 @@
       "publishedAt": "2026-07-19T10:03:23.000Z",
       "rank": 8,
       "score": 82.8,
-      "metric": "509 pts · 673 comments"
+      "metric": "510 pts · 674 comments",
+      "titleZh": "Claude Code现使用Rust编写的Bun"
     },
     {
       "id": "hacker-news-e65867608fbf",
@@ -921,7 +1005,8 @@
       "publishedAt": "2026-07-19T19:13:29.000Z",
       "rank": 9,
       "score": 83,
-      "metric": "193 pts · 132 comments"
+      "metric": "193 pts · 132 comments",
+      "titleZh": "Kagi的Orion浏览器"
     },
     {
       "id": "hacker-news-4eb6456b2e10",
@@ -933,7 +1018,8 @@
       "publishedAt": "2026-07-19T10:34:58.000Z",
       "rank": 10,
       "score": 78.5,
-      "metric": "486 pts · 219 comments"
+      "metric": "486 pts · 219 comments",
+      "titleZh": "我卖出2500台MIDI录音机学到的经验：硬件其实没那么难"
     },
     {
       "id": "hugging-face-23f7e69bdab6",
@@ -946,7 +1032,9 @@
       "rank": 1,
       "score": 100.3,
       "metric": "2 upvotes",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for advantage shaping. However, entropy cannot distinguish useful uncertainty from detrimental confusion, limiting its effectiveness as a correctness signal. We propose Contrastive Policy Optimization (CP"
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for advantage shaping. However, entropy cannot distinguish useful uncertainty from detrimental confusion, limiting its effectiveness as a correctness signal. We propose Contrastive Policy Optimization (CP",
+      "titleZh": "超越熵：通过对比策略优化实现正确性感知的优势塑造",
+      "summaryZh": "带有可验证奖励的强化学习（RLVR）通常使用熵进行优势塑造，但熵无法区分有用的不确定性和有害的混淆，限制了其作为正确性信号的效果。我们提出了对比策略优化（CP）。"
     },
     {
       "id": "hugging-face-96e96b143a00",
@@ -959,7 +1047,9 @@
       "rank": 2,
       "score": 98.1,
       "metric": "8 upvotes",
-      "summary": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. U"
+      "summary": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. U",
+      "titleZh": "Muon何时助力自主强化学习？",
+      "summaryZh": "Muon在大规模预训练中与AdamW竞争力相当，但其在强化学习后训练中的价值尚不明确。我们通过与AdamW在ALFWorld上使用Qwen2.5-0.5B-Instruct的单次种子匹配比较，研究了基础Muon在稀疏奖励自主强化学习中的表现。"
     },
     {
       "id": "hugging-face-e576c4d8c58c",
@@ -972,7 +1062,9 @@
       "rank": 3,
       "score": 95.9,
       "metric": "4 upvotes",
-      "summary": "We present S1-Omni, a unified multimodal reasoning model for scientific understanding, prediction, and generation. AI for Science (AI4S) has advanced significantly through domain-specific models, tool-augmented LLMs, and scientific language models. However, model capabilities rem"
+      "summary": "We present S1-Omni, a unified multimodal reasoning model for scientific understanding, prediction, and generation. AI for Science (AI4S) has advanced significantly through domain-specific models, tool-augmented LLMs, and scientific language models. However, model capabilities rem",
+      "titleZh": "S1-Omni：用于科学理解、预测和生成的统一多模态推理模型",
+      "summaryZh": "我们提出了S1-Omni，一种统一的多模态推理模型，支持科学理解、预测和生成。科学AI（AI4S）通过领域特定模型、工具增强的大型语言模型和科学语言模型取得显著进展，但模型能力仍有限。"
     },
     {
       "id": "hugging-face-02d85d372835",
@@ -984,8 +1076,10 @@
       "publishedAt": "2026-07-20T00:00:00.000Z",
       "rank": 4,
       "score": 93.7,
-      "metric": "28 upvotes",
-      "summary": "Graph retrieval-augmented generation (GraphRAG) enhances large language models with structured knowledge, yet existing systems construct knowledge graphs in a single extraction pass, producing noisy entities and brittle retrieval. RAGU, an open-source modular GraphRAG engine, add"
+      "metric": "30 upvotes",
+      "summary": "Graph retrieval-augmented generation (GraphRAG) enhances large language models with structured knowledge, yet existing systems construct knowledge graphs in a single extraction pass, producing noisy entities and brittle retrieval. RAGU, an open-source modular GraphRAG engine, add",
+      "titleZh": "RAGU：带紧凑领域适应LLM的多步GraphRAG引擎",
+      "summaryZh": "图检索增强生成（GraphRAG）通过结构化知识增强大型语言模型，但现有系统仅单次抽取构建知识图，导致实体噪声和检索脆弱。RAGU是一个开源模块化GraphRAG引擎，增加了多步处理能力。"
     },
     {
       "id": "hugging-face-0732b4f94d79",
@@ -998,7 +1092,9 @@
       "rank": 5,
       "score": 91.5,
       "metric": "11 upvotes",
-      "summary": "In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions"
+      "summary": "In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions",
+      "titleZh": "Qwen-Music技术报告",
+      "summaryZh": "本报告介绍了Qwen-Music，一款强大的音乐生成模型，能够生成高度音乐性和高保真度的完整人声歌曲。Qwen-Music支持两大核心任务：文本到音乐生成，从文本描述创作全新歌曲。"
     },
     {
       "id": "hugging-face-4525f761b8dc",
@@ -1011,7 +1107,9 @@
       "rank": 6,
       "score": 89.3,
       "metric": "4 upvotes",
-      "summary": "Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwh"
+      "summary": "Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwh",
+      "titleZh": "VideoRAE：通过表示自编码器驯服视频基础模型以实现生成建模",
+      "summaryZh": "视频生成模型通常依赖3D变分自编码器（3D-VAE）学习的潜在空间，但传统3D-VAE主要优化像素级重建，限制了潜在空间捕捉语义和时空结构的能力。与此同时……"
     },
     {
       "id": "hugging-face-2e040e0a733e",
@@ -1024,7 +1122,9 @@
       "rank": 7,
       "score": 87.1,
       "metric": "34 upvotes",
-      "summary": "We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream task"
+      "summary": "We present Xiaomi-Robotics-1, a foundational vision-language-action (VLA) model capable of (1) following diverse language instructions to perform a wide range of mobile manipulation tasks in unseen environments out-of-the-box, and (2) efficiently adapting to novel downstream task",
+      "titleZh": "Xiaomi-Robotics-1：利用10万小时真实轨迹扩展视觉-语言-动作模型",
+      "summaryZh": "我们推出了Xiaomi-Robotics-1，一款基础视觉-语言-动作（VLA）模型，能够（1）直接执行多样语言指令完成广泛的移动操作任务，（2）高效适应新下游任务。"
     },
     {
       "id": "hugging-face-61e17088ea52",
@@ -1037,7 +1137,9 @@
       "rank": 8,
       "score": 84.9,
       "metric": "18 upvotes",
-      "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-policy distillation has been studied and applied across various "
+      "summary": "On-policy distillation is an alternative post-training method in reinforcement learning that alleviates the constraints imposed by reward models by providing token-level supervision from a teacher model. Although on-policy distillation has been studied and applied across various ",
+      "titleZh": "基于策略的增量蒸馏",
+      "summaryZh": "基于策略的蒸馏是强化学习中的一种后训练方法，通过教师模型提供的逐令牌监督，缓解了奖励模型带来的限制。尽管该方法已在多种环境中研究和应用……"
     },
     {
       "id": "hugging-face-4ec3d3fb668e",
@@ -1050,7 +1152,9 @@
       "rank": 9,
       "score": 82.7,
       "metric": "4 upvotes",
-      "summary": "Despite strong capabilities in data understanding and decision-making, autonomous data science agents still heavily rely on trial-and-error workflows that involve expensive computation. This bottleneck motivates models that can anticipate the effects of data science operations be"
+      "summary": "Despite strong capabilities in data understanding and decision-making, autonomous data science agents still heavily rely on trial-and-error workflows that involve expensive computation. This bottleneck motivates models that can anticipate the effects of data science operations be",
+      "titleZh": "DSWorld：用于高效自主代理的数据科学世界模型",
+      "summaryZh": "尽管在数据理解和决策方面能力强大，自主数据科学代理仍严重依赖代价高昂的试错流程。这一瓶颈促使开发能够预测数据科学操作效果的模型。"
     },
     {
       "id": "hugging-face-3f2497da04da",
@@ -1063,7 +1167,9 @@
       "rank": 10,
       "score": 80.5,
       "metric": "35 upvotes",
-      "summary": "Hyper-Connections (HC) expand the residual stream of Transformers into N parallel streams, providing a form of memory scaling beyond model width and depth. Manifold-Constrained HC (mHC) stabilizes this formulation at scale. The large gains from N{=}1 to N{=}4 suggest residual-str"
+      "summary": "Hyper-Connections (HC) expand the residual stream of Transformers into N parallel streams, providing a form of memory scaling beyond model width and depth. Manifold-Constrained HC (mHC) stabilizes this formulation at scale. The large gains from N{=}1 to N{=}4 suggest residual-str",
+      "titleZh": "xHC：扩展超连接",
+      "summaryZh": "超连接（HC）将Transformer的残差流扩展为N条并行流，提供超越模型宽度和深度的记忆扩展。流形约束HC（mHC）在大规模下稳定该结构。从N=1到N=4的显著提升表明残差流……"
     },
     {
       "id": "imf-blog-d1baf38254e3",
@@ -1076,7 +1182,9 @@
       "rank": 1,
       "score": 89.6,
       "metric": "War",
-      "summary": "Less demand, more production, and inventory drawdowns prevented a larger price spike. A quick supply recovery is essential to avoid further damage to the global economy"
+      "summary": "Less demand, more production, and inventory drawdowns prevented a larger price spike. A quick supply recovery is essential to avoid further damage to the global economy",
+      "titleZh": "油市吸收了战争冲击，但缓冲正在减少",
+      "summaryZh": "需求减少、产量增加和库存下降避免了更大幅度的价格飙升。快速恢复供应对避免全球经济进一步受损至关重要。"
     },
     {
       "id": "imf-blog-b1d0933e8291",
@@ -1089,7 +1197,9 @@
       "rank": 2,
       "score": 87.4,
       "metric": "Economic growth",
-      "summary": "Integrating and deepening banking and venture capital markets would boost output by at least 3 percent, and make business dynamism reforms more powerful"
+      "summary": "Integrating and deepening banking and venture capital markets would boost output by at least 3 percent, and make business dynamism reforms more powerful",
+      "titleZh": "金融市场改革或助推欧洲增长",
+      "summaryZh": "整合和深化银行及风险投资市场将至少提升3%的产出，并增强商业活力改革的效果。"
     },
     {
       "id": "imf-blog-894ff240414c",
@@ -1102,7 +1212,9 @@
       "rank": 3,
       "score": 85.2,
       "metric": "Fintech",
-      "summary": "Policy choices will determine whether tokenized finance strengthens or fragments the financial system"
+      "summary": "Policy choices will determine whether tokenized finance strengthens or fragments the financial system",
+      "titleZh": "代币化能改变全球金融架构",
+      "summaryZh": "政策选择将决定代币化金融是强化还是分裂金融体系。"
     },
     {
       "id": "imf-blog-b823d350dea4",
@@ -1115,7 +1227,9 @@
       "rank": 4,
       "score": 83,
       "metric": "Fiscal policy and management",
-      "summary": "New policy tracker shows many governments pursuing costly responses to fuel and food price hikes, leaving less room to address future challenges"
+      "summary": "New policy tracker shows many governments pursuing costly responses to fuel and food price hikes, leaving less room to address future challenges",
+      "titleZh": "能源冲击考验政府预算",
+      "summaryZh": "新政策追踪显示，许多政府为应对燃料和食品价格上涨采取高成本措施，减少了应对未来挑战的财政空间。"
     },
     {
       "id": "imf-blog-243af03ebee4",
@@ -1128,7 +1242,9 @@
       "rank": 5,
       "score": 80.8,
       "metric": "War",
-      "summary": "An overall resilient world economy masks significant differences among countries and regions. Energy importers and countries with limited policy space are most vulnerable"
+      "summary": "An overall resilient world economy masks significant differences among countries and regions. Energy importers and countries with limited policy space are most vulnerable",
+      "titleZh": "全球经济迄今承受战争冲击",
+      "summaryZh": "整体韧性的世界经济掩盖了各国和地区间的显著差异。能源进口国和政策空间有限的国家最为脆弱。"
     },
     {
       "id": "imf-blog-4c2ee5255c70",
@@ -1141,7 +1257,9 @@
       "rank": 6,
       "score": 78.6,
       "metric": "Geoeconomics",
-      "summary": "Economic thinking must evolve to account for a shift in how nations pursue security, growth, and influence"
+      "summary": "Economic thinking must evolve to account for a shift in how nations pursue security, growth, and influence",
+      "titleZh": "世界在更具竞争性的时代重新思考地缘经济计算",
+      "summaryZh": "经济思维必须演进，以适应国家追求安全、增长和影响力方式的转变。"
     },
     {
       "id": "imf-blog-c820e6b0410d",
@@ -1154,7 +1272,9 @@
       "rank": 7,
       "score": 76.4,
       "metric": "Economic growth",
-      "summary": "As governments intervene more, evidence shows that the benefits are modest and depend on thoughtful design"
+      "summary": "As governments intervene more, evidence shows that the benefits are modest and depend on thoughtful design",
+      "titleZh": "产业政策正在适应危机，但有效实施仍困难重重",
+      "summaryZh": "随着政府干预增多，证据显示其收益有限且依赖于周密设计。"
     },
     {
       "id": "imf-blog-1616821c9242",
@@ -1167,7 +1287,9 @@
       "rank": 8,
       "score": 74.2,
       "metric": "Fiscal policy and management",
-      "summary": "Governments can protect vulnerable households, keep businesses open, and preserve price signals without straining public finances"
+      "summary": "Governments can protect vulnerable households, keep businesses open, and preserve price signals without straining public finances",
+      "titleZh": "应对能源和食品价格冲击：政策细节至关重要",
+      "summaryZh": "政府可以保护弱势家庭，保持企业运营，并维护价格信号，同时不加重公共财政负担。"
     },
     {
       "id": "imf-blog-dc78b446d960",
@@ -1180,7 +1302,9 @@
       "rank": 9,
       "score": 72,
       "metric": "Financial sector stability",
-      "summary": "Resilience, supervision, and international coordination are essential to safeguarding global financial markets as new AI tools enable attackers"
+      "summary": "Resilience, supervision, and international coordination are essential to safeguarding global financial markets as new AI tools enable attackers",
+      "titleZh": "人工智能助长网络攻击，金融稳定风险加剧",
+      "summaryZh": "韧性、监管和国际协调对于保护全球金融市场至关重要，因为新AI工具使攻击者更具能力。"
     },
     {
       "id": "imf-blog-b89749c3220e",
@@ -1193,7 +1317,9 @@
       "rank": 10,
       "score": 69.8,
       "metric": "Economic growth",
-      "summary": "To weather the shock, policymakers should ensure that any near-term measures are time-bound and targeted at the most vulnerable, and maintain the focus on medium-term development objectives"
+      "summary": "To weather the shock, policymakers should ensure that any near-term measures are time-bound and targeted at the most vulnerable, and maintain the focus on medium-term development objectives",
+      "titleZh": "非洲面临风险上升，增长势头初现",
+      "summaryZh": "为应对冲击，政策制定者应确保近期措施有时限且针对最脆弱群体，同时保持对中期发展目标的关注。"
     },
     {
       "id": "interconnects-ab23329c09eb",
@@ -1205,7 +1331,9 @@
       "publishedAt": "2026-07-12T16:47:42.000Z",
       "rank": 1,
       "score": 87.4,
-      "summary": "The most serious test to date of open source AI’s viability is happening right now."
+      "summary": "The most serious test to date of open source AI’s viability is happening right now.",
+      "titleZh": "开放模型的生存期仅剩6个月",
+      "summaryZh": "迄今为止对开源AI可行性的最严峻考验正在进行中。"
     },
     {
       "id": "interconnects-faa66b8b23af",
@@ -1217,7 +1345,9 @@
       "publishedAt": "2026-06-28T17:03:07.000Z",
       "rank": 2,
       "score": 85.2,
-      "summary": "An assessment of the open ecosystem and the motivations behind releasing models"
+      "summary": "An assessment of the open ecosystem and the motivations behind releasing models",
+      "titleZh": "最新开放成果（第22期）：Zyphra、Cohere和Poolside扩展生态系统广度",
+      "summaryZh": "对开放生态系统及发布模型背后动机的评估。"
     },
     {
       "id": "interconnects-b291141d2bb4",
@@ -1229,7 +1359,9 @@
       "publishedAt": "2026-06-22T14:52:45.000Z",
       "rank": 3,
       "score": 83,
-      "summary": "A capability threshold I've been carefully monitoring."
+      "summary": "A capability threshold I've been carefully monitoring.",
+      "titleZh": "GLM-5.2 是开放代理的重大飞跃",
+      "summaryZh": "我一直在密切关注的能力门槛。"
     },
     {
       "id": "interconnects-02394854355d",
@@ -1241,7 +1373,9 @@
       "publishedAt": "2026-06-19T13:02:47.000Z",
       "rank": 4,
       "score": 80.8,
-      "summary": "This post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience."
+      "summary": "This post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience.",
+      "titleZh": "禁止开源人工智能将是错误",
+      "summaryZh": "这篇文章最初是我与Interconnected的Kevin Xu共同撰写的专栏，面向普通非技术读者。"
     },
     {
       "id": "interconnects-393057dfcc7d",
@@ -1253,7 +1387,9 @@
       "publishedAt": "2026-06-17T14:29:06.000Z",
       "rank": 5,
       "score": 78.6,
-      "summary": "About 3 years since I started writing weekly."
+      "summary": "About 3 years since I started writing weekly.",
+      "titleZh": "博客现状，2026年中期",
+      "summaryZh": "自我开始每周写作已约三年。"
     },
     {
       "id": "interconnects-e158e347b6a0",
@@ -1265,7 +1401,9 @@
       "publishedAt": "2026-06-16T13:29:30.000Z",
       "rank": 6,
       "score": 76.4,
-      "summary": "\"Interview\" #18"
+      "summary": "\"Interview\" #18",
+      "titleZh": "与Finbarr Timbers一起回顾Frontier后训练方案",
+      "summaryZh": "“访谈”#18"
     },
     {
       "id": "interconnects-116d0b188a77",
@@ -1277,7 +1415,9 @@
       "publishedAt": "2026-06-14T17:43:42.000Z",
       "rank": 7,
       "score": 74.2,
-      "summary": "It's a one-way door and we weren't ready for it."
+      "summary": "It's a one-way door and we weren't ready for it.",
+      "titleZh": "欢迎进入人工智能治理的AGI时代",
+      "summaryZh": "这是条单向门，我们还未做好准备。"
     },
     {
       "id": "interconnects-b0a55051a235",
@@ -1289,7 +1429,9 @@
       "publishedAt": "2026-06-09T22:59:35.000Z",
       "rank": 8,
       "score": 72,
-      "summary": "One step further into the power politics of frontier AI systems."
+      "summary": "One step further into the power politics of frontier AI systems.",
+      "titleZh": "Claude Fable 5及新的AI安全寓言",
+      "summaryZh": "在前沿AI系统权力政治上更进一步。"
     },
     {
       "id": "interconnects-e9037b114fbd",
@@ -1301,7 +1443,9 @@
       "publishedAt": "2026-06-02T14:15:59.000Z",
       "rank": 9,
       "score": 69.8,
-      "summary": "This was my last week at the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts."
+      "summary": "This was my last week at the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts.",
+      "titleZh": "告别Ai2",
+      "summaryZh": "这是我在艾伦人工智能研究所（Ai2）的最后一周，在这里我有幸参与Olmo模型的工作，成长、学习并产生广泛持久的影响。"
     },
     {
       "id": "interconnects-ed746df0fea0",
@@ -1313,7 +1457,9 @@
       "publishedAt": "2026-06-01T13:03:48.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "Where marginally higher intelligence drives value, and where it doesn't."
+      "summary": "Where marginally higher intelligence drives value, and where it doesn't.",
+      "titleZh": "开放模型与封闭模型呈现不同的指数增长",
+      "summaryZh": "边际更高的智能驱动价值的领域，以及不驱动价值的领域。"
     },
     {
       "id": "latent-space-6d98c368c9e8",
@@ -1325,7 +1471,9 @@
       "publishedAt": "2026-07-18T04:30:21.000Z",
       "rank": 1,
       "score": 85.2,
-      "summary": "a quiet day"
+      "summary": "a quiet day",
+      "titleZh": "[AI新闻] 今天没什么大事发生",
+      "summaryZh": "平静的一天。"
     },
     {
       "id": "latent-space-08f77354ddc3",
@@ -1337,7 +1485,9 @@
       "publishedAt": "2026-07-17T01:46:36.000Z",
       "rank": 2,
       "score": 83,
-      "summary": "a great week for open models continues."
+      "summary": "a great week for open models continues.",
+      "titleZh": "[AI新闻] Kimi K3 2.8T-A50B：迄今最大开源模型；Opus 4.8级别以Sonnet 5价格发布",
+      "summaryZh": "开源模型的美好一周持续。"
     },
     {
       "id": "latent-space-8fc6f843647d",
@@ -1349,7 +1499,9 @@
       "publishedAt": "2026-07-16T13:30:44.000Z",
       "rank": 3,
       "score": 80.8,
-      "summary": "Lila is betting that science, not the internet, is the last untapped source of training data. We went to find out what that actually looks like in a room full of robots."
+      "summary": "Lila is betting that science, not the internet, is the last untapped source of training data. We went to find out what that actually looks like in a room full of robots.",
+      "titleZh": "🔬 未来实验室应如数据中心般感受 — Andy Beam & Rafa Gómez-Bombarelli，Lila Sciences",
+      "summaryZh": "Lila押注科学而非互联网是最后未开发的训练数据源。我们去探访了充满机器人的实验室，了解实际情况。"
     },
     {
       "id": "latent-space-7b9538ff9de7",
@@ -1361,7 +1513,9 @@
       "publishedAt": "2026-07-16T06:18:05.000Z",
       "rank": 4,
       "score": 78.6,
-      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!"
+      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
+      "titleZh": "[AI新闻] Thinky的Inkling：975B-A41B多模态，新的最佳美国Apache 2.0开源模型（含Inkling-Small，276B-A12B）",
+      "summaryZh": "Thinky首个完整大型语言模型发布大获成功，额外福利：权重开源！"
     },
     {
       "id": "latent-space-22032595394f",
@@ -1373,7 +1527,9 @@
       "publishedAt": "2026-07-14T23:54:07.000Z",
       "rank": 5,
       "score": 76.4,
-      "summary": "a continuation: Codex adding 1M users a day now."
+      "summary": "a continuation: Codex adding 1M users a day now.",
+      "titleZh": "[AI新闻] 今天没什么大事发生",
+      "summaryZh": "延续：Codex现每日新增用户达100万。"
     },
     {
       "id": "latent-space-8ec1cf2be3ad",
@@ -1385,7 +1541,9 @@
       "publishedAt": "2026-07-14T23:21:21.000Z",
       "rank": 6,
       "score": 74.2,
-      "summary": "At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents."
+      "summary": "At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.",
+      "titleZh": "2026年世界博览会定义AI工程的五大趋势",
+      "summaryZh": "今年的AIE世界博览会上，AI工程进入新阶段：围绕代理构建系统，而不仅仅是使用代理构建。"
     },
     {
       "id": "latent-space-ac1def651d7c",
@@ -1397,7 +1555,9 @@
       "publishedAt": "2026-07-14T01:22:27.000Z",
       "rank": 7,
       "score": 72,
-      "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting..."
+      "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+      "titleZh": "[AI新闻] Codex用户数6个月内增长超10倍至700万，过去约一天新增100万；Codex是否已超越Claude Code？",
+      "summaryZh": "平静的一天让我们对比数字，验证Claude Code报告的沉寂。"
     },
     {
       "id": "latent-space-41160de58644",
@@ -1409,7 +1569,9 @@
       "publishedAt": "2026-07-11T02:53:08.000Z",
       "rank": 8,
       "score": 69.8,
-      "summary": "a quiet day after a week of nonstop model releases"
+      "summary": "a quiet day after a week of nonstop model releases",
+      "titleZh": "[AI新闻] 今天没什么大事发生",
+      "summaryZh": "在一周不断模型发布后，平静的一天。"
     },
     {
       "id": "latent-space-f7ffe7c764e6",
@@ -1421,7 +1583,9 @@
       "publishedAt": "2026-07-10T06:19:40.000Z",
       "rank": 9,
       "score": 67.6,
-      "summary": "A big day for OpenAI."
+      "summary": "A big day for OpenAI.",
+      "titleZh": "[AI新闻] OpenAI发布GPT 5.6 Sol/Terra/Luna，Codex成为ChatGPT超级应用",
+      "summaryZh": "OpenAI的重要日子。"
     },
     {
       "id": "latent-space-d9aedbf9734e",
@@ -1433,7 +1597,9 @@
       "publishedAt": "2026-07-09T06:05:41.000Z",
       "rank": 10,
       "score": 65.4,
-      "summary": "SpaceXAI continues to move faster than any other frontier lab on earth."
+      "summary": "SpaceXAI continues to move faster than any other frontier lab on earth.",
+      "titleZh": "[AI新闻] SpaceXAI发布Grok 4.5，Cursor收购后首个Opus级模型",
+      "summaryZh": "SpaceXAI继续以地球上最快速度前进。"
     },
     {
       "id": "mckinsey-mgi-947efcb2d4a8",
@@ -1442,11 +1608,13 @@
       "source": "McKinsey MGI",
       "sourceKey": "mckinsey-mgi",
       "category": "Business & economics",
-      "publishedAt": "2026-07-08T16:00:00.000Z",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
       "rank": 1,
       "score": 89.6,
       "summary": "Most skills will still be needed—but how people use them will change as they work alongside intelligent machines.",
-      "metric": "MGI research"
+      "metric": "MGI research",
+      "titleZh": "代理、机器人与我们：AI如何重塑拉美的工作与技能",
+      "summaryZh": "大多数技能仍将需要，但人们使用技能的方式将随着与智能机器的协作而改变。"
     },
     {
       "id": "mckinsey-mgi-a60eb4e2d0af",
@@ -1455,11 +1623,13 @@
       "source": "McKinsey MGI",
       "sourceKey": "mckinsey-mgi",
       "category": "Business & economics",
-      "publishedAt": "2026-07-08T16:00:00.000Z",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
       "rank": 2,
       "score": 87.4,
       "summary": "The next wave of value from AI will flow to those leaders who redesign business models, eliminate friction, and build organizations that learn faster than the competition.",
-      "metric": "MGI research"
+      "metric": "MGI research",
+      "titleZh": "真正的AI优势",
+      "summaryZh": "下一波AI价值将流向那些重新设计商业模式、消除摩擦并构建比竞争对手学习更快组织的领导者。"
     },
     {
       "id": "mckinsey-mgi-bf1862b86f6d",
@@ -1468,11 +1638,13 @@
       "source": "McKinsey MGI",
       "sourceKey": "mckinsey-mgi",
       "category": "Business & economics",
-      "publishedAt": "2026-07-06T16:00:00.000Z",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
       "rank": 3,
       "score": 85.2,
       "summary": "Summer in the Northern Hemisphere has gotten off to a very hot start. This has focused attention on the impacts of heat on health, infrastructure, and economic productivity—and how to best manage them. That is a good thing. While past discourse on adaptation has often focused on ",
-      "metric": "MGI research"
+      "metric": "MGI research",
+      "titleZh": "气候规划优先考虑洪水，热浪需求同样重要",
+      "summaryZh": "北半球夏季异常炎热，关注热浪对健康、基础设施和经济生产力的影响及管理方法，这是好事。过去适应性讨论多聚焦于洪水。"
     },
     {
       "id": "semi-analysis-ef87054d5d7f",
@@ -1484,7 +1656,9 @@
       "publishedAt": "2026-07-09T19:16:14.000Z",
       "rank": 1,
       "score": 91.8,
-      "summary": "A top tier RL environment startup spawns out of thin air, the most aggressive compute ramp we've ever seen, 2000km+ scale-across, and some advice for Google DeepMind"
+      "summary": "A top tier RL environment startup spawns out of thin air, the most aggressive compute ramp we've ever seen, 2000km+ scale-across, and some advice for Google DeepMind",
+      "titleZh": "Meta超级智能的未来：一年进展更新",
+      "summaryZh": "顶级强化学习环境创业公司突然崛起，史上最激进的算力提升，2000公里以上规模扩展，以及给谷歌DeepMind的一些建议。"
     },
     {
       "id": "semi-analysis-e3ec8fe9e560",
@@ -1496,7 +1670,9 @@
       "publishedAt": "2026-07-08T06:04:28.000Z",
       "rank": 2,
       "score": 89.6,
-      "summary": "Anthropic’s Opportunity is Theirs to Lose"
+      "summary": "Anthropic’s Opportunity is Theirs to Lose",
+      "titleZh": "Anthropic 2026年第三季度利润超10亿美元：Anthropic IPO财务预览",
+      "summaryZh": "Anthropic的机会掌握在他们手中。"
     },
     {
       "id": "semi-analysis-c24926a0f500",
@@ -1508,7 +1684,9 @@
       "publishedAt": "2026-07-06T21:53:44.000Z",
       "rank": 3,
       "score": 87.4,
-      "summary": "Over 7T AI debt by 2029, There can be no Neoclouds without the Trinity. Nvidia's Backstop Economics Explained. AI Debt Needs Quantified. Nvidia's Objective is to Broaden Compute Access, Develop AI Financing, Grow Neoclouds."
+      "summary": "Over 7T AI debt by 2029, There can be no Neoclouds without the Trinity. Nvidia's Backstop Economics Explained. AI Debt Needs Quantified. Nvidia's Objective is to Broaden Compute Access, Develop AI Financing, Grow Neoclouds.",
+      "titleZh": "Nvidia GPU债务后盾释放AI三位一体项目：资本、采购与数据中心",
+      "summaryZh": "到2029年AI债务超7万亿，没有三位一体就无新云。解析Nvidia的后盾经济学。AI债务需量化。Nvidia目标是拓宽算力访问，发展AI融资，壮大新云。"
     },
     {
       "id": "semi-analysis-56573b8558b9",
@@ -1520,7 +1698,9 @@
       "publishedAt": "2026-07-02T22:18:08.000Z",
       "rank": 4,
       "score": 85.2,
-      "summary": "Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn't Giving Up, Scaling RecSys by 10x... ClusterMAX ranking coming soon?"
+      "summary": "Zuck Takes Plan B? SpaceX 2.0, Bedrock 2.0, MSL Isn't Giving Up, Scaling RecSys by 10x... ClusterMAX ranking coming soon?",
+      "titleZh": "Meta算力：人人都想成为新云",
+      "summaryZh": "扎克采取B计划？SpaceX 2.0，Bedrock 2.0，MSL不放弃，推荐系统规模提升10倍……ClusterMAX排名即将发布？"
     },
     {
       "id": "semi-analysis-d32bf755f8e1",
@@ -1532,7 +1712,9 @@
       "publishedAt": "2026-07-02T17:25:38.000Z",
       "rank": 5,
       "score": 83,
-      "summary": "ECTC 2026 Roundup, Intel, TSMC, SK Hynix, Samsung, Micron, Marvell, Lightmatter, Microsoft"
+      "summary": "ECTC 2026 Roundup, Intel, TSMC, SK Hynix, Samsung, Micron, Marvell, Lightmatter, Microsoft",
+      "titleZh": "EMIB-T路线图、自定义HBM、HBM4封装挑战、微流体冷却、光子互连等",
+      "summaryZh": "2026年ECTC综述，涵盖英特尔、台积电、SK海力士、三星、美光、Marvell、Lightmatter、微软。"
     },
     {
       "id": "semi-analysis-2c43f8d2f734",
@@ -1544,7 +1726,9 @@
       "publishedAt": "2026-06-30T18:32:39.000Z",
       "rank": 6,
       "score": 80.8,
-      "summary": "Was Widespread TokenMaxxing Ever Really Here?"
+      "summary": "Was Widespread TokenMaxxing Ever Really Here?",
+      "titleZh": "Token预算：我们与企业关于Token花费的对话",
+      "summaryZh": "广泛的Token最大化真的存在过吗？"
     },
     {
       "id": "semi-analysis-2cd42b0012fd",
@@ -1556,7 +1740,9 @@
       "publishedAt": "2026-06-25T19:48:39.000Z",
       "rank": 7,
       "score": 78.6,
-      "summary": "Why the Grid Can't Keep Up, and Why that Drives Behind-The-Meter 50%+ of DCs/Year By 2028"
+      "summary": "Why the Grid Can't Keep Up, and Why that Drives Behind-The-Meter 50%+ of DCs/Year By 2028",
+      "titleZh": "美国电网限制：到2028年幕后数据中心容量或超40GW？",
+      "summaryZh": "为何电网跟不上，以及这如何推动幕后数据中心年增长超50%。"
     },
     {
       "id": "semi-analysis-ae66d55e9eda",
@@ -1568,7 +1754,9 @@
       "publishedAt": "2026-06-23T14:51:53.000Z",
       "rank": 8,
       "score": 76.4,
-      "summary": "CXMT IPO, SKHynix, Micron, Samsung Competition, Process Node Deficit, China HBM, Wafer Adds, Memory LTAs"
+      "summary": "CXMT IPO, SKHynix, Micron, Samsung Competition, Process Node Deficit, China HBM, Wafer Adds, Memory LTAs",
+      "titleZh": "中国CXMT将挑战DRAM巨头",
+      "summaryZh": "CXMT IPO，SK海力士、美光、三星竞争，工艺节点差距，中国HBM，晶圆增加，存储长期协议。"
     },
     {
       "id": "semi-analysis-9b95df4e2874",
@@ -1580,7 +1768,9 @@
       "publishedAt": "2026-06-18T15:54:24.000Z",
       "rank": 9,
       "score": 74.2,
-      "summary": "Don't Believe The Vibecoded Estimates, Go Through Every Individual Filing Instead"
+      "summary": "Don't Believe The Vibecoded Estimates, Go Through Every Individual Filing Instead",
+      "titleZh": "别再说2026年美国一半数据中心容量被取消了",
+      "summaryZh": "别信Vibecoded估算，逐条审查每个备案。"
     },
     {
       "id": "semi-analysis-df7bf4d22c22",
@@ -1592,7 +1782,9 @@
       "publishedAt": "2026-06-16T17:32:07.000Z",
       "rank": 10,
       "score": 72,
-      "summary": "RL Training Infrastructure, GRPO, PipelineRL, Async RL, Policy Staleness, RL Sandbox Infra, CPU Requirements, TCO Analysis, Thinking Machines Tinker"
+      "summary": "RL Training Infrastructure, GRPO, PipelineRL, Async RL, Policy Staleness, RL Sandbox Infra, CPU Requirements, TCO Analysis, Thinking Machines Tinker",
+      "titleZh": "强化学习系统注意差距：匹配训练器与生成器吞吐量",
+      "summaryZh": "强化学习训练基础设施，GRPO，PipelineRL，异步强化学习，策略陈旧，强化学习沙箱基础设施，CPU需求，TCO分析，Thinking Machines调试。"
     },
     {
       "id": "simon-willison-4675dab568bb",
@@ -1604,7 +1796,9 @@
       "publishedAt": "2026-07-20T03:47:59.000Z",
       "rank": 1,
       "score": 96.4,
-      "summary": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and releas"
+      "summary": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and releas",
+      "titleZh": "引用Sam Altman的话",
+      "summaryZh": "我们一直在广泛讨论开源策略。下次董事会将继续讨论，但我们希望尽快创建一个能力相当于GPT-3、可在消费硬件本地运行并开源的语言模型。"
     },
     {
       "id": "simon-willison-5f3d53932c98",
@@ -1616,7 +1810,9 @@
       "publishedAt": "2026-07-19T05:06:21.000Z",
       "rank": 2,
       "score": 86.7,
-      "summary": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executi"
+      "summary": "AI Mania Is Eviscerating Global Decision-Making Here's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources. In one extreme case, I have seen an executi",
+      "titleZh": "AI狂热正在破坏全球决策",
+      "summaryZh": "Nik Suresh对席卷他所咨询的大型公司的AI狂热的有趣视角，充满匿名消息的辛辣轶事。极端案例中，我见过一位高管……"
     },
     {
       "id": "simon-willison-dbd57b2637da",
@@ -1628,7 +1824,9 @@
       "publishedAt": "2026-07-19T03:54:09.000Z",
       "rank": 3,
       "score": 84.3,
-      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code inst"
+      "summary": "In Rewriting Bun in Rust Jarred Sumner made the following claim: Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good. I decided to have a poke at my own Claude Code inst",
+      "titleZh": "Claude Code现使用Rust编写的Bun",
+      "summaryZh": "在用Rust重写Bun时，Jarred Sumner声称：Claude Code v2.1.181（6月17日发布）及以后版本使用了Bun的Rust移植版。Linux启动速度提升10%，但几乎无人注意。无聊即是好事。我决定试用自己的Claude Code实例。"
     },
     {
       "id": "simon-willison-3445c79133fb",
@@ -1640,7 +1838,9 @@
       "publishedAt": "2026-07-18T17:19:10.000Z",
       "rank": 4,
       "score": 80.8,
-      "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in th"
+      "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in th",
+      "titleZh": "SQLite查询解释器",
+      "summaryZh": "工具：SQLite查询解释器。Julia Evan在《学习运行SQLite的一些事情》中写道：也许有一天我能学会读查询计划。大同小异……这激发我让Fable构建这个交互式解释工具，在Python的Pyodide中运行SQLite，基于Web Assembly。"
     },
     {
       "id": "simon-willison-0593bd41b25d",
@@ -1652,7 +1852,9 @@
       "publishedAt": "2026-07-18T06:00:13.000Z",
       "rank": 5,
       "score": 78.6,
-      "summary": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will rec"
+      "summary": "Claude make Fable 5 permanent An update from the @claudeai account on Twitter: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits. Pro and Team Standard users will continue to have access to Fable via usage credits, and will rec",
+      "titleZh": "Claude让Fable 5永久可用",
+      "summaryZh": "@claudeai推特账号更新：自7月20日起，Claude Fable 5将包含在所有Max和Team Premium计划中，限额为50%。Pro和Team Standard用户将继续通过使用积分访问Fable，并将收到……"
     },
     {
       "id": "simon-willison-e2319b9446f4",
@@ -1664,7 +1866,9 @@
       "publishedAt": "2026-07-18T05:27:49.000Z",
       "rank": 6,
       "score": 76.4,
-      "summary": "nascheme/quixote A certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into "
+      "summary": "nascheme/quixote A certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago . The oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into ",
+      "titleZh": "nascheme/quixote",
+      "summaryZh": "nascheme/quixote。某些资深Python网页爱好者会高兴地发现，Quixote网页框架最近一次提交是在6小时前。该仓库最早提交距今21年，是Quixote 2.4从Subversion导入的初始版本。"
     },
     {
       "id": "simon-willison-4e154ff230f5",
@@ -1676,7 +1880,9 @@
       "publishedAt": "2026-07-17T13:43:53.000Z",
       "rank": 7,
       "score": 74.2,
-      "summary": "Is there something I can actually help you with today? — Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms"
+      "summary": "Is there something I can actually help you with today? — Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms",
+      "titleZh": "引用Kimi K3的话",
+      "summaryZh": "“今天有什么我能帮您的吗？”——Kimi K3，在拒绝泄露其系统提示后。标签：kimi，AI人格，生成式AI，AI，大型语言模型。"
     },
     {
       "id": "simon-willison-00bf6c71a34f",
@@ -1688,7 +1894,9 @@
       "publishedAt": "2026-07-17T12:11:11.000Z",
       "rank": 8,
       "score": 72,
-      "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that so"
+      "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that so",
+      "titleZh": "大型语言模型陈词滥调高亮器",
+      "summaryZh": "工具：大型语言模型陈词滥调高亮器。我读到又一篇充斥着大型语言模型写作陈词滥调的文章——“无废话、无填充、无行话”等——感到沮丧，于是让Fable 5编写了这个应用，突出显示十种常见模式。"
     },
     {
       "id": "simon-willison-4151d862be49",
@@ -1700,7 +1908,9 @@
       "publishedAt": "2026-07-17T02:58:07.000Z",
       "rank": 9,
       "score": 69.8,
-      "summary": "Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby! Goo"
+      "summary": "Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby! Goo",
+      "titleZh": "关注鸟类而非高尔夫",
+      "summaryZh": "给感受到数据中心用水压力的超大规模云服务商的建议：买下几个独家乡村俱乐部，将高尔夫球场改造成公共公园，支付导游和望远镜费用，帮助前会员转向观鸟，拥抱更可持续的爱好！好主意。"
     },
     {
       "id": "simon-willison-a798d725b35e",
@@ -1712,7 +1922,9 @@
       "publishedAt": "2026-07-16T23:34:16.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process su"
+      "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: They chose Firefox/Gecko because it has strong single-process su",
+      "titleZh": "WebAssembly中的Firefox",
+      "summaryZh": "WebAssembly中的Firefox，这真是太酷了：Puter将Firefox编译为WebAssembly，使整个浏览器能在另一个浏览器中运行。这是我的博客，在Firefox中运行，运行在WebAssembly中，运行在Chrome中：他们选择Firefox/Gecko是因为它有强大的单进程支持。"
     },
     {
       "id": "stratechery-d910f43906f2",
@@ -1724,7 +1936,9 @@
       "publishedAt": "2026-07-17T17:00:00.000Z",
       "rank": 1,
       "score": 87.4,
-      "summary": "The best Stratechery content from the week of July 13, 2026, including the end of the mainframe, the continuing adventures of OpenAI, and answering the question, \"Is Netflix Washed?\"."
+      "summary": "The best Stratechery content from the week of July 13, 2026, including the end of the mainframe, the continuing adventures of OpenAI, and answering the question, \"Is Netflix Washed?\".",
+      "titleZh": "2026.29：大型主机与主要角色",
+      "summaryZh": "2026年7月13日当周的最佳Stratechery内容，包括大型主机的终结、OpenAI的持续冒险，以及回答“Netflix是否已过气？”的问题。"
     },
     {
       "id": "stratechery-91432f70e9fa",
@@ -1736,7 +1950,9 @@
       "publishedAt": "2026-07-15T10:00:19.000Z",
       "rank": 2,
       "score": 85.2,
-      "summary": "IBM announced preliminary results that spooked the software market generally; this is a story, however, specifically about IBM and its mainframe franchise."
+      "summary": "IBM announced preliminary results that spooked the software market generally; this is a story, however, specifically about IBM and its mainframe franchise.",
+      "titleZh": "IBM失利，IBM大型主机护城河，IBM的多重AI问题",
+      "summaryZh": "IBM公布的初步业绩令软件市场普遍震惊；然而，这个故事主要关于IBM及其大型主机业务。"
     },
     {
       "id": "stratechery-88db776d070a",
@@ -1748,7 +1964,9 @@
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "rank": 3,
       "score": 83,
-      "summary": "OpenAI has refashioned Codex as the new ChatGPT; is the company abandoning the chat category they pioneered?"
+      "summary": "OpenAI has refashioned Codex as the new ChatGPT; is the company abandoning the chat category they pioneered?",
+      "titleZh": "OpenAI超级应用，ChatGPT即Codex，聊天的未来何去何从",
+      "summaryZh": "OpenAI将Codex重新塑造成新的ChatGPT；公司是否正在放弃他们开创的聊天类别？"
     },
     {
       "id": "stratechery-00651132a913",
@@ -1760,7 +1978,9 @@
       "publishedAt": "2026-07-13T10:00:00.000Z",
       "rank": 4,
       "score": 80.8,
-      "summary": "Apple is suing AI for stealing trade secrets; there is one guilty employee, but this mostly feels like lashing out."
+      "summary": "Apple is suing AI for stealing trade secrets; there is one guilty employee, but this mostly feels like lashing out.",
+      "titleZh": "苹果起诉OpenAI，苹果的真正问题",
+      "summaryZh": "苹果因AI窃取商业机密而提起诉讼；虽然有一名员工有罪，但这更多像是一种情绪发泄。"
     },
     {
       "id": "stratechery-19ae2ff86a8d",
@@ -1772,7 +1992,9 @@
       "publishedAt": "2026-07-10T17:00:00.000Z",
       "rank": 5,
       "score": 78.6,
-      "summary": "The best Stratechery content from the week of July 6, 2026, including a word from Mark Zuckerberg*, pulling the plug on XBOX, and toilet talk."
+      "summary": "The best Stratechery content from the week of July 6, 2026, including a word from Mark Zuckerberg*, pulling the plug on XBOX, and toilet talk.",
+      "titleZh": "2026.28：XBOX遇冷",
+      "summaryZh": "2026年7月6日当周的最佳Stratechery内容，包括马克·扎克伯格的发言、XBOX停摆以及厕所话题。"
     },
     {
       "id": "stratechery-3043ca5f7e7a",
@@ -1784,7 +2006,9 @@
       "publishedAt": "2026-07-09T10:00:00.000Z",
       "rank": 6,
       "score": 76.4,
-      "summary": "The battle for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs."
+      "summary": "The battle for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs.",
+      "titleZh": "Muse Image，Grok 4.5，Alex Karp在CNBC",
+      "summaryZh": "从Meta到Grok再到前沿实验室，验证数据的争夺日益成为AI竞赛的关键。"
     },
     {
       "id": "stratechery-8baaf633bad5",
@@ -1796,7 +2020,9 @@
       "publishedAt": "2026-07-08T10:00:00.000Z",
       "rank": 7,
       "score": 74.2,
-      "summary": "Microsoft's Xbox division is conducting big layoffs, as the company deals with abject failure of its Game Pass strategy."
+      "summary": "Microsoft's Xbox division is conducting big layoffs, as the company deals with abject failure of its Game Pass strategy.",
+      "titleZh": "XBOX裁员；捆绑销售与互联网的偿付能力；交易、协调与沉没成本",
+      "summaryZh": "微软Xbox部门正在大规模裁员，公司正应对其Game Pass战略的彻底失败。"
     },
     {
       "id": "stratechery-26ed01ad541d",
@@ -1808,7 +2034,9 @@
       "publishedAt": "2026-07-07T10:00:00.000Z",
       "rank": 8,
       "score": 72,
-      "summary": "A script for what Mark Zuckerberg should say on Meta's next earnings call."
+      "summary": "A script for what Mark Zuckerberg should say on Meta's next earnings call.",
+      "titleZh": "给马克·扎克伯格的发言稿",
+      "summaryZh": "为马克·扎克伯格准备的Meta下一次财报电话会议发言稿。"
     },
     {
       "id": "stratechery-173ad1918516",
@@ -1820,7 +2048,9 @@
       "publishedAt": "2026-06-26T17:00:00.000Z",
       "rank": 9,
       "score": 69.8,
-      "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag."
+      "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag.",
+      "titleZh": "2026.26：夏日氛围",
+      "summaryZh": "2026年6月22日当周的最佳Stratechery内容，包括氛围编码冒险、苹果在欧洲的动态以及仲夏邮件问答。"
     },
     {
       "id": "stratechery-81ed420d6f98",
@@ -1832,7 +2062,9 @@
       "publishedAt": "2026-06-25T10:00:00.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind."
+      "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
+      "titleZh": "Figma CEO Dylan Field谈设计与AI的访谈",
+      "summaryZh": "访谈Figma CEO Dylan Field，谈及构建Figma及他为何认为AI为公司带来顺风。"
     },
     {
       "id": "techcrunch-08e002f0b06b",
@@ -1844,7 +2076,9 @@
       "publishedAt": "2026-07-19T21:45:00.000Z",
       "rank": 1,
       "score": 93.1,
-      "summary": "Netflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck."
+      "summary": "Netflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck.",
+      "titleZh": "Netflix以5.87亿美元收购本·阿弗莱克的AI电影制作初创公司",
+      "summaryZh": "Netflix透露以5.87亿美元现金收购了由本·阿弗莱克共同创立的初创公司InterPositive。"
     },
     {
       "id": "techcrunch-90851a797dd0",
@@ -1856,7 +2090,9 @@
       "publishedAt": "2026-07-19T21:16:07.000Z",
       "rank": 2,
       "score": 90.7,
-      "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+      "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+      "titleZh": "黄仁勋访日后值得关注的事项",
+      "summaryZh": "黄仁勋离开东京时达成了涵盖日本整个科技生态系统的多项交易。"
     },
     {
       "id": "techcrunch-dde9b3e38531",
@@ -1868,7 +2104,9 @@
       "publishedAt": "2026-07-19T19:24:45.000Z",
       "rank": 3,
       "score": 87.8,
-      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public."
+      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "titleZh": "苹果诉讼会否阻碍OpenAI硬件计划？",
+      "summaryZh": "在最新一期Equity中，我们讨论了苹果诉讼是否会影响OpenAI备受关注的硬件进军及上市计划。"
     },
     {
       "id": "techcrunch-101a642b4ad4",
@@ -1880,7 +2118,9 @@
       "publishedAt": "2026-07-19T16:05:00.000Z",
       "rank": 4,
       "score": 84.6,
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "titleZh": "TechCrunch出行：机器人出租车规则之争",
+      "summaryZh": "欢迎回到TechCrunch出行，这是您了解未来交通及AI如何发挥作用的中心。"
     },
     {
       "id": "techcrunch-6a9003c90047",
@@ -1892,7 +2132,9 @@
       "publishedAt": "2026-07-19T14:52:08.000Z",
       "rank": 5,
       "score": 82.1,
-      "summary": "\"Everybody knows the Greeks are inside.\""
+      "summary": "\"Everybody knows the Greeks are inside.\"",
+      "titleZh": "《奥德赛》导演克里斯托弗·诺兰称AI是明显的“特洛伊木马”",
+      "summaryZh": "“大家都知道希腊人已经在里面了。”"
     },
     {
       "id": "techcrunch-5767ddd493bb",
@@ -1904,7 +2146,9 @@
       "publishedAt": "2026-07-19T14:00:00.000Z",
       "rank": 6,
       "score": 79.7,
-      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more."
+      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "titleZh": "非营利组织Current AI竞速打造人人免费使用的AI万维网",
+      "summaryZh": "Current AI是一家非营利组织，致力于构建不遗忘任何文化的AI，在设备、AI聊天等方面取得了显著进展。"
     },
     {
       "id": "techcrunch-a7676f47d7b9",
@@ -1916,7 +2160,9 @@
       "publishedAt": "2026-07-18T19:30:23.000Z",
       "rank": 7,
       "score": 74.3,
-      "summary": "This isn’t the first time power outages have caused issues for Waymo."
+      "summary": "This isn’t the first time power outages have caused issues for Waymo.",
+      "titleZh": "Waymo称旧金山服务在一小时暂停后已恢复",
+      "summaryZh": "这并非电力中断首次给Waymo带来问题。"
     },
     {
       "id": "techcrunch-c60035e6bb3c",
@@ -1928,7 +2174,9 @@
       "publishedAt": "2026-07-18T18:51:07.000Z",
       "rank": 8,
       "score": 72,
-      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\""
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "titleZh": "Kimi：威胁还是隐患？",
+      "summaryZh": "中国公司Moonshot AI本周发布了新版Kimi模型，引发了对“全面AI共产主义”的担忧。"
     },
     {
       "id": "techcrunch-90766fec1d19",
@@ -1940,7 +2188,9 @@
       "publishedAt": "2026-07-18T16:30:00.000Z",
       "rank": 9,
       "score": 69.8,
-      "summary": "Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year."
+      "summary": "Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year.",
+      "titleZh": "今年美国停产或停售的所有电动车",
+      "summaryZh": "本田Prologue将不再在美国销售，加入今年退出市场的电动车型日益增多的行列。"
     },
     {
       "id": "techcrunch-96b6c372f8af",
@@ -1952,7 +2202,9 @@
       "publishedAt": "2026-07-18T15:54:24.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "The Department of Justice says that federal employees can now download TikTok on their government devices."
+      "summary": "The Department of Justice says that federal employees can now download TikTok on their government devices.",
+      "titleZh": "联邦员工可再次在工作手机上下载TikTok",
+      "summaryZh": "司法部表示联邦员工现在可以在政府设备上下载TikTok。"
     },
     {
       "id": "techmeme-f155d60fd2ab",
@@ -1963,8 +2215,10 @@
       "category": "Technology news",
       "publishedAt": "2026-07-20T08:50:00.000Z",
       "rank": 1,
-      "score": 106.6,
-      "summary": "Wall Street Journal : A look at Israel's influence campaign in the US that's included millions of AI-driven texts and a $45M+ contract with ex-Trump campaign strategist Brad Parscale — The Israeli government is trying to shore up its U.S. reputation with help from influencers, Tr"
+      "score": 106.5,
+      "summary": "Wall Street Journal : A look at Israel's influence campaign in the US that's included millions of AI-driven texts and a $45M+ contract with ex-Trump campaign strategist Brad Parscale — The Israeli government is trying to shore up its U.S. reputation with help from influencers, Tr",
+      "titleZh": "以色列在美国的影响力行动：数百万AI驱动短信及与前特朗普竞选策略师Brad Parscale超4500万美元合同（华尔街日报）",
+      "summaryZh": "华尔街日报：以色列政府正借助影响者和特朗普前竞选策略师Brad Parscale的4500万美元合同，试图提升其在美国的声誉。"
     },
     {
       "id": "techmeme-13b988dac3d6",
@@ -1975,8 +2229,10 @@
       "category": "Technology news",
       "publishedAt": "2026-07-20T08:10:03.000Z",
       "rank": 2,
-      "score": 102.3,
-      "summary": "Alex Tabarrok / Marginal Revolution : Trial lawyers, with big liability litigation earnings, are among the most active lobbyists against autonomous vehicles, even as data shows clear safety benefits — Roughly 37,000-40,000 Americans die in auto accidents every year. We now have l"
+      "score": 102.2,
+      "summary": "Alex Tabarrok / Marginal Revolution : Trial lawyers, with big liability litigation earnings, are among the most active lobbyists against autonomous vehicles, even as data shows clear safety benefits — Roughly 37,000-40,000 Americans die in auto accidents every year. We now have l",
+      "titleZh": "诉讼律师是反对自动驾驶车辆最活跃的游说者之一，尽管数据表明其安全性明显提升（Alex Tabarrok/边际革命）",
+      "summaryZh": "Alex Tabarrok / 边际革命：诉讼律师因巨额责任诉讼收益成为反对自动驾驶车辆的主要游说者，尽管数据显示其安全性显著提高。"
     },
     {
       "id": "techmeme-5098c402e49c",
@@ -1987,8 +2243,10 @@
       "category": "Technology news",
       "publishedAt": "2026-07-20T07:46:36.000Z",
       "rank": 3,
-      "score": 99.2,
-      "summary": "Financial Times : How smart home devices have given abusive partners a new tool to remotely manipulate, intimidate, and disturb their victims, in a form of tech-assisted abuse — Remote access to domestic devices is increasingly being used to manipulate, intimidate and disturb. Po"
+      "score": 99.1,
+      "summary": "Financial Times : How smart home devices have given abusive partners a new tool to remotely manipulate, intimidate, and disturb their victims, in a form of tech-assisted abuse — Remote access to domestic devices is increasingly being used to manipulate, intimidate and disturb. Po",
+      "titleZh": "智能家居设备如何成为虐待伴侣远程操控、恐吓和骚扰的新工具，构成技术辅助虐待（金融时报）",
+      "summaryZh": "金融时报：智能家居设备的远程访问正被虐待伴侣用来操控、恐吓和骚扰受害者，形成一种技术辅助虐待形式。"
     },
     {
       "id": "techmeme-b13d2609c739",
@@ -2000,7 +2258,9 @@
       "publishedAt": "2026-07-20T06:05:00.000Z",
       "rank": 4,
       "score": 94.2,
-      "summary": "Bloomberg : Cambridge-based CuspAI raised a $450M Series B led by Kleiner Perkins and NEA, and launches a coalition for AI materials discovery for chip and other industries — Producing the world's most in-demand semiconductors requires enormous amounts of energy and access to rar"
+      "summary": "Bloomberg : Cambridge-based CuspAI raised a $450M Series B led by Kleiner Perkins and NEA, and launches a coalition for AI materials discovery for chip and other industries — Producing the world's most in-demand semiconductors requires enormous amounts of energy and access to rar",
+      "titleZh": "剑桥CuspAI完成4.5亿美元B轮融资，由Kleiner Perkins和NEA领投，启动芯片及其他行业AI材料发现联盟（彭博社）",
+      "summaryZh": "彭博社：剑桥的CuspAI完成4.5亿美元B轮融资，由Kleiner Perkins和NEA领投，并发起AI材料发现联盟，服务芯片及其他行业。"
     },
     {
       "id": "techmeme-719b189e2a0a",
@@ -2012,7 +2272,9 @@
       "publishedAt": "2026-07-20T05:55:01.000Z",
       "rank": 5,
       "score": 91.8,
-      "summary": "Hannah Erin Lang / Wall Street Journal : Retail traders are shifting from Big Tech to stocks boosted by AI like SK Hynix and Marvell; five of the Magnificent Seven stocks trail the market this year — Once the Magnificent Seven's most enthusiastic fans, they are looking elsewhere "
+      "summary": "Hannah Erin Lang / Wall Street Journal : Retail traders are shifting from Big Tech to stocks boosted by AI like SK Hynix and Marvell; five of the Magnificent Seven stocks trail the market this year — Once the Magnificent Seven's most enthusiastic fans, they are looking elsewhere ",
+      "titleZh": "散户投资者从大型科技股转向受AI推动的SK海力士和Marvell；五大科技股今年表现落后大盘（Hannah Erin Lang/华尔街日报）",
+      "summaryZh": "Hannah Erin Lang / 华尔街日报：曾是五大科技股最热情的支持者，散户投资者现转向受AI推动的SK海力士和Marvell等股票。"
     },
     {
       "id": "techmeme-2f023b95e21a",
@@ -2023,8 +2285,10 @@
       "category": "Technology news",
       "publishedAt": "2026-07-20T05:25:01.000Z",
       "rank": 6,
-      "score": 89.1,
-      "summary": "Financial Times : LSEG: Morgan Stanley collected $2.3B in debt and equity capital market fees in H1 2026, up from $1.4B in H1 2025, driven by AI infrastructure financing deals — Wall Street bank has emerged as chief architect of financing structures behind build-out of data centr"
+      "score": 89,
+      "summary": "Financial Times : LSEG: Morgan Stanley collected $2.3B in debt and equity capital market fees in H1 2026, up from $1.4B in H1 2025, driven by AI infrastructure financing deals — Wall Street bank has emerged as chief architect of financing structures behind build-out of data centr",
+      "titleZh": "伦敦证券交易所集团：摩根士丹利2026年上半年债务和股权资本市场费用达23亿美元，较2025年上半年14亿美元增长，受AI基础设施融资推动（金融时报）",
+      "summaryZh": "金融时报：伦敦证券交易所集团称，摩根士丹利2026年上半年债务和股权资本市场费用达23亿美元，较2025年上半年14亿美元增长，主要受AI基础设施融资交易推动。"
     },
     {
       "id": "techmeme-127d4c488163",
@@ -2036,7 +2300,9 @@
       "publishedAt": "2026-07-20T05:15:41.000Z",
       "rank": 7,
       "score": 86.7,
-      "summary": "Manuel Baigorri / Bloomberg : Blackstone agrees to invest an undisclosed sum in South Korea-based Futronic, which makes actuators used in industrial robots, sources say at a ~$675M valuation — Blackstone Inc. has agreed to invest in Futronic, a South Korean supplier of high-preci"
+      "summary": "Manuel Baigorri / Bloomberg : Blackstone agrees to invest an undisclosed sum in South Korea-based Futronic, which makes actuators used in industrial robots, sources say at a ~$675M valuation — Blackstone Inc. has agreed to invest in Futronic, a South Korean supplier of high-preci",
+      "titleZh": "消息称黑石拟投资韩国工业机器人执行器制造商Futronic，估值约6.75亿美元（Manuel Baigorri/彭博社）",
+      "summaryZh": "Manuel Baigorri / 彭博社：黑石公司同意投资韩国高精度工业机器人执行器供应商Futronic，估值约6.75亿美元。"
     },
     {
       "id": "techmeme-8b5202bd8ba4",
@@ -2047,8 +2313,10 @@
       "category": "Technology news",
       "publishedAt": "2026-07-20T04:55:01.000Z",
       "rank": 8,
-      "score": 84.2,
-      "summary": "New York Times : Sources detail Kalshi's and Polymarket's efforts to undermine each other, including lobbying regulators, trying to derail deals, and waging influence campaigns — Early one morning in November 2024, Shayne Coplan, the founder of Polymarket, awoke to an unexpected "
+      "score": 84.1,
+      "summary": "New York Times : Sources detail Kalshi's and Polymarket's efforts to undermine each other, including lobbying regulators, trying to derail deals, and waging influence campaigns — Early one morning in November 2024, Shayne Coplan, the founder of Polymarket, awoke to an unexpected ",
+      "titleZh": "消息披露Kalshi与Polymarket相互破坏努力，包括游说监管、试图破坏交易及影响力活动（纽约时报）",
+      "summaryZh": "纽约时报：消息称Kalshi与Polymarket相互破坏，包括游说监管机构、试图破坏交易及开展影响力活动。"
     },
     {
       "id": "techmeme-299e085d6906",
@@ -2059,8 +2327,10 @@
       "category": "Technology news",
       "publishedAt": "2026-07-20T04:35:01.000Z",
       "rank": 9,
-      "score": 81.7,
-      "summary": "Dave Sebastian / Bloomberg : Filing: Zhongji Innolight, China's leading optical transceiver maker, aims for an $8B Hong Kong IPO, the city's largest since Alibaba's $12.9B debut in 2019 — China's Zhongji Innolight Co. is starting to gauge investor demand for its Hong Kong listing"
+      "score": 81.6,
+      "summary": "Dave Sebastian / Bloomberg : Filing: Zhongji Innolight, China's leading optical transceiver maker, aims for an $8B Hong Kong IPO, the city's largest since Alibaba's $12.9B debut in 2019 — China's Zhongji Innolight Co. is starting to gauge investor demand for its Hong Kong listing",
+      "titleZh": "文件显示中国领先光收发器制造商中际旭创计划香港80亿美元IPO，为自2019年阿里巴巴129亿美元上市以来最大规模（Dave Sebastian/彭博社）",
+      "summaryZh": "Dave Sebastian / 彭博社：中国中际旭创开始评估香港上市投资者需求，拟融资80亿美元，为自2019年阿里巴巴129亿美元上市以来最大规模。"
     },
     {
       "id": "techmeme-6d3e61b09913",
@@ -2072,7 +2342,9 @@
       "publishedAt": "2026-07-20T04:20:01.000Z",
       "rank": 10,
       "score": 79.2,
-      "summary": "Eliza Gkritsi / Politico : Draft: the Trump admin plans to use the UN General Assembly to push a global “freedom of expression” declaration that EU lawmakers call an attack on tech rules — BRUSSELS — The Trump administration will use the upcoming U.N. General Assembly to push a g"
+      "summary": "Eliza Gkritsi / Politico : Draft: the Trump admin plans to use the UN General Assembly to push a global “freedom of expression” declaration that EU lawmakers call an attack on tech rules — BRUSSELS — The Trump administration will use the upcoming U.N. General Assembly to push a g",
+      "titleZh": "草案：特朗普政府计划利用联合国大会推动全球“言论自由”宣言，欧盟议员称其为对科技规则的攻击（Eliza Gkritsi/Politico）",
+      "summaryZh": "Eliza Gkritsi / Politico：特朗普政府计划利用即将召开的联合国大会推动全球“言论自由”宣言，欧盟议员称这是对科技规则的攻击。"
     }
   ],
   "topTen": [
