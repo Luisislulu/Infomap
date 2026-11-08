@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T02:58:06.701Z",
-  "issueDate": "2026-11-07",
-  "issueNumber": "2026.11.07",
+  "generatedAt": "2026-11-08T02:35:21.905Z",
+  "issueDate": "2026-11-08",
+  "issueNumber": "2026.11.08",
   "sources": [
     {
       "key": "github",
@@ -190,8 +190,8 @@
       "category": "Research discovery",
       "publishedAt": "2026-11-05T18:30:54.000Z",
       "rank": 1,
-      "score": 94.4,
-      "metric": "10 votes · 174 views",
+      "score": 93.6,
+      "metric": "53 votes · 579 views",
       "summary": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build "
     },
     {
@@ -203,48 +203,22 @@
       "category": "Research discovery",
       "publishedAt": "2026-11-05T18:44:43.000Z",
       "rank": 2,
-      "score": 92.2,
-      "metric": "15 votes · 221 views",
+      "score": 91.4,
+      "metric": "41 votes · 371 views",
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generat"
     },
     {
-      "id": "alpha-xiv-f4640c62b018",
-      "title": "Together Compiler: Continual Compilation for AI Inference",
-      "url": "https://www.alphaxiv.org/abs/2611.together-compiler-continual-ai-inference",
+      "id": "alpha-xiv-ae672c7b671f",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "url": "https://www.alphaxiv.org/abs/2611.08478",
       "source": "alphaXiv",
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "publishedAt": "2026-11-05T18:58:17.000Z",
       "rank": 3,
       "score": 89.2,
-      "metric": "104 votes · 18774 views",
-      "summary": "Today’s AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a given"
-    },
-    {
-      "id": "alpha-xiv-0b5642418255",
-      "title": "Stabilizing On-Policy Targeted Guidance in Agentic Reinforcement Learning",
-      "url": "https://www.alphaxiv.org/abs/2611.05266",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-03T17:54:33.000Z",
-      "rank": 4,
-      "score": 87,
-      "metric": "91 votes · 1651 views",
-      "summary": "Naive on-policy RL is often bottlenecked by the capabilities of the base model --- insufficient coverage can result in an inability to learn from certain rewards. At the same time, rewards in modern post-training systems often come from rich textual sources, e.g. judge models wit"
-    },
-    {
-      "id": "alpha-xiv-0c7a00674bb4",
-      "title": "CHIP: Adaptive Compliance for Humanoid Control through Hindsight Perturbation",
-      "url": "https://www.alphaxiv.org/abs/2512.14689",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2025-12-16T18:56:04.000Z",
-      "rank": 5,
-      "score": 84.8,
-      "metric": "38 votes · 751 views",
-      "summary": "Recent progress in humanoid robots has unlocked agile locomotion skills, including backflipping, running, and crawling. Yet it remains challenging for a humanoid robot to perform forceful manipulation tasks such as moving objects, wiping, and pushing a cart. We propose adaptive C"
+      "metric": "20 votes · 175 views",
+      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World f"
     },
     {
       "id": "alpha-xiv-a682e4af14d8",
@@ -254,10 +228,75 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-05T00:00:00.000Z",
+      "rank": 4,
+      "score": 87,
+      "metric": "41 votes · 559 views",
+      "summary": "Thinking Machines Lab introduces Inkling 2 Small, a 594B-parameter (17B active) Mixture-of-Experts model with image inputs and variable effort, trained with NVFP4 pretraining and a single joint RL run."
+    },
+    {
+      "id": "alpha-xiv-bea0d6c51c66",
+      "title": "CostNav: A Navigation Benchmark for Real-World Economic-Cost Evaluation of Physical AI Agents",
+      "url": "https://www.alphaxiv.org/abs/2511.20216",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2025-11-25T11:42:28.000Z",
+      "rank": 5,
+      "score": 84.8,
+      "metric": "7 votes · 109 views",
+      "summary": "Current navigation benchmarks focus on task success but do not capture the economic constraints essential for commercializing autonomous delivery systems. We introduce CostNav, an Economic Navigation Benchmark that evaluates physical AI agents on a cost-revenue and break-even ana"
+    },
+    {
+      "id": "alpha-xiv-f4640c62b018",
+      "title": "Together Compiler: Continual Compilation for AI Inference",
+      "url": "https://www.alphaxiv.org/abs/2611.together-compiler-continual-ai-inference",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
       "rank": 6,
       "score": 82.6,
-      "metric": "23 votes · 168 views",
-      "summary": "Thinking Machines Lab introduces Inkling 2 Small, a 594B-parameter (17B active) Mixture-of-Experts model with image inputs and variable effort, trained with NVFP4 pretraining and a single joint RL run."
+      "metric": "135 votes · 20763 views",
+      "summary": "Today’s AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a given"
+    },
+    {
+      "id": "alpha-xiv-eb1977d1c41f",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://www.alphaxiv.org/abs/2611.08373",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-05T17:52:16.000Z",
+      "rank": 7,
+      "score": 80.4,
+      "metric": "15 votes · 154 views",
+      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often int"
+    },
+    {
+      "id": "alpha-xiv-4c447c379e8e",
+      "title": "MAC-v2: Long-horizon model-based value expansion from pixels",
+      "url": "https://www.alphaxiv.org/abs/2611.07245",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-04T23:51:02.000Z",
+      "rank": 8,
+      "score": 78.2,
+      "metric": "6 votes · 62 views",
+      "summary": "We study whether \\emph{long-horizon model-based value expansion} can serve as an effective framework in pixel-based offline reinforcement learning (RL). Long-horizon model-based value expansion from pixels is substantially harder than state-based environments, as the agent must l"
+    },
+    {
+      "id": "alpha-xiv-e56580610bff",
+      "title": "Learning Dynamics of On-Policy Distillation",
+      "url": "https://www.alphaxiv.org/abs/2611.08016",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-05T13:38:26.000Z",
+      "rank": 9,
+      "score": 76,
+      "metric": "14 votes · 108 views",
+      "summary": "On-policy distillation (OPD) is emerging as an important paradigm for language-model post-training, combining dense teacher supervision with training on student-generated trajectories. This creates a feedback loop where each update changes the student and thereby the training dis"
     },
     {
       "id": "alpha-xiv-61d44ff13060",
@@ -267,49 +306,23 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-03T18:17:23.000Z",
-      "rank": 7,
-      "score": 80.4,
-      "metric": "121 votes · 2297 views",
+      "rank": 10,
+      "score": 73.8,
+      "metric": "157 votes · 2915 views",
       "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice littl"
     },
     {
-      "id": "alpha-xiv-147f7429754d",
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "url": "https://www.alphaxiv.org/abs/2611.06910",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-04T18:56:22.000Z",
-      "rank": 8,
-      "score": 78.2,
-      "metric": "86 votes · 892 views",
-      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce Fron"
-    },
-    {
-      "id": "alpha-xiv-4951eefebfb7",
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "url": "https://www.alphaxiv.org/abs/2611.06918",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-04T18:59:58.000Z",
-      "rank": 9,
-      "score": 76,
-      "metric": "26 votes · 292 views",
-      "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local ge"
-    },
-    {
-      "id": "alpha-xiv-04b4b54e4093",
-      "title": "SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving",
-      "url": "https://www.alphaxiv.org/abs/2611.sinkstate-recurrent-state-svd-llm-serving",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "rank": 10,
-      "score": 75.5,
-      "metric": "9 votes · 217 views",
-      "summary": "Hybrid models combine softmax attention with linear attention, which compresses history into fixed-size recurrent states to balance model quality and inference efficiency. However, linear attention has not pushed this compression to its limit: we find that the queries, keys, and "
+      "id": "apollo-daily-spark-ccb5f02b4fcd",
+      "title": "Equity Selloff Trims US Market Cap Gain to $5 Trillion YTD",
+      "url": "https://www.apollo.com/institutional/insights-news/insights/daily-spark/equity-selloff-trims-us-market-cap-gain-to-5-trillion-ytd",
+      "source": "Apollo Daily Spark",
+      "sourceKey": "apollo-daily-spark",
+      "category": "Macro & markets",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "rank": 1,
+      "score": 93.5,
+      "metric": "Financial Markets & Risk Dynamics",
+      "summary": "Despite the turbulence this week, the total market cap of the US stock market is still up $5 trillion since the beginning of the year, see chart below."
     },
     {
       "id": "apollo-daily-spark-379c272023d6",
@@ -319,8 +332,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "rank": 1,
-      "score": 93.5,
+      "rank": 2,
+      "score": 89.6,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "Through September 2026, the US labor market had kept unemployment below 5% for 61 straight months (since September 2021), putting it just three months shy of the record 64-month stretch set from 1965 to 1970, see chart below."
     },
@@ -332,8 +345,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-05T00:00:00.000Z",
-      "rank": 2,
-      "score": 89.6,
+      "rank": 3,
+      "score": 87.4,
       "metric": "Financial Markets & Risk Dynamics",
       "summary": "When rates are higher for longer, stress in credit markets starts migrating from the bottom, beginning with the lowest-rated credit."
     },
@@ -345,8 +358,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-04T00:00:00.000Z",
-      "rank": 3,
-      "score": 87.4,
+      "rank": 4,
+      "score": 85.2,
       "metric": "Global & Geopolitical Developments",
       "summary": "Since the conflict began, Iran has seen inflation near 90%, a collapsing currency and oil exports falling to essentially zero."
     },
@@ -358,8 +371,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "rank": 4,
-      "score": 85.2,
+      "rank": 5,
+      "score": 83,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "Nominal GDP growth is currently solid at around 6%, while S&P 500 earnings growth has surged to nearly 40% YoY."
     },
@@ -371,8 +384,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-02T00:00:00.000Z",
-      "rank": 5,
-      "score": 83,
+      "rank": 6,
+      "score": 80.8,
       "metric": "Monetary & Fiscal Policy",
       "summary": "A macroeconomic model based on the historical relationship between interest rates, GDP and inflation suggests the Fed would need to raise the Fed funds rate by about 275 basis points, from roughly 4% today to 6.75% by the end of 2027, to bring CPI back to its 2% target. Inflation"
     },
@@ -384,8 +397,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-01T00:00:00.000Z",
-      "rank": 6,
-      "score": 80.8,
+      "rank": 7,
+      "score": 78.6,
       "metric": "Monetary & Fiscal Policy",
       "summary": "Core PCE inflation is supposed to be 2%."
     },
@@ -397,8 +410,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "rank": 7,
-      "score": 78.6,
+      "rank": 8,
+      "score": 76.4,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "New data from the Fed shows that the US consumer is less K-shaped than commonly perceived."
     },
@@ -410,8 +423,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-10-30T00:00:00.000Z",
-      "rank": 8,
-      "score": 76.4,
+      "rank": 9,
+      "score": 74.2,
       "metric": "Financial Markets & Risk Dynamics",
       "summary": "Treasury issuance in 2026 has a weighted average maturity of just 1.7 years."
     },
@@ -423,23 +436,10 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "rank": 9,
-      "score": 74.2,
-      "metric": "Macroeconomic Indicators & Trends",
-      "summary": "With AI disruption potentially around the corner, there is a lot of discussion about moats at the moment."
-    },
-    {
-      "id": "apollo-daily-spark-a66a3eea26cf",
-      "title": "A Future Congress Will Have to Fix Social Security",
-      "url": "https://www.apollo.com/institutional/insights-news/insights/daily-spark/a-future-congress-will-have-to-fix-social-security",
-      "source": "Apollo Daily Spark",
-      "sourceKey": "apollo-daily-spark",
-      "category": "Macro & markets",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
       "rank": 10,
       "score": 72,
-      "metric": "Monetary & Fiscal Policy",
-      "summary": "Social Security is financed mainly by a 12.4% payroll tax on wages up to an annual cap, split between workers and employers, with additional revenue from income taxes on benefits and interest on trust fund reserves."
+      "metric": "Macroeconomic Indicators & Trends",
+      "summary": "With AI disruption potentially around the corner, there is a lot of discussion about moats at the moment."
     },
     {
       "id": "blackrock-bii-8c3c11745577",
@@ -547,130 +547,32 @@
       "summaryZh": "随着海湾合作委员会经济体加速多元化超越碳氢化合物，金融未来正在中东成形。详见我们最新全球洞察。"
     },
     {
-      "id": "github-bfa9b4aac3eb",
-      "title": "zed-industries / zed",
-      "url": "https://github.com/zed-industries/zed",
+      "id": "github-1ceb56a3b374",
+      "title": "vercel-labs / agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
       "rank": 1,
       "score": 116,
-      "metric": "Rust · 306 stars today",
-      "summary": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "titleZh": "zed-industries / zed"
+      "metric": "Rust · 190 stars today",
+      "summary": "Browser automation CLI for AI agents",
+      "titleZh": "vercel-labs / agent-browser"
     },
     {
-      "id": "github-8ac198972094",
-      "title": "NVIDIA / auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
+      "id": "github-6426decba2ef",
+      "title": "cloudflare / security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
       "rank": 2,
       "score": 113.8,
-      "metric": "Python · 2,015 stars today",
-      "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "titleZh": "NVIDIA / auto-ontology"
-    },
-    {
-      "id": "github-7e96f5920135",
-      "title": "rails / rails",
-      "url": "https://github.com/rails/rails",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 3,
-      "score": 111.6,
-      "metric": "Ruby · 142 stars today",
-      "summary": "Ruby on Rails",
-      "titleZh": "rails / rails"
-    },
-    {
-      "id": "github-52b00cab52f5",
-      "title": "mpv-player / mpv",
-      "url": "https://github.com/mpv-player/mpv",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 4,
-      "score": 109.4,
-      "metric": "C · 37 stars today",
-      "summary": "🎥 Command line media player",
-      "titleZh": "mpv-player / mpv"
-    },
-    {
-      "id": "github-4ee39abf60ee",
-      "title": "rust-lang / rust",
-      "url": "https://github.com/rust-lang/rust",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 5,
-      "score": 107.2,
-      "metric": "Rust · 192 stars today",
-      "summary": "Empowering everyone to build reliable and efficient software.",
-      "titleZh": "rust-lang / rust"
-    },
-    {
-      "id": "github-7dd2e688b5a7",
-      "title": "react / react",
-      "url": "https://github.com/react/react",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 6,
-      "score": 105,
-      "metric": "JavaScript · 248 stars today",
-      "summary": "The library for web and native user interfaces.",
-      "titleZh": "react / react"
-    },
-    {
-      "id": "github-99c58b0dd06f",
-      "title": "angular / angular",
-      "url": "https://github.com/angular/angular",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 7,
-      "score": 102.8,
-      "metric": "TypeScript · 135 stars today",
-      "summary": "Deliver web apps with confidence 🚀",
-      "titleZh": "angular / angular"
-    },
-    {
-      "id": "github-80183508472d",
-      "title": "symfony / symfony",
-      "url": "https://github.com/symfony/symfony",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 8,
-      "score": 100.6,
-      "metric": "PHP · 128 stars today",
-      "summary": "The Symfony PHP framework",
-      "titleZh": "symfony / symfony"
-    },
-    {
-      "id": "github-817a11c3933a",
-      "title": "prometheus / prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 9,
-      "score": 98.4,
-      "metric": "Go · 148 stars today",
-      "summary": "The Prometheus monitoring system and time series database.",
-      "titleZh": "prometheus / prometheus"
+      "metric": "JavaScript · 2,085 stars today",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "titleZh": "cloudflare / security-audit-skill"
     },
     {
       "id": "github-876f4401e17e",
@@ -679,12 +581,110 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-07T02:58:06.701Z",
-      "rank": 10,
-      "score": 96.2,
-      "metric": "Python · 534 stars today",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 3,
+      "score": 111.6,
+      "metric": "Python · 443 stars today",
       "summary": "Agent Skills for Google products and technologies",
       "titleZh": "google / skills"
+    },
+    {
+      "id": "github-76608378b664",
+      "title": "mattpocock / skills",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 4,
+      "score": 109.4,
+      "metric": "Shell · 1,100 stars today",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "titleZh": "mattpocock / skills"
+    },
+    {
+      "id": "github-10ba719313a0",
+      "title": "anthropics / skills",
+      "url": "https://github.com/anthropics/skills",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 5,
+      "score": 107.2,
+      "metric": "Python · 390 stars today",
+      "summary": "Public repository for Agent Skills",
+      "titleZh": "anthropics / skills"
+    },
+    {
+      "id": "github-0d415288aaf6",
+      "title": "meta / astryx",
+      "url": "https://github.com/meta/astryx",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 6,
+      "score": 105,
+      "metric": "TypeScript · 96 stars today",
+      "summary": "An open source design system that's fully customizable and agent ready",
+      "titleZh": "meta / astryx"
+    },
+    {
+      "id": "github-817a11c3933a",
+      "title": "prometheus / prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 7,
+      "score": 102.8,
+      "metric": "Go · 322 stars today",
+      "summary": "The Prometheus monitoring system and time series database.",
+      "titleZh": "prometheus / prometheus"
+    },
+    {
+      "id": "github-eb8e266816bc",
+      "title": "sherlock-project / sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 8,
+      "score": 100.6,
+      "metric": "Python · 1,766 stars today",
+      "summary": "Hunt down social media accounts by username across social networks",
+      "titleZh": "sherlock-project / sherlock"
+    },
+    {
+      "id": "github-239feae36314",
+      "title": "milind-soni / OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 9,
+      "score": 98.4,
+      "metric": "TypeScript · 1,955 stars today",
+      "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "titleZh": "milind-soni / OpenMausBot"
+    },
+    {
+      "id": "github-e9e37faea4d9",
+      "title": "astral-sh / ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-08T02:35:21.905Z",
+      "rank": 10,
+      "score": 96.2,
+      "metric": "Rust · 350 stars today",
+      "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+      "titleZh": "astral-sh / ruff"
     },
     {
       "id": "goldman-sachs-5eaeb68d8975",
@@ -833,124 +833,124 @@
       "summaryZh": "1970年至2024年，美国建筑行业生产率下降了30%，而整体经济生产率则翻了一番多。"
     },
     {
-      "id": "hacker-news-68be897c8b54",
-      "title": "Libghostty 1.0",
-      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "id": "hacker-news-1eeaf5457cb1",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T23:30:52.000Z",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
       "rank": 1,
-      "score": 106.5,
-      "metric": "253 pts · 38 comments"
+      "score": 102.7,
+      "metric": "397 pts · 236 comments"
     },
     {
-      "id": "hacker-news-ef2a83f7f3a4",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "id": "hacker-news-e4da1fc3654c",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T19:48:51.000Z",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
       "rank": 2,
-      "score": 101.3,
-      "metric": "360 pts · 81 comments"
+      "score": 100.6,
+      "metric": "352 pts · 87 comments"
     },
     {
-      "id": "hacker-news-f38a17de3acf",
-      "title": "I Toured Unitree's Factory. I'm More Bullish on the West",
-      "url": "https://josef.cn/blog/unitree",
+      "id": "hacker-news-9c95d9f4cc46",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-07T01:05:16.000Z",
+      "publishedAt": "2026-11-07T17:06:36.000Z",
       "rank": 3,
-      "score": 104.2,
-      "metric": "34 pts · 20 comments"
+      "score": 97.9,
+      "metric": "377 pts · 249 comments"
     },
     {
-      "id": "hacker-news-119dda2f4fb7",
-      "title": "Tesla to wind down Cybertruck production",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "id": "hacker-news-15a5be954f3e",
+      "title": "Making any integer with four 2s (2025)",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T12:13:51.000Z",
+      "publishedAt": "2026-11-07T22:38:58.000Z",
       "rank": 4,
-      "score": 93.7,
-      "metric": "873 pts · 1735 comments"
+      "score": 99.4,
+      "metric": "66 pts · 16 comments"
     },
     {
-      "id": "hacker-news-240180ffb53a",
-      "title": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
-      "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747",
+      "id": "hacker-news-5186d80b7eef",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-04T02:19:16.000Z",
+      "publishedAt": "2026-11-07T20:45:32.000Z",
       "rank": 5,
-      "score": 87,
-      "metric": "32 pts · 1 comments"
+      "score": 95.6,
+      "metric": "195 pts · 131 comments"
     },
     {
-      "id": "hacker-news-f441801c064c",
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "url": "https://pwn.ai/blog/firecracker-escape",
+      "id": "hacker-news-3bcdfa6e04aa",
+      "title": "GitHub New pull request overview page in public preview",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T19:33:38.000Z",
+      "publishedAt": "2026-11-07T23:09:40.000Z",
       "rank": 6,
-      "score": 92.4,
-      "metric": "182 pts · 81 comments"
+      "score": 95.5,
+      "metric": "71 pts · 53 comments"
     },
     {
-      "id": "hacker-news-82db5536ec36",
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05",
+      "id": "hacker-news-e9262ebde8d5",
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T04:00:28.000Z",
+      "publishedAt": "2026-11-05T10:52:04.000Z",
       "rank": 7,
-      "score": 85,
-      "metric": "290 pts · 229 comments"
+      "score": 82.6,
+      "metric": "73 pts · 32 comments"
     },
     {
-      "id": "hacker-news-b42d708d4108",
-      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
-      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553",
+      "id": "hacker-news-273bbe1e4197",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T23:37:19.000Z",
+      "publishedAt": "2026-11-07T09:36:36.000Z",
       "rank": 8,
-      "score": 91.2,
-      "metric": "32 pts · 8 comments"
+      "score": 84.2,
+      "metric": "832 pts · 229 comments"
     },
     {
-      "id": "hacker-news-0ec4cf12020c",
-      "title": "Outbound SIP calling is now available to all organizations",
-      "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+      "id": "hacker-news-f7fffb994d85",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-06T23:03:55.000Z",
+      "publishedAt": "2026-11-07T17:19:00.000Z",
       "rank": 9,
-      "score": 88.4,
-      "metric": "54 pts · 39 comments"
+      "score": 84.8,
+      "metric": "208 pts · 64 comments"
     },
     {
-      "id": "hacker-news-d03dbb721ad3",
-      "title": "Can GROUP BY still be optimized after all these years?",
-      "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation",
+      "id": "hacker-news-75033d6b18a0",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "url": "https://github.com/hedgerow-dev/coldframe",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-03T16:30:23.000Z",
+      "publishedAt": "2026-11-07T17:27:30.000Z",
       "rank": 10,
-      "score": 76,
-      "metric": "48 pts · 2 comments"
+      "score": 82.6,
+      "metric": "193 pts · 42 comments"
     },
     {
       "id": "hugging-face-df6c520de2e5",
@@ -961,8 +961,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 1,
-      "score": 95.3,
-      "metric": "1 upvotes",
+      "score": 93.6,
+      "metric": "3 upvotes",
       "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarizati"
     },
     {
@@ -974,8 +974,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 2,
-      "score": 93.1,
-      "metric": "1 upvotes",
+      "score": 91.4,
+      "metric": "3 upvotes",
       "summary": "Signed retrieval packs can contain embedding vectors that do not match their text, and practical vector verification and compressed-index audits leave many queries vulnerable, while code-level verification with calibrated ambiguity handling accepts honest vectors."
     },
     {
@@ -987,8 +987,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 3,
-      "score": 90.9,
-      "metric": "3 upvotes",
+      "score": 89.2,
+      "metric": "4 upvotes",
       "summary": "StepX-OPD jointly trains a text-to-image diffusion model to acquire capabilities and few-step sampling simultaneously, outperforming sequential approaches while reducing training cost."
     },
     {
@@ -1000,8 +1000,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 4,
-      "score": 88.7,
-      "metric": "3 upvotes",
+      "score": 87,
+      "metric": "8 upvotes",
       "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for eac"
     },
     {
@@ -1013,8 +1013,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 5,
-      "score": 86.5,
-      "metric": "2 upvotes",
+      "score": 84.8,
+      "metric": "4 upvotes",
       "summary": "OpenFrontiers links a broad corpus of open research problems with a formally graded benchmark of recently resolved mathematics problems to evaluate LLM agents’ ability to rediscover solutions under different information-access conditions."
     },
     {
@@ -1026,8 +1026,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 6,
-      "score": 84.3,
-      "metric": "7 upvotes",
+      "score": 82.6,
+      "metric": "10 upvotes",
       "summary": "TB-MathModel is a terminal benchmark that makes complete contest-style mathematical modeling problems agentic and verifiable, scoring final numeric answers against multiple human references with feasibility checks."
     },
     {
@@ -1039,8 +1039,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 7,
-      "score": 82.1,
-      "metric": "5 upvotes",
+      "score": 80.4,
+      "metric": "8 upvotes",
       "summary": "A linear attention architecture called Muir allocates gate capacity by sensitivity, uses matched-filter readout and a stable parallel update, improving language modeling, long-context recall, and training speed over Gated DeltaNet-2 and Transformer baselines."
     },
     {
@@ -1052,8 +1052,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 8,
-      "score": 79.9,
-      "metric": "2 upvotes",
+      "score": 78.2,
+      "metric": "3 upvotes",
       "summary": "Firms’ capacity adjustments to cash-flow shocks are modeled as costly competitive moves and tested through simulation and news/analyst data using language-model-based relevance measures."
     },
     {
@@ -1065,8 +1065,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 9,
-      "score": 77.7,
-      "metric": "2 upvotes",
+      "score": 76,
+      "metric": "6 upvotes",
       "summary": "Prepending trainable [DUMP] tokens during embedding model training reduces residual token-level signals and improves retrieval representations without changing architecture, pooling, or loss."
     },
     {
@@ -1078,8 +1078,8 @@
       "category": "Research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "rank": 10,
-      "score": 75.5,
-      "metric": "1 upvotes",
+      "score": 73.8,
+      "metric": "2 upvotes",
       "summary": "ViT-HarDis conditions attention head disentanglement on sample difficulty, applying stronger decorrelation to hard face-recognition samples and only in final transformer layers to improve recognition without architectural changes or extra inference cost."
     },
     {
@@ -1337,6 +1337,18 @@
       "summary": "The expanded form of a testimony I prepared for Congress."
     },
     {
+      "id": "latent-space-d62fbfe2fc04",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now",
+      "source": "Latent Space",
+      "sourceKey": "latent-space",
+      "category": "AI engineering",
+      "publishedAt": "2026-11-07T03:04:53.000Z",
+      "rank": 1,
+      "score": 87.5,
+      "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails."
+    },
+    {
       "id": "latent-space-b18e8924e9aa",
       "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
       "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich",
@@ -1344,8 +1356,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-06T15:10:53.000Z",
-      "rank": 1,
-      "score": 90.7,
+      "rank": 2,
+      "score": 83.4,
       "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology"
     },
     {
@@ -1356,8 +1368,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-06T10:35:21.000Z",
-      "rank": 2,
-      "score": 87,
+      "rank": 3,
+      "score": 80.8,
       "summary": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic."
     },
     {
@@ -1368,8 +1380,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-05T06:24:09.000Z",
-      "rank": 3,
-      "score": 80.8,
+      "rank": 4,
+      "score": 78.6,
       "summary": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B."
     },
     {
@@ -1380,8 +1392,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-04T19:17:30.000Z",
-      "rank": 4,
-      "score": 78.6,
+      "rank": 5,
+      "score": 76.4,
       "summary": "November 3, 2026 — A quiet day lets us share some behind the senes."
     },
     {
@@ -1392,8 +1404,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-03T05:35:00.000Z",
-      "rank": 5,
-      "score": 76.4,
+      "rank": 6,
+      "score": 74.2,
       "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark."
     },
     {
@@ -1404,8 +1416,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-02T23:01:02.000Z",
-      "rank": 6,
-      "score": 74.2,
+      "rank": 7,
+      "score": 72,
       "summary": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model"
     },
     {
@@ -1416,8 +1428,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-02T22:54:03.000Z",
-      "rank": 7,
-      "score": 72,
+      "rank": 8,
+      "score": 69.8,
       "summary": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies..."
     },
     {
@@ -1428,8 +1440,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-10-31T16:05:00.000Z",
-      "rank": 8,
-      "score": 69.8,
+      "rank": 9,
+      "score": 67.6,
       "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days."
     },
     {
@@ -1440,21 +1452,9 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-10-31T05:00:48.000Z",
-      "rank": 9,
-      "score": 67.6,
-      "summary": "It turns out you cannot have your cake AND eat it"
-    },
-    {
-      "id": "latent-space-371b1e06db16",
-      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
-      "source": "Latent Space",
-      "sourceKey": "latent-space",
-      "category": "AI engineering",
-      "publishedAt": "2026-10-30T08:24:29.000Z",
       "rank": 10,
       "score": 65.4,
-      "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps."
+      "summary": "It turns out you cannot have your cake AND eat it"
     },
     {
       "id": "mckinsey-mgi-3bfee1f669a0",
@@ -1470,6 +1470,18 @@
       "metric": "MGI research"
     },
     {
+      "id": "semi-analysis-881c7e199684",
+      "title": "We Visited China’s Stargate in Inner Mongolia",
+      "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+      "source": "SemiAnalysis",
+      "sourceKey": "semi-analysis",
+      "category": "AI infrastructure",
+      "publishedAt": "2026-11-07T19:01:39.000Z",
+      "rank": 1,
+      "score": 99.3,
+      "summary": "A wind-powered 800MW campus, 120MW built within a year, a 5MW SST-native 800V DC pilot and a cooling design without central chillers"
+    },
+    {
       "id": "semi-analysis-51318c175f43",
       "title": "The Iron(wood) Throne: Google's TPU Stakes Its Claim on Inference",
       "url": "https://newsletter.semianalysis.com/p/tpu-strikes-the-king",
@@ -1477,8 +1489,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-11-05T19:03:45.000Z",
-      "rank": 1,
-      "score": 92.7,
+      "rank": 2,
+      "score": 89.6,
       "summary": "Viable Alternative of CUDA Moat, NVIDIA scared and working nights & weekends, Jensen’s Counter Submission, Kimi K3, Muse Spark Open, Qwen, GLM5.3, TorchTPU, vLLM, SGLang, llm-d, Ray"
     },
     {
@@ -1489,8 +1501,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-11-03T20:44:53.000Z",
-      "rank": 2,
-      "score": 89.6,
+      "rank": 3,
+      "score": 87.4,
       "summary": "Making 13GW in 1.5 Years A Reality, Repurposing Rocket Ship Campuses, A Datacenter at TeraFab?"
     },
     {
@@ -1501,8 +1513,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-11-02T01:51:42.000Z",
-      "rank": 3,
-      "score": 87.4,
+      "rank": 4,
+      "score": 85.2,
       "summary": "A frontier benchmark spanning RSI, hardware design, cyber, bio, finance, legal, quant trading, chip design, software engineering, materials science, and alignment"
     },
     {
@@ -1513,8 +1525,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-11-01T18:40:45.000Z",
-      "rank": 4,
-      "score": 85.2,
+      "rank": 5,
+      "score": 83,
       "summary": "2027 is largely locked in. 2028 is less secure: a prolonged Texas permit freeze is now the biggest single risk to the US buildout, and both parties are running on tighter rules"
     },
     {
@@ -1525,8 +1537,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-10-23T19:06:44.000Z",
-      "rank": 5,
-      "score": 83,
+      "rank": 6,
+      "score": 80.8,
       "summary": "Trainium Best for Inference? But now good for Training too, Native Trainium PyTorch, High Quality CI, TorchTitan, GPU Impossible Profiler"
     },
     {
@@ -1537,8 +1549,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-10-21T17:34:38.000Z",
-      "rank": 6,
-      "score": 80.8,
+      "rank": 7,
+      "score": 78.6,
       "summary": "Huawei Ascend 950PR Deep dive & µbenchmarks, DSv4.1 Flash Analysis, DeepSeek support for Ascend"
     },
     {
@@ -1549,8 +1561,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-10-19T05:39:38.000Z",
-      "rank": 7,
-      "score": 78.6,
+      "rank": 8,
+      "score": 76.4,
       "summary": "60GW Under Construction, SemiAnalysis Leading Indicators, 1.3T of Lease Contracts Signed YTD, The Shortage Could Move to Chips"
     },
     {
@@ -1561,8 +1573,8 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-10-15T19:27:20.000Z",
-      "rank": 8,
-      "score": 76.4,
+      "rank": 9,
+      "score": 74.2,
       "summary": "ASML is building a hybrid bonding tool! The company has not announced anything yet, but its patent filings, a news report and its own roadmap all suggest so."
     },
     {
@@ -1573,21 +1585,21 @@
       "sourceKey": "semi-analysis",
       "category": "AI infrastructure",
       "publishedAt": "2026-10-08T17:46:05.000Z",
-      "rank": 9,
-      "score": 74.2,
+      "rank": 10,
+      "score": 72,
       "summary": "AI safety is on fire."
     },
     {
-      "id": "semi-analysis-ebdbe868a594",
-      "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
-      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
-      "source": "SemiAnalysis",
-      "sourceKey": "semi-analysis",
-      "category": "AI infrastructure",
-      "publishedAt": "2026-10-05T20:01:09.000Z",
-      "rank": 10,
-      "score": 72,
-      "summary": "Limit testing every AI subscription plan from Anthropic, OpenAI, Meta, SpaceXSI, MiniMax, Moonshot, Z.ai, Cursor, and Cognition"
+      "id": "simon-willison-f5913b377964",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next",
+      "source": "Simon Willison",
+      "sourceKey": "simon-willison",
+      "category": "Applied AI",
+      "publishedAt": "2026-11-07T23:57:46.000Z",
+      "rank": 1,
+      "score": 99.1,
+      "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening b"
     },
     {
       "id": "simon-willison-f90dfea2fa01",
@@ -1597,8 +1609,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-06T17:13:12.000Z",
-      "rank": 1,
-      "score": 93.8,
+      "rank": 2,
+      "score": 85.8,
       "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyo"
     },
     {
@@ -1609,8 +1621,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-05T17:34:03.000Z",
-      "rank": 2,
-      "score": 85.8,
+      "rank": 3,
+      "score": 83,
       "summary": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . — Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford , web-development"
     },
     {
@@ -1621,8 +1633,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-04T15:26:02.000Z",
-      "rank": 3,
-      "score": 83,
+      "rank": 4,
+      "score": 80.8,
       "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm"
     },
     {
@@ -1633,8 +1645,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-04T00:29:36.000Z",
-      "rank": 4,
-      "score": 80.8,
+      "rank": 5,
+      "score": 78.6,
       "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be ta"
     },
     {
@@ -1645,8 +1657,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-03T23:13:45.000Z",
-      "rank": 5,
-      "score": 78.6,
+      "rank": 6,
+      "score": 76.4,
       "summary": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this me"
     },
     {
@@ -1657,8 +1669,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-03T21:41:42.000Z",
-      "rank": 6,
-      "score": 76.4,
+      "rank": 7,
+      "score": 74.2,
       "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm"
     },
     {
@@ -1669,8 +1681,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-03T16:29:48.000Z",
-      "rank": 7,
-      "score": 74.2,
+      "rank": 8,
+      "score": 72,
       "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier mod"
     },
     {
@@ -1681,8 +1693,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-03T05:32:25.000Z",
-      "rank": 8,
-      "score": 72,
+      "rank": 9,
+      "score": 69.8,
       "summary": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference th"
     },
     {
@@ -1693,21 +1705,9 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-03T05:28:59.000Z",
-      "rank": 9,
-      "score": 69.8,
-      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for"
-    },
-    {
-      "id": "simon-willison-db8b36c17fea",
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm",
-      "source": "Simon Willison",
-      "sourceKey": "simon-willison",
-      "category": "Applied AI",
-      "publishedAt": "2026-11-02T23:49:30.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure "
+      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for"
     },
     {
       "id": "stratechery-443196181aee",
@@ -1718,7 +1718,7 @@
       "category": "Strategy",
       "publishedAt": "2026-11-06T18:14:42.000Z",
       "rank": 1,
-      "score": 94.2,
+      "score": 88.2,
       "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China."
     },
     {
@@ -1730,7 +1730,7 @@
       "category": "Strategy",
       "publishedAt": "2026-11-06T11:00:00.000Z",
       "rank": 2,
-      "score": 89.3,
+      "score": 85.2,
       "summary": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery"
     },
     {
@@ -1830,6 +1830,90 @@
       "summary": "Meta's earnings come in the context of Zuckerberg delivering on his promise; if investors believe in Muse they must support Meta's spending on compute."
     },
     {
+      "id": "techcrunch-d44fec61ccb7",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "rank": 1,
+      "score": 97.1,
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry."
+    },
+    {
+      "id": "techcrunch-2c93e9013ac1",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "rank": 2,
+      "score": 94.2,
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO."
+    },
+    {
+      "id": "techcrunch-782ffd47a51f",
+      "title": "Parents want safer phones for kids. These companies are answering the call.",
+      "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "rank": 3,
+      "score": 90.5,
+      "summary": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones."
+    },
+    {
+      "id": "techcrunch-f777d8aa2bf4",
+      "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
+      "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T17:24:07.000Z",
+      "rank": 4,
+      "score": 87.4,
+      "summary": "The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users."
+    },
+    {
+      "id": "techcrunch-de8f61359cd8",
+      "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
+      "url": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T17:18:00.000Z",
+      "rank": 5,
+      "score": 85.2,
+      "summary": "Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved display make a compelling case for skipping the pricier models."
+    },
+    {
+      "id": "techcrunch-a0f4bc0ee5c7",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T05:01:54.000Z",
+      "rank": 6,
+      "score": 79.1,
+      "summary": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form."
+    },
+    {
+      "id": "techcrunch-0819cd72b72e",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-07T04:16:43.000Z",
+      "rank": 7,
+      "score": 76.8,
+      "summary": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do."
+    },
+    {
       "id": "techcrunch-c2107a5a7cf6",
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
@@ -1837,8 +1921,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-07T01:40:28.000Z",
-      "rank": 1,
-      "score": 101.3,
+      "rank": 8,
+      "score": 74,
       "summary": "The deal highlights the challenges of developing massive AI data centers."
     },
     {
@@ -1849,8 +1933,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-06T22:53:46.000Z",
-      "rank": 2,
-      "score": 95.2,
+      "rank": 9,
+      "score": 71.3,
       "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
     },
     {
@@ -1861,226 +1945,142 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-06T21:38:05.000Z",
-      "rank": 3,
-      "score": 91.9,
+      "rank": 10,
+      "score": 68.9,
       "summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily."
     },
     {
-      "id": "techcrunch-29c568495a81",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T18:44:38.000Z",
-      "rank": 4,
-      "score": 87.9,
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool."
-    },
-    {
-      "id": "techcrunch-016e849ea3ab",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T18:44:20.000Z",
-      "rank": 5,
-      "score": 85.7,
-      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers."
-    },
-    {
-      "id": "techcrunch-ef57b5d47585",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T17:23:52.000Z",
-      "rank": 6,
-      "score": 82.8,
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even "
-    },
-    {
-      "id": "techcrunch-81e4cffc9954",
-      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-      "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T16:50:01.000Z",
-      "rank": 7,
-      "score": 80.4,
-      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process."
-    },
-    {
-      "id": "techcrunch-f959e1653374",
-      "title": "Fox completes its $22B acquisition of Roku",
-      "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T16:05:36.000Z",
-      "rank": 8,
-      "score": 77.9,
-      "summary": "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku."
-    },
-    {
-      "id": "techcrunch-7c70b636a2cf",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T15:54:47.000Z",
-      "rank": 9,
-      "score": 75.6,
-      "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth."
-    },
-    {
-      "id": "techcrunch-4a6109d50595",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-06T14:10:00.000Z",
-      "rank": 10,
-      "score": 72.7,
-      "summary": "Amazon said that the feature will roll out to millions of users in coming weeks."
-    },
-    {
-      "id": "techmeme-b71991e4c558",
-      "title": "Sources: US officials believe Jensen Huang had a romantic relationship with Alice Huang, who they allege was recruited to spy for China's top spy agency, MSS (Demetri Sevastopulo/Financial Times)",
-      "url": "https://www.techmeme.com/261106/p29",
+      "id": "techmeme-66c32199089f",
+      "title": "Anthropic-backed AI safety super PAC Public First spent $63M+ in the 2026 midterms, and 10 of the 17 congressional candidates it backed won their elections (Emily Birnbaum/Bloomberg)",
+      "url": "https://www.techmeme.com/261107/p17",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-07T02:50:02.000Z",
+      "publishedAt": "2026-11-08T00:45:01.000Z",
       "rank": 1,
-      "score": 107,
-      "summary": "Demetri Sevastopulo / Financial Times : Sources: US officials believe Jensen Huang had a romantic relationship with Alice Huang, who they allege was recruited to spy for China's top spy agency, MSS — American intelligence warned the tech boss was involved with executive recruited"
+      "score": 102.5,
+      "summary": "Emily Birnbaum / Bloomberg : Anthropic-backed AI safety super PAC Public First spent $63M+ in the 2026 midterms, and 10 of the 17 congressional candidates it backed won their elections — Candidates who favor stricter oversight of artificial intelligence racked up wins in key cong"
     },
     {
-      "id": "techmeme-57b0bd5f2d96",
-      "title": "Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users (Frederic Lardinois/The New Stack)",
-      "url": "https://www.techmeme.com/261106/p28",
+      "id": "techmeme-2386b4dfa2a5",
+      "title": "US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion (Francisco Rodrigues/CoinDesk)",
+      "url": "https://www.techmeme.com/261107/p16",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-07T01:50:00.000Z",
+      "publishedAt": "2026-11-07T22:45:01.000Z",
       "rank": 2,
-      "score": 101.7,
-      "summary": "Frederic Lardinois / The New Stack : Meta introduces specialized versions of its existing models, trained using Muse Wonder, bringing Active Memory and Active Focus to all Muse and Meta AI users — Starting on Friday, everyone using Meta's Muse agent and Meta AI gets new models th"
+      "score": 97.7,
+      "summary": "Francisco Rodrigues / CoinDesk : US Treasury moves to cut crypto exchange MEXC off from the US financial system, alleging $16B+ in illicit flows, including Russian and Iranian sanctions evasion — The U.S. Treasury is moving to cut off crypto exchange MEXC from the U.S. financial "
     },
     {
-      "id": "techmeme-8cb7d8ee12f1",
-      "title": "CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B (Loren Grush/Bloomberg)",
-      "url": "https://www.techmeme.com/261106/p27",
+      "id": "techmeme-396fec487dbc",
+      "title": "Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. (Arundhati Hazra/The Guardian)",
+      "url": "https://www.techmeme.com/261107/p15",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-07T00:01:09.000Z",
+      "publishedAt": "2026-11-07T21:40:00.000Z",
       "rank": 3,
-      "score": 96.5,
-      "summary": "Loren Grush / Bloomberg : CesiumAstro, which plans a 737-satellite LEO communications network at two altitudes, raised $730M at a $4.5B+ valuation, bringing its total funding to $1.4B — CesiumAstro raised $730 million in its latest funding round, a cash infusion the Austin-based "
+      "score": 94.5,
+      "summary": "Arundhati Hazra / The Guardian : Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. — Power and water constraints are pressuring what seemed like a juggernaut of growth f"
     },
     {
-      "id": "techmeme-9dbe56d209ca",
-      "title": "Apple says the App Store has over 100K apps built for the iPhone Duo and \"thousands of optimized apps are being added to the store each day\" (Jay Peters/The Verge)",
-      "url": "https://www.techmeme.com/261106/p26",
+      "id": "techmeme-d456ef9a5c59",
+      "title": "Public records appear to show SpaceX building a \"Starbase supercomputer\" in TX, but Gina Hinojosa's election as governor may delay some of the data center plans (Ann Davis Vaughan/The Information)",
+      "url": "https://www.techmeme.com/261107/p14",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-06T23:20:01.000Z",
+      "publishedAt": "2026-11-07T19:40:04.000Z",
       "rank": 4,
-      "score": 93.5,
-      "summary": "Jay Peters / The Verge : Apple says the App Store has over 100K apps built for the iPhone Duo and “thousands of optimized apps are being added to the store each day” — Even though a lot of apps have been updated for the iPhone Duo, they sometimes still have issues."
+      "score": 90.8,
+      "summary": "Ann Davis Vaughan / The Information : Public records appear to show SpaceX building a “Starbase supercomputer” in TX, but Gina Hinojosa's election as governor may delay some of the data center plans — Elon Musk moved early to build AI data centers in Tennessee and Mississippi and"
     },
     {
-      "id": "techmeme-6c1d77381320",
-      "title": "Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project (Lynn Doan/Bloomberg)",
-      "url": "https://www.techmeme.com/261106/p25",
+      "id": "techmeme-1df8fcde3588",
+      "title": "Binance says CFO Kaiser Ng is leaving to \"pursue a new venture\" days after a $6.3B hack, citing a six-month transition plan, and names Justin Yek as CFO (Bloomberg)",
+      "url": "https://www.techmeme.com/261107/p13",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-06T23:15:02.000Z",
+      "publishedAt": "2026-11-07T18:01:40.000Z",
       "rank": 5,
-      "score": 91.2,
-      "summary": "Lynn Doan / Bloomberg : Crusoe says Google has bought out its data center site in southeast Wyoming; Crusoe reportedly failed to lock in customers including Google for the project — Alphabet Inc.'s Google has bought out Crusoe's data center site in southeast Wyoming, opting to ta"
-    },
-    {
-      "id": "techmeme-03c35ab8dcdf",
-      "title": "Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang (New York Times)",
-      "url": "https://www.techmeme.com/261106/p24",
-      "source": "Techmeme",
-      "sourceKey": "techmeme",
-      "category": "Technology news",
-      "publishedAt": "2026-11-06T21:46:41.000Z",
-      "rank": 6,
       "score": 87.7,
-      "summary": "New York Times : Sources: US intelligence concluded that Megaspeed executive Alice Huang was recruited by China's top spy agency MSS to collect intelligence on Jensen Huang — U.S. intelligence concluded that Alice Huang, a Chinese business executive who developed a close relation"
+      "summary": "Bloomberg : Binance says CFO Kaiser Ng is leaving to “pursue a new venture” days after a $6.3B hack, citing a six-month transition plan, and names Justin Yek as CFO — Kaiser Ng, the chief financial officer at Binance Holdings Ltd., the world's largest crypto exchange …"
     },
     {
-      "id": "techmeme-5e10f17aa4e6",
-      "title": "Filing: Google spent roughly $548M to buy around 3M shares of Qualcomm, which is pushing into serving the AI data center market (Ryan Barwick/The Information)",
-      "url": "https://www.techmeme.com/261106/p23",
+      "id": "techmeme-d8834872ce8f",
+      "title": "Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof \"shocking news\"; it could one day speed up chip design and break encryption (Cade Metz/New York Times)",
+      "url": "https://www.techmeme.com/261107/p12",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-06T21:35:00.000Z",
+      "publishedAt": "2026-11-07T17:15:01.000Z",
+      "rank": 6,
+      "score": 85.1,
+      "summary": "Cade Metz / New York Times : Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof “shocking news”; it could one day speed up chip design and break encryption — A longstanding hypothesis held that some problems would always be hard for computers to s"
+    },
+    {
+      "id": "techmeme-af0a0816111d",
+      "title": "Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees \"shaky\" projects killed (Cecile Daurat/Bloomberg)",
+      "url": "https://www.techmeme.com/261107/p11",
+      "source": "Techmeme",
+      "sourceKey": "techmeme",
+      "category": "Technology news",
+      "publishedAt": "2026-11-07T16:35:01.000Z",
       "rank": 7,
-      "score": 85.3,
-      "summary": "Ryan Barwick / The Information : Filing: Google spent roughly $548M to buy around 3M shares of Qualcomm, which is pushing into serving the AI data center market — Google's investment arm Google Ventures has acquired nearly 3 million shares of the chip maker Qualcomm, as a result "
+      "score": 82.6,
+      "summary": "Cecile Daurat / Bloomberg : Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees “shaky” projects killed — Guardrails against data-center expansion in states won by Democrats may help spread investm"
     },
     {
-      "id": "techmeme-226243970f2e",
-      "title": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total (Bloomberg)",
-      "url": "https://www.techmeme.com/261106/p22",
+      "id": "techmeme-01a5bb9d72fb",
+      "title": "Chicago-based data analytics company Ocient raised a $100M Series C co-led by Boka Capital and OCA Ventures to grow its agentic AI analytics business (Paul Gillin/SiliconANGLE)",
+      "url": "https://www.techmeme.com/261107/p10",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-06T21:15:00.000Z",
+      "publishedAt": "2026-11-07T15:30:01.000Z",
       "rank": 8,
-      "score": 82.9,
-      "summary": "Bloomberg : Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total — OpenAI has closed on new funding of roughly $11 billion, the initial part of a round that values the company at $1.25 trillion, acco"
+      "score": 80,
+      "summary": "Paul Gillin / SiliconANGLE : Chicago-based data analytics company Ocient raised a $100M Series C co-led by Boka Capital and OCA Ventures to grow its agentic AI analytics business — Ocient Inc., the maker of a speedy data analytics platform, today said it has raised $100 million i"
     },
     {
-      "id": "techmeme-342f4f7af93c",
-      "title": "Sources: Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80B-$100B at a valuation of $1.25T to $1.75T (Financial Times)",
-      "url": "https://www.techmeme.com/261106/p21",
+      "id": "techmeme-34de5d6c3676",
+      "title": "Investigation: some Chinese companies approved by the US Commerce Department to handle Nvidia's H200 chips have empty offices and ties to firms under sanctions (New York Times)",
+      "url": "https://www.techmeme.com/261107/p9",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-06T21:12:51.000Z",
+      "publishedAt": "2026-11-07T14:30:04.000Z",
       "rank": 9,
-      "score": 80.6,
-      "summary": "Financial Times : Sources: Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80B-$100B at a valuation of $1.25T to $1.75T — Claude-maker intends to list before Thanksgiving despite brutal tech rout — Anthropic is pressing o"
+      "score": 77.4,
+      "summary": "New York Times : Investigation: some Chinese companies approved by the US Commerce Department to handle Nvidia's H200 chips have empty offices and ties to firms under sanctions — The Commerce Department has approved dozens of Chinese companies to handle Nvidia's H200 chips, some "
     },
     {
-      "id": "techmeme-3b061f4c9e5d",
-      "title": "AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008 (PSI)",
-      "url": "https://www.techmeme.com/261106/p20",
+      "id": "techmeme-c23eab7af574",
+      "title": "Nasscom President Rajesh Nambiar warns AI could make it harder for fresh Indian engineering graduates to find jobs, urging an immediate CS curriculum overhaul (Sayan Chakraborty/Nikkei Asia)",
+      "url": "https://www.techmeme.com/261107/p8",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-06T19:35:01.000Z",
+      "publishedAt": "2026-11-07T11:40:01.000Z",
       "rank": 10,
-      "score": 77.4,
-      "summary": "PSI : AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008 — The Aaronson-Ambainis conjecture is now a theorem. — Open since 2008, the conjecture of Scott Aaronson and Andri"
+      "score": 74.2,
+      "summary": "Sayan Chakraborty / Nikkei Asia : Nasscom President Rajesh Nambiar warns AI could make it harder for fresh Indian engineering graduates to find jobs, urging an immediate CS curriculum overhaul — BENGALURU — Recent college graduates in India could struggle to land technology jobs "
     }
   ],
   "topTen": [
-    "github-bfa9b4aac3eb",
-    "github-8ac198972094",
-    "techmeme-b71991e4c558",
-    "hacker-news-68be897c8b54",
-    "hacker-news-f38a17de3acf",
-    "techmeme-57b0bd5f2d96",
-    "techcrunch-c2107a5a7cf6",
-    "hugging-face-df6c520de2e5",
-    "techcrunch-118369de89f0",
-    "alpha-xiv-3e4425caef42"
+    "github-1ceb56a3b374",
+    "github-6426decba2ef",
+    "hacker-news-1eeaf5457cb1",
+    "techmeme-66c32199089f",
+    "hacker-news-e4da1fc3654c",
+    "semi-analysis-881c7e199684",
+    "simon-willison-f5913b377964",
+    "techmeme-2386b4dfa2a5",
+    "techcrunch-d44fec61ccb7",
+    "techcrunch-2c93e9013ac1"
   ],
   "errors": [
     "blackrock-bii: BlackRock Investment Institute publications were not found",
