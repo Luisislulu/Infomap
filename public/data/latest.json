@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T03:25:00.379Z",
-  "issueDate": "2026-11-14",
-  "issueNumber": "2026.11.14",
+  "generatedAt": "2026-11-15T02:53:43.405Z",
+  "issueDate": "2026-11-15",
+  "issueNumber": "2026.11.15",
   "sources": [
     {
       "key": "github",
@@ -190,8 +190,8 @@
       "category": "Research discovery",
       "publishedAt": "2026-11-12T18:59:54.000Z",
       "rank": 1,
-      "score": 94.4,
-      "metric": "24 votes · 359 views",
+      "score": 93.6,
+      "metric": "75 votes · 891 views",
       "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choic"
     },
     {
@@ -203,9 +203,22 @@
       "category": "Research discovery",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 2,
-      "score": 93,
-      "metric": "29 votes · 601 views",
+      "score": 91.4,
+      "metric": "96 votes · 1152 views",
       "summary": "When high-quality data runs out, a common practice is to train on it for several epochs, but each repeat is worth less than the last. Latent feedback, which feeds each token’s top-layer state into the next token’s input, is another way to spend that compute, yet it has not been t"
+    },
+    {
+      "id": "alpha-xiv-1a636d526007",
+      "title": "An Energy-Based Perspective on Machine Learning",
+      "url": "https://www.alphaxiv.org/abs/2611.14383",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-10T17:37:22.000Z",
+      "rank": 3,
+      "score": 89.2,
+      "metric": "104 votes · 1356 views",
+      "summary": "Energy-based models (EBMs) define a distribution through a scalar energy, $p_\\theta(x)\\propto\\exp(-E_\\theta(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the d"
     },
     {
       "id": "alpha-xiv-f0923083634a",
@@ -215,23 +228,10 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-12T16:37:21.000Z",
-      "rank": 3,
-      "score": 89.7,
-      "metric": "18 votes · 211 views",
-      "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two compleme"
-    },
-    {
-      "id": "alpha-xiv-e5c2b965e40e",
-      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
-      "url": "https://www.alphaxiv.org/abs/2611.17336",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-12T18:59:55.000Z",
       "rank": 4,
-      "score": 87.8,
-      "metric": "4 votes · 90 views",
-      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions a"
+      "score": 87,
+      "metric": "27 votes · 299 views",
+      "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two compleme"
     },
     {
       "id": "alpha-xiv-befdd74bc854",
@@ -247,30 +247,17 @@
       "summary": "Among parallel decoding paradigms, diffusion large language models (dLLMs) have emerged as a promising candidate that balances generation quality and throughput. However, their integration with Mixture-of-Experts (MoE) architectures is constrained by an expert explosion: as the n"
     },
     {
-      "id": "alpha-xiv-bd0c9340a5a7",
-      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
-      "url": "https://www.alphaxiv.org/abs/2611.17167",
+      "id": "alpha-xiv-e5c2b965e40e",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "url": "https://www.alphaxiv.org/abs/2611.17336",
       "source": "alphaXiv",
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
-      "publishedAt": "2026-11-12T17:42:46.000Z",
+      "publishedAt": "2026-11-12T18:59:55.000Z",
       "rank": 6,
-      "score": 83.2,
-      "metric": "11 votes · 111 views",
-      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studi"
-    },
-    {
-      "id": "alpha-xiv-c5e737b2c7ce",
-      "title": "Interpretable Weight-Space Programming Builds Transparent Transformers and Brain Encoding Models",
-      "url": "https://www.alphaxiv.org/abs/2611.interpretable-weight-space-programming",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "rank": 7,
-      "score": 80.4,
-      "metric": "63 votes · 2777 views",
-      "summary": "Neural networks are powerful predictors, yet their opacity limits their usefulness in science, where the goal is explanation rather than mere prediction. In neuroscience, for example, deep encoding models accurately predict brain activity in response to natural stimuli, but strug"
+      "score": 82.6,
+      "metric": "17 votes · 188 views",
+      "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions a"
     },
     {
       "id": "alpha-xiv-b5a9f0bc244f",
@@ -280,36 +267,62 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-12T17:04:50.000Z",
-      "rank": 8,
-      "score": 78.7,
-      "metric": "4 votes · 46 views",
+      "rank": 7,
+      "score": 80.4,
+      "metric": "8 votes · 86 views",
       "summary": "Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared"
     },
     {
-      "id": "alpha-xiv-01059544c407",
-      "title": "UGG: Unified Generative Geometry Model",
-      "url": "https://www.alphaxiv.org/abs/2611.14440",
+      "id": "alpha-xiv-bd0c9340a5a7",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "url": "https://www.alphaxiv.org/abs/2611.17167",
       "source": "alphaXiv",
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
-      "publishedAt": "2026-11-10T18:11:40.000Z",
-      "rank": 9,
-      "score": 76,
-      "metric": "76 votes · 1067 views",
-      "summary": "Understanding 4D scenes is a core challenge in visual intelligence, requiring models to jointly capture scene geometry, appearance, and dynamics from partial observations. However, existing approaches are subdivided into feedforward models for direct geometric prediction, and gen"
+      "publishedAt": "2026-11-12T17:42:46.000Z",
+      "rank": 8,
+      "score": 78.2,
+      "metric": "16 votes · 183 views",
+      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studi"
     },
     {
-      "id": "alpha-xiv-6eb12a745236",
-      "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
-      "url": "https://www.alphaxiv.org/abs/2611.16905",
+      "id": "alpha-xiv-40b37bd055bc",
+      "title": "Weight-Space Reading",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-reading-language-models",
       "source": "alphaXiv",
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
-      "publishedAt": "2026-11-12T14:59:01.000Z",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "rank": 9,
+      "score": 76,
+      "metric": "7 votes · 166 views",
+      "summary": "Can a language model predict what an edit to a network’s weights will do to its behavior, without running the network? We call this weight-space reading, the reading half of Weight-Space Programming, and test it with sandboxed reader agents that inspect the weights of Qwen3.8-27B"
+    },
+    {
+      "id": "alpha-xiv-eddc0607810c",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "url": "https://www.alphaxiv.org/abs/2611.17309",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-12T18:56:56.000Z",
       "rank": 10,
-      "score": 74,
-      "metric": "14 votes · 110 views",
-      "summary": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memo"
+      "score": 73.8,
+      "metric": "11 votes · 169 views",
+      "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an ener"
+    },
+    {
+      "id": "apollo-daily-spark-0da258ae2c4f",
+      "title": "Strong Growth, Rising Prices and a Fed Behind the Curve",
+      "url": "https://www.apollo.com/institutional/insights-news/insights/daily-spark/strong-growth-rising-prices-and-a-fed-behind-the-curve",
+      "source": "Apollo Daily Spark",
+      "sourceKey": "apollo-daily-spark",
+      "category": "Macro & markets",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "rank": 1,
+      "score": 93.5,
+      "metric": "Monetary & Fiscal Policy",
+      "summary": "October nonfarm payrolls and CPI were strong, the AI spending boom continues and the Atlanta Fed estimates fourth-quarter GDP growth at 3.5%, significantly above the 2% potential growth rate."
     },
     {
       "id": "apollo-daily-spark-2c4798cb52a7",
@@ -319,8 +332,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "rank": 1,
-      "score": 93.4,
+      "rank": 2,
+      "score": 89.6,
       "metric": "Global & Geopolitical Developments",
       "summary": "European defense spending grew 16% last year and is expected to grow at double-digit rates for the next three years, see chart below."
     },
@@ -332,8 +345,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "rank": 2,
-      "score": 89.6,
+      "rank": 3,
+      "score": 87.4,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "Software companies are struggling to refinance in a higher-for-longer rate environment, with the 2028 maturity wall shrinking by just 10% versus 22% for the rest of the market, see chart below."
     },
@@ -345,8 +358,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-11T00:00:00.000Z",
-      "rank": 3,
-      "score": 87.4,
+      "rank": 4,
+      "score": 85.2,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "Weekly data for consumer spending continues to show strength driven by job growth for lower-income families, high asset prices and strong cash flows from fixed income for middle-income and high-income households, see the first chart below."
     },
@@ -358,8 +371,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "rank": 4,
-      "score": 85.2,
+      "rank": 5,
+      "score": 83,
       "metric": "Global & Geopolitical Developments",
       "summary": "European companies are investing again. The capex-to-sales ratio is approaching a 10-year high, and European listed companies are expected to spend €77 billion more on capex in 2028 than in 2025, see charts below."
     },
@@ -371,8 +384,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "rank": 5,
-      "score": 83,
+      "rank": 6,
+      "score": 80.8,
       "metric": "Financial Markets & Risk Dynamics",
       "summary": "Something is broken in price discovery when companies with negative earnings keep outperforming companies with positive earnings, see chart below."
     },
@@ -384,8 +397,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-08T00:00:00.000Z",
-      "rank": 6,
-      "score": 80.8,
+      "rank": 7,
+      "score": 78.6,
       "metric": "Global & Geopolitical Developments",
       "summary": "Since 2014, NATO members have sharply raised defense spending."
     },
@@ -397,8 +410,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-07T00:00:00.000Z",
-      "rank": 7,
-      "score": 78.6,
+      "rank": 8,
+      "score": 76.4,
       "metric": "Financial Markets & Risk Dynamics",
       "summary": "Despite the turbulence this week, the total market cap of the US stock market is still up $5 trillion since the beginning of the year, see chart below."
     },
@@ -410,8 +423,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "rank": 8,
-      "score": 76.4,
+      "rank": 9,
+      "score": 74.2,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "Through September 2026, the US labor market had kept unemployment below 5% for 61 straight months (since September 2021), putting it just three months shy of the record 64-month stretch set from 1965 to 1970, see chart below."
     },
@@ -423,23 +436,10 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-05T00:00:00.000Z",
-      "rank": 9,
-      "score": 74.2,
-      "metric": "Financial Markets & Risk Dynamics",
-      "summary": "When rates are higher for longer, stress in credit markets starts migrating from the bottom, beginning with the lowest-rated credit."
-    },
-    {
-      "id": "apollo-daily-spark-f4b443e44f49",
-      "title": "Iran: Severe Stress Now, More Risk If Conflict Returns",
-      "url": "https://www.apollo.com/institutional/insights-news/insights/daily-spark/iran-severe-stress-now-more-risk-if-conflict-returns",
-      "source": "Apollo Daily Spark",
-      "sourceKey": "apollo-daily-spark",
-      "category": "Macro & markets",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
       "rank": 10,
       "score": 72,
-      "metric": "Global & Geopolitical Developments",
-      "summary": "Since the conflict began, Iran has seen inflation near 90%, a collapsing currency and oil exports falling to essentially zero."
+      "metric": "Financial Markets & Risk Dynamics",
+      "summary": "When rates are higher for longer, stress in credit markets starts migrating from the bottom, beginning with the lowest-rated credit."
     },
     {
       "id": "blackrock-bii-8c3c11745577",
@@ -547,18 +547,18 @@
       "summaryZh": "随着海湾合作委员会经济体加速多元化超越碳氢化合物，金融未来正在中东成形。详见我们最新全球洞察。"
     },
     {
-      "id": "github-f7cfdfd7bcc3",
-      "title": "alibaba / open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
+      "id": "github-09a3e479d01f",
+      "title": "backnotprop / plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
       "rank": 1,
       "score": 116,
-      "metric": "Go · 215 stars today",
-      "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "titleZh": "alibaba / open-code-review"
+      "metric": "TypeScript · 408 stars today",
+      "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "titleZh": "backnotprop / plannotator"
     },
     {
       "id": "github-95c23a9afeb3",
@@ -567,96 +567,12 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
       "rank": 2,
       "score": 113.8,
-      "metric": "TypeScript · 1,925 stars today",
+      "metric": "TypeScript · 1,231 stars today",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "titleZh": "GoogleChrome / modern-web-guidance-src"
-    },
-    {
-      "id": "github-65f8a2e3eddb",
-      "title": "openai / codex-security",
-      "url": "https://github.com/openai/codex-security",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 3,
-      "score": 111.6,
-      "metric": "TypeScript · 751 stars today",
-      "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-      "titleZh": "openai / codex-security"
-    },
-    {
-      "id": "github-ca7dd68b4ce7",
-      "title": "ZhuLinsen / daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 4,
-      "score": 109.4,
-      "metric": "Python · 256 stars today",
-      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "titleZh": "ZhuLinsen / daily_stock_analysis"
-    },
-    {
-      "id": "github-a8efea0dacde",
-      "title": "we-promise / sure",
-      "url": "https://github.com/we-promise/sure",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 5,
-      "score": 107.2,
-      "metric": "Ruby · 925 stars today",
-      "summary": "The personal finance app for everyone (by everyone)",
-      "titleZh": "we-promise / sure"
-    },
-    {
-      "id": "github-09a3e479d01f",
-      "title": "backnotprop / plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 6,
-      "score": 105,
-      "metric": "TypeScript · 108 stars today",
-      "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "titleZh": "backnotprop / plannotator"
-    },
-    {
-      "id": "github-f53325a92664",
-      "title": "louislam / uptime-kuma",
-      "url": "https://github.com/louislam/uptime-kuma",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 7,
-      "score": 102.8,
-      "metric": "JavaScript · 71 stars today",
-      "summary": "A fancy self-hosted monitoring tool",
-      "titleZh": "louislam / uptime-kuma"
-    },
-    {
-      "id": "github-53958cf51f47",
-      "title": "block / buzz",
-      "url": "https://github.com/block/buzz",
-      "source": "GitHub Trending",
-      "sourceKey": "github",
-      "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 8,
-      "score": 100.6,
-      "metric": "Rust · 97 stars today",
-      "summary": "A hive mind communication platform",
-      "titleZh": "block / buzz"
     },
     {
       "id": "github-ec453d1217c2",
@@ -665,26 +581,110 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
-      "rank": 9,
-      "score": 98.4,
-      "metric": "Python · 69 stars today",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 3,
+      "score": 111.6,
+      "metric": "Python · 553 stars today",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "titleZh": "tradermonty / claude-trading-skills"
     },
     {
-      "id": "github-256005002a96",
-      "title": "tailscale / tailcat",
-      "url": "https://github.com/tailscale/tailcat",
+      "id": "github-a67bb8d2a6b4",
+      "title": "ChromeDevTools / chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-14T03:25:00.379Z",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 4,
+      "score": 109.4,
+      "metric": "TypeScript · 664 stars today",
+      "summary": "Chrome DevTools for coding agents",
+      "titleZh": "ChromeDevTools / chrome-devtools-mcp"
+    },
+    {
+      "id": "github-f7cfdfd7bcc3",
+      "title": "alibaba / open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 5,
+      "score": 107.2,
+      "metric": "Go · 893 stars today",
+      "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "titleZh": "alibaba / open-code-review"
+    },
+    {
+      "id": "github-5ad23f0e2e10",
+      "title": "QwenLM / qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 6,
+      "score": 105,
+      "metric": "TypeScript · 64 stars today",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "titleZh": "QwenLM / qwen-code"
+    },
+    {
+      "id": "github-404dff4b1cea",
+      "title": "dream-num / univer",
+      "url": "https://github.com/dream-num/univer",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 7,
+      "score": 102.8,
+      "metric": "TypeScript · 495 stars today",
+      "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "titleZh": "dream-num / univer"
+    },
+    {
+      "id": "github-d9a650738e32",
+      "title": "ag-ui-protocol / ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 8,
+      "score": 100.6,
+      "metric": "TypeScript · 9 stars today",
+      "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "titleZh": "ag-ui-protocol / ag-ui"
+    },
+    {
+      "id": "github-21eb099d4d04",
+      "title": "ashhart / TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
+      "rank": 9,
+      "score": 98.4,
+      "metric": "Zig · 37 stars today",
+      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "titleZh": "ashhart / TensorFold"
+    },
+    {
+      "id": "github-3fa1090af0f1",
+      "title": "JuliusBrussee / caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "source": "GitHub Trending",
+      "sourceKey": "github",
+      "category": "Open source",
+      "publishedAt": "2026-11-15T02:53:43.405Z",
       "rank": 10,
       "score": 96.2,
-      "metric": "Go · 256 stars today",
-      "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "titleZh": "tailscale / tailcat"
+      "metric": "Go · 227 stars today",
+      "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "titleZh": "JuliusBrussee / caveman"
     },
     {
       "id": "goldman-sachs-d6f1f7464f78",
@@ -830,124 +830,124 @@
       "summaryZh": "高盛研究上调数据中心电力需求预期，预计到2030年较2023年增长220%（此前为175%）。"
     },
     {
-      "id": "hacker-news-f98d19f282ec",
-      "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
-      "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "id": "hacker-news-4e501f9826d0",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-14T02:02:42.000Z",
+      "publishedAt": "2026-11-14T21:22:24.000Z",
       "rank": 1,
-      "score": 109.6,
-      "metric": "33 pts · 4 comments"
+      "score": 104.6,
+      "metric": "797 pts · 538 comments"
     },
     {
-      "id": "hacker-news-e8ba5d12be22",
-      "title": "FAA lifted National Ground Stop at 0119Z",
-      "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+      "id": "hacker-news-9f394f52c813",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-14T01:30:01.000Z",
+      "publishedAt": "2026-11-14T17:43:10.000Z",
       "rank": 2,
-      "score": 106.3,
-      "metric": "186 pts · 176 comments"
+      "score": 100.2,
+      "metric": "674 pts · 281 comments"
     },
     {
-      "id": "hacker-news-6c41dcbf34a2",
-      "title": "Ggml v1.0.0",
-      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "id": "hacker-news-cce942626afe",
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-14T02:28:29.000Z",
+      "publishedAt": "2026-11-14T22:22:49.000Z",
       "rank": 3,
-      "score": 106.1,
-      "metric": "14 pts · 0 comments"
+      "score": 101,
+      "metric": "119 pts · 38 comments"
     },
     {
-      "id": "hacker-news-9c247e087592",
-      "title": "FAA issues national ground stop",
-      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "id": "hacker-news-0981be9212e1",
+      "title": "A family tree of software job titles",
+      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-13T21:05:53.000Z",
+      "publishedAt": "2026-11-14T17:45:19.000Z",
       "rank": 4,
-      "score": 97.4,
-      "metric": "1376 pts · 850 comments"
+      "score": 95.8,
+      "metric": "225 pts · 110 comments"
     },
     {
-      "id": "hacker-news-7df059f63f11",
-      "title": "Terminal borders that don't cost a cell",
-      "url": "https://www.joshka.net/cell-borders",
+      "id": "hacker-news-0322d2a0d024",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-13T23:06:40.000Z",
+      "publishedAt": "2026-11-14T22:26:30.000Z",
       "rank": 5,
-      "score": 96.8,
-      "metric": "105 pts · 58 comments"
+      "score": 96.7,
+      "metric": "232 pts · 127 comments"
     },
     {
-      "id": "hacker-news-5d976937e016",
-      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-      "url": "https://orcasairband.com",
+      "id": "hacker-news-fbb4c2fd353e",
+      "title": "KDE: The documentary [video]",
+      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-13T22:04:24.000Z",
+      "publishedAt": "2026-11-14T13:43:28.000Z",
       "rank": 6,
-      "score": 93.7,
-      "metric": "225 pts · 52 comments"
+      "score": 89.8,
+      "metric": "397 pts · 86 comments"
     },
     {
-      "id": "hacker-news-0e959caf89bd",
-      "title": "What Happened to 3Com?",
-      "url": "https://dfarq.homeip.net/what-happened-to-3com",
+      "id": "hacker-news-9b08084c1635",
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-13T23:48:59.000Z",
+      "publishedAt": "2026-11-14T15:40:52.000Z",
       "rank": 7,
-      "score": 93.1,
-      "metric": "67 pts · 33 comments"
+      "score": 88.3,
+      "metric": "214 pts · 93 comments"
     },
     {
-      "id": "hacker-news-14a056be9cf5",
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud",
+      "id": "hacker-news-9cfa16a58d04",
+      "title": "500 Lines or Less A 3D Modeller",
+      "url": "https://aosabook.org/en/500L/a-3d-modeller.html",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-12T22:03:09.000Z",
+      "publishedAt": "2026-11-13T13:47:42.000Z",
       "rank": 8,
-      "score": 81.7,
-      "metric": "691 pts · 201 comments"
+      "score": 80.5,
+      "metric": "16 pts · 0 comments"
     },
     {
-      "id": "hacker-news-18713f91f295",
-      "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
-      "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+      "id": "hacker-news-4c00f9d87382",
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-14T00:52:29.000Z",
+      "publishedAt": "2026-11-10T14:16:05.000Z",
       "rank": 9,
-      "score": 90,
-      "metric": "128 pts · 40 comments"
+      "score": 78.2,
+      "metric": "519 pts · 284 comments"
     },
     {
-      "id": "hacker-news-3438ef0fe135",
-      "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
-      "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+      "id": "hacker-news-75aabf2aab77",
+      "title": "Oxford Molecular Motors",
+      "url": "https://www.physics.ox.ac.uk/research/group/oxford-molecular-motors/research/bacterial-flagellar-motor",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-14T01:10:22.000Z",
+      "publishedAt": "2026-11-11T17:06:08.000Z",
       "rank": 10,
-      "score": 88.2,
-      "metric": "189 pts · 74 comments"
+      "score": 76,
+      "metric": "19 pts · 2 comments"
     },
     {
       "id": "hugging-face-254acb1cf38b",
@@ -958,8 +958,8 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 1,
-      "score": 95.2,
-      "metric": "3 upvotes",
+      "score": 93.6,
+      "metric": "7 upvotes",
       "summary": "MixUA distills lessons from independent user-agent trajectories and assigns them to appropriate scopes to balance cross-user and cross-agent learning with privacy, evaluated by CrossLearnBench."
     },
     {
@@ -971,7 +971,7 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 2,
-      "score": 93,
+      "score": 91.4,
       "metric": "1 upvotes",
       "summary": "EgoX is an egocentric cross-embodiment learning framework that pretrains a modular Transformer with embodiment dreaming on heterogeneous human, robot, and simulated demonstrations, then fine-tunes it to improve manipulation task progress, especially under out-of-distribution cond"
     },
@@ -984,8 +984,8 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 3,
-      "score": 90.8,
-      "metric": "2 upvotes",
+      "score": 89.2,
+      "metric": "3 upvotes",
       "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions a"
     },
     {
@@ -997,8 +997,8 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 4,
-      "score": 88.6,
-      "metric": "3 upvotes",
+      "score": 87,
+      "metric": "4 upvotes",
       "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersectio"
     },
     {
@@ -1010,7 +1010,7 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 5,
-      "score": 86.4,
+      "score": 84.8,
       "metric": "4 upvotes",
       "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-l"
     },
@@ -1023,8 +1023,8 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 6,
-      "score": 84.2,
-      "metric": "2 upvotes",
+      "score": 82.6,
+      "metric": "4 upvotes",
       "summary": "A hybrid decision model routes between implicit single-forward-pass answering and full autoregressive reasoning via a self-routing block trained with calibrated decision policy optimization, reducing token and latency costs while preserving accuracy."
     },
     {
@@ -1036,7 +1036,7 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 7,
-      "score": 82,
+      "score": 80.4,
       "metric": "2 upvotes",
       "summary": "A benchmark of news articles and queries shows that current large language models cannot reliably help users navigate diverse multilingual narratives, leaving gaps in exposure to competing accounts and risking echo chambers and information disparities."
     },
@@ -1049,7 +1049,7 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 8,
-      "score": 79.8,
+      "score": 78.2,
       "metric": "1 upvotes",
       "summary": "A vision-language model trained on nearly one million clinical neuroimaging studies interprets complete examinations, discusses findings in natural language, and outperforms existing general and medical models in diagnosis, localization, reporting, and progression assessment."
     },
@@ -1062,8 +1062,8 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 9,
-      "score": 77.6,
-      "metric": "12 upvotes",
+      "score": 76,
+      "metric": "14 upvotes",
       "summary": "Controlled experiments show that multimodal language models do not need a pretrained vision encoder, but benefit from dedicated vision capacity trained jointly with the backbone and integrated early rather than before fusion."
     },
     {
@@ -1075,8 +1075,8 @@
       "category": "Research",
       "publishedAt": "2026-11-13T00:00:00.000Z",
       "rank": 10,
-      "score": 75.4,
-      "metric": "2 upvotes",
+      "score": 73.8,
+      "metric": "4 upvotes",
       "summary": "Language-model agents trained with reinforcement learning can improve by learning to create and curate experience artifacts that help future rollouts, not just by optimizing actions from scalar rewards."
     },
     {
@@ -1214,6 +1214,18 @@
       "summaryZh": "新政策追踪显示，许多政府为应对燃料和食品价格上涨采取高成本措施，减少了应对未来挑战的财政空间。"
     },
     {
+      "id": "interconnects-8479f47633fa",
+      "title": "Open-source AI without Jensen",
+      "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+      "source": "Interconnects",
+      "sourceKey": "interconnects",
+      "category": "Frontier AI",
+      "publishedAt": "2026-11-14T12:23:15.000Z",
+      "rank": 1,
+      "score": 92,
+      "summary": "A decapitation. It’s time to rebuild."
+    },
+    {
       "id": "interconnects-c85e9d7dd64e",
       "title": "How big is the open model economy today?",
       "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -1221,8 +1233,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-11-04T16:35:44.000Z",
-      "rank": 1,
-      "score": 87.4,
+      "rank": 2,
+      "score": 85.2,
       "summary": "Our first open model economy research note for paid subscribers."
     },
     {
@@ -1233,8 +1245,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-30T17:36:56.000Z",
-      "rank": 2,
-      "score": 85.2,
+      "rank": 3,
+      "score": 83,
       "summary": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize."
     },
     {
@@ -1245,8 +1257,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-28T12:58:39.000Z",
-      "rank": 3,
-      "score": 83,
+      "rank": 4,
+      "score": 80.8,
       "summary": "A sort of review of the benchmarking industry and what's missing."
     },
     {
@@ -1257,8 +1269,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-25T11:49:00.000Z",
-      "rank": 4,
-      "score": 80.8,
+      "rank": 5,
+      "score": 78.6,
       "summary": "#20"
     },
     {
@@ -1269,8 +1281,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-20T17:04:21.000Z",
-      "rank": 5,
-      "score": 78.6,
+      "rank": 6,
+      "score": 76.4,
       "summary": "Western open models strike back"
     },
     {
@@ -1281,8 +1293,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-17T14:06:54.000Z",
-      "rank": 6,
-      "score": 76.4,
+      "rank": 7,
+      "score": 74.2,
       "summary": "US open weights are back!"
     },
     {
@@ -1293,8 +1305,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-09T21:33:47.000Z",
-      "rank": 7,
-      "score": 74.2,
+      "rank": 8,
+      "score": 72,
       "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it."
     },
     {
@@ -1305,8 +1317,8 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-10-06T14:22:41.000Z",
-      "rank": 8,
-      "score": 72,
+      "rank": 9,
+      "score": 69.8,
       "summary": "Open-weights, ideology, and acknowledging trade-offs."
     },
     {
@@ -1317,21 +1329,21 @@
       "sourceKey": "interconnects",
       "category": "Frontier AI",
       "publishedAt": "2026-09-22T13:37:45.000Z",
-      "rank": 9,
-      "score": 69.8,
+      "rank": 10,
+      "score": 67.6,
       "summary": "Podcast #19"
     },
     {
-      "id": "interconnects-9a319be2f748",
-      "title": "The current balance of power in open models",
-      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "source": "Interconnects",
-      "sourceKey": "interconnects",
-      "category": "Frontier AI",
-      "publishedAt": "2026-09-21T11:56:56.000Z",
-      "rank": 10,
-      "score": 67.6,
-      "summary": "The expanded form of a testimony I prepared for Congress."
+      "id": "latent-space-be54405e42bc",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto",
+      "source": "Latent Space",
+      "sourceKey": "latent-space",
+      "category": "AI engineering",
+      "publishedAt": "2026-11-14T08:31:02.000Z",
+      "rank": 1,
+      "score": 88.7,
+      "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop."
     },
     {
       "id": "latent-space-12f357dd3921",
@@ -1341,8 +1353,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-13T09:04:13.000Z",
-      "rank": 1,
-      "score": 88.7,
+      "rank": 2,
+      "score": 83,
       "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?"
     },
     {
@@ -1353,8 +1365,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-13T04:17:25.000Z",
-      "rank": 2,
-      "score": 85.4,
+      "rank": 3,
+      "score": 80.8,
       "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!"
     },
     {
@@ -1365,8 +1377,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-12T05:26:54.000Z",
-      "rank": 3,
-      "score": 80.8,
+      "rank": 4,
+      "score": 78.6,
       "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers."
     },
     {
@@ -1377,8 +1389,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-12T05:08:20.000Z",
-      "rank": 4,
-      "score": 78.6,
+      "rank": 5,
+      "score": 76.4,
       "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev."
     },
     {
@@ -1389,8 +1401,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-11T09:34:28.000Z",
-      "rank": 5,
-      "score": 76.4,
+      "rank": 6,
+      "score": 74.2,
       "summary": "November 10, 2026 — Google GA's Gemini 4 Carbon."
     },
     {
@@ -1401,8 +1413,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-11T04:49:48.000Z",
-      "rank": 6,
-      "score": 74.2,
+      "rank": 7,
+      "score": 72,
       "summary": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots."
     },
     {
@@ -1413,8 +1425,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-10T20:05:17.000Z",
-      "rank": 7,
-      "score": 72,
+      "rank": 8,
+      "score": 69.8,
       "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send."
     },
     {
@@ -1425,8 +1437,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-10T18:56:32.000Z",
-      "rank": 8,
-      "score": 69.8,
+      "rank": 9,
+      "score": 67.6,
       "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek."
     },
     {
@@ -1437,21 +1449,9 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-10T06:34:44.000Z",
-      "rank": 9,
-      "score": 67.6,
-      "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?"
-    },
-    {
-      "id": "latent-space-8433ae49482a",
-      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-      "url": "https://latent.space/p/handshake",
-      "source": "Latent Space",
-      "sourceKey": "latent-space",
-      "category": "AI engineering",
-      "publishedAt": "2026-11-09T17:15:53.000Z",
       "rank": 10,
       "score": 65.4,
-      "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment"
+      "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?"
     },
     {
       "id": "mckinsey-mgi-650dfe0db8b4",
@@ -1501,7 +1501,7 @@
       "category": "AI infrastructure",
       "publishedAt": "2026-11-12T18:06:26.000Z",
       "rank": 1,
-      "score": 92.5,
+      "score": 91.8,
       "summary": "Is NVIDIA Over? Export Controls, RASA, Open Source Implications, Supply Chain Implications, Affair, US Still Dependent On China"
     },
     {
@@ -1613,6 +1613,30 @@
       "summary": "ASML is building a hybrid bonding tool! The company has not announced anything yet, but its patent filings, a news report and its own roadmap all suggest so."
     },
     {
+      "id": "simon-willison-f9a3c449e598",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "source": "Simon Willison",
+      "sourceKey": "simon-willison",
+      "category": "Applied AI",
+      "publishedAt": "2026-11-14T23:59:28.000Z",
+      "rank": 1,
+      "score": 98.7,
+      "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that t"
+    },
+    {
+      "id": "simon-willison-5acb9d3d7e18",
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
+      "source": "Simon Willison",
+      "sourceKey": "simon-willison",
+      "category": "Applied AI",
+      "publishedAt": "2026-11-14T17:09:09.000Z",
+      "rank": 2,
+      "score": 91.6,
+      "summary": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some"
+    },
+    {
       "id": "simon-willison-fde4e161df12",
       "title": "datasette-cluster-map 0.19",
       "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map",
@@ -1620,8 +1644,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-13T23:02:45.000Z",
-      "rank": 1,
-      "score": 97.2,
+      "rank": 3,
+      "score": 84.5,
       "summary": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants ow"
     },
     {
@@ -1632,8 +1656,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-13T22:30:54.000Z",
-      "rank": 2,
-      "score": 94.5,
+      "rank": 4,
+      "score": 82.2,
       "summary": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violat"
     },
     {
@@ -1644,8 +1668,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-12T22:55:19.000Z",
-      "rank": 3,
-      "score": 84.4,
+      "rank": 5,
+      "score": 78.6,
       "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Mod"
     },
     {
@@ -1656,8 +1680,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-11T22:03:25.000Z",
-      "rank": 4,
-      "score": 80.8,
+      "rank": 6,
+      "score": 76.4,
       "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/n"
     },
     {
@@ -1668,8 +1692,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-11T21:18:30.000Z",
-      "rank": 5,
-      "score": 78.6,
+      "rank": 7,
+      "score": 74.2,
       "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Sw"
     },
     {
@@ -1680,8 +1704,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-11T18:42:50.000Z",
-      "rank": 6,
-      "score": 76.4,
+      "rank": 8,
+      "score": 72,
       "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript"
     },
     {
@@ -1692,8 +1716,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-11T17:19:52.000Z",
-      "rank": 7,
-      "score": 74.2,
+      "rank": 9,
+      "score": 69.8,
       "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API"
     },
     {
@@ -1704,33 +1728,9 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-11T15:11:59.000Z",
-      "rank": 8,
-      "score": 72,
-      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, descri"
-    },
-    {
-      "id": "simon-willison-096f075e1108",
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
-      "source": "Simon Willison",
-      "sourceKey": "simon-willison",
-      "category": "Applied AI",
-      "publishedAt": "2026-11-10T20:09:44.000Z",
-      "rank": 9,
-      "score": 69.8,
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5"
-    },
-    {
-      "id": "simon-willison-1afd9e573768",
-      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
-      "source": "Simon Willison",
-      "sourceKey": "simon-willison",
-      "category": "Applied AI",
-      "publishedAt": "2026-11-10T07:28:21.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat "
+      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, descri"
     },
     {
       "id": "stratechery-0a6b19667740",
@@ -1741,7 +1741,7 @@
       "category": "Strategy",
       "publishedAt": "2026-11-13T18:00:00.000Z",
       "rank": 1,
-      "score": 93.9,
+      "score": 88.1,
       "summary": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal."
     },
     {
@@ -1753,7 +1753,7 @@
       "category": "Strategy",
       "publishedAt": "2026-11-13T03:47:52.000Z",
       "rank": 2,
-      "score": 87.5,
+      "score": 85.2,
       "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery"
     },
     {
@@ -1853,6 +1853,90 @@
       "summary": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?"
     },
     {
+      "id": "techcrunch-cdf34d438f12",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "rank": 1,
+      "score": 98.9,
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday c"
+    },
+    {
+      "id": "techcrunch-9a736294c460",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "rank": 2,
+      "score": 94.2,
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon."
+    },
+    {
+      "id": "techcrunch-f496bdb8398a",
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+      "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-14T20:04:44.000Z",
+      "rank": 3,
+      "score": 90.9,
+      "summary": "Even Elon Musk said the monthly fee is \"too high.\""
+    },
+    {
+      "id": "techcrunch-cb83a78f24c5",
+      "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+      "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-14T18:00:00.000Z",
+      "rank": 4,
+      "score": 87.6,
+      "summary": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to use every day."
+    },
+    {
+      "id": "techcrunch-6c79d69422db",
+      "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+      "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-14T17:45:04.000Z",
+      "rank": 5,
+      "score": 85.2,
+      "summary": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\""
+    },
+    {
+      "id": "techcrunch-b08cefd9996d",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-14T17:30:00.000Z",
+      "rank": 6,
+      "score": 82.9,
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
+    },
+    {
+      "id": "techcrunch-2a2bfff1121f",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "rank": 7,
+      "score": 80.3,
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations."
+    },
+    {
       "id": "techcrunch-4c02b6f51e28",
       "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
       "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price",
@@ -1860,8 +1944,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-13T23:00:00.000Z",
-      "rank": 1,
-      "score": 97.1,
+      "rank": 8,
+      "score": 73.5,
       "summary": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade."
     },
     {
@@ -1872,8 +1956,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-13T22:43:00.000Z",
-      "rank": 2,
-      "score": 94.7,
+      "rank": 9,
+      "score": 71.3,
       "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations."
     },
     {
@@ -1884,226 +1968,142 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-13T21:44:38.000Z",
-      "rank": 3,
-      "score": 91.7,
+      "rank": 10,
+      "score": 68.9,
       "summary": "A spokesperson for the FAA told TechCrunch that it issued the ground stop \"following communication issues impacting multiple Air Route Traffic Control Centers,\" which manage the airspace across the United States."
     },
     {
-      "id": "techcrunch-9b3aa77d2c63",
-      "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
-      "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T20:07:24.000Z",
-      "rank": 4,
-      "score": 88.4,
-      "summary": "Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years."
-    },
-    {
-      "id": "techcrunch-38741df50e34",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T19:37:57.000Z",
-      "rank": 5,
-      "score": 85.9,
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
-    },
-    {
-      "id": "techcrunch-f17748102e2c",
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T18:40:30.000Z",
-      "rank": 6,
-      "score": 83.2,
-      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips."
-    },
-    {
-      "id": "techcrunch-4e379f6cb9d3",
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T16:00:12.000Z",
-      "rank": 7,
-      "score": 79.8,
-      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
-    },
-    {
-      "id": "techcrunch-56623f1d9c94",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T15:58:00.000Z",
-      "rank": 8,
-      "score": 77.6,
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
-    },
-    {
-      "id": "techcrunch-8b1c9ace4af7",
-      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
-      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T14:57:55.000Z",
-      "rank": 9,
-      "score": 75.1,
-      "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident."
-    },
-    {
-      "id": "techcrunch-025a6c711bf8",
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-13T14:44:48.000Z",
-      "rank": 10,
-      "score": 72.8,
-      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises."
-    },
-    {
-      "id": "techmeme-94308d4b42df",
-      "title": "US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi (Dan Mangan/CNBC)",
-      "url": "https://www.techmeme.com/261113/p40",
+      "id": "techmeme-020574a00007",
+      "title": "23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are \"untouchable\" (Bloomberg)",
+      "url": "https://www.techmeme.com/261114/p22",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-14T03:10:01.000Z",
+      "publishedAt": "2026-11-15T02:05:01.000Z",
       "rank": 1,
-      "score": 106.5,
-      "summary": "Dan Mangan / CNBC : US officials say Trump is not expected to raise allegations of a Chinese intelligence operation involving Jensen Huang during his upcoming meeting with Xi — President Donald Trump is not expected to raise allegations of a Chinese intelligence operation involvi"
+      "score": 104.7,
+      "summary": "Bloomberg : 23andMe's Anne Wojcicki, formerly married to Google co-founder Sergey Brin, says Jensen Huang's affair shows what happens when CEOs think they are “untouchable” — As the Nvidia drama unfolds, the tech community adds yet another geek-turned-billionaire to its list of f"
     },
     {
-      "id": "techmeme-8b292886d845",
-      "title": "Tesla says \"select customers\" can now place orders for its Cybercab \"for personal use\", for $30K plus a required $299/month Autonomy Subscription to operate (Kara Carlson/Bloomberg)",
-      "url": "https://www.techmeme.com/261113/p39",
+      "id": "techmeme-1f4201b5895a",
+      "title": "Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases (Bloomberg)",
+      "url": "https://www.techmeme.com/261114/p21",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-14T02:25:00.000Z",
+      "publishedAt": "2026-11-15T00:05:02.000Z",
       "rank": 2,
-      "score": 102,
-      "summary": "Kara Carlson / Bloomberg : Tesla says “select customers” can now place orders for its Cybercab “for personal use”, for $30K plus a required $299/month Autonomy Subscription to operate — Tesla Inc. invited select customers to place orders for the Cybercab in a step toward trying t"
+      "score": 98.8,
+      "summary": "Bloomberg : Source: Applied Digital has asked tenants like Oracle and Meta for billions in guarantees since at least last year to secure power before finalizing leases — Tech giants chasing the infinite promise of AI are finding themselves increasingly on the hook for something f"
     },
     {
-      "id": "techmeme-eb7c797987f0",
-      "title": "AI's impact on math is a preview of what AI will do to AI research, with AI matching top human researchers potentially just a couple of years away (Dwarkesh Patel/Dwarkesh Podcast)",
-      "url": "https://www.techmeme.com/261113/p38",
+      "id": "techmeme-24ef21022a96",
+      "title": "Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company (Forbes)",
+      "url": "https://www.techmeme.com/261114/p20",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-14T01:55:00.000Z",
+      "publishedAt": "2026-11-14T22:05:01.000Z",
       "rank": 3,
-      "score": 98.7,
-      "summary": "Dwarkesh Patel / Dwarkesh Podcast : AI's impact on math is a preview of what AI will do to AI research, with AI matching top human researchers potentially just a couple of years away — Many thanks to Max Farrens, Gabe Fried, and Thomas Larsen for pairing with me through significa"
+      "score": 94.6,
+      "summary": "Forbes : Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company — This voice experience is generated by AI. Learn more. — Many tech CEOs including Mark Zuckerberg, Michael Dell and Ev"
     },
     {
-      "id": "techmeme-e4f837a00a08",
-      "title": "Doc: Amazon, wary of AI agents favoring sites with better data, plans to gather data on nearly every product sold anywhere, including by crawling rivals' sites (Greg Bensinger/Reuters)",
-      "url": "https://www.techmeme.com/261113/p37",
+      "id": "techmeme-4e08fe10a1c1",
+      "title": "USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system (Maria Clara Cobo/Bloomberg)",
+      "url": "https://www.techmeme.com/261114/p19",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-14T01:15:03.000Z",
+      "publishedAt": "2026-11-14T20:45:34.000Z",
       "rank": 4,
-      "score": 95.3,
-      "summary": "Greg Bensinger / Reuters : Doc: Amazon, wary of AI agents favoring sites with better data, plans to gather data on nearly every product sold anywhere, including by crawling rivals' sites — Amazon (AMZN.O) has a secret plan to ensure shoppers never need to leave its site: own the "
+      "score": 91.4,
+      "summary": "Maria Clara Cobo / Bloomberg : USD-pegged stablecoins are taking a growing share of Latin America's crypto activity, serving as a store of value and an efficient cross-border payment system — Stablecoins are proving useful not only as a store of value but as a payment system — in"
     },
     {
-      "id": "techmeme-d8315144fb83",
-      "title": "Sources and messages: Jensen Huang misled several Nvidia leaders, including general counsel Tim Teter, about the nature of his relationship with Alice Huang (Reuters)",
-      "url": "https://www.techmeme.com/261113/p36",
+      "id": "techmeme-e7dbcffaa991",
+      "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia (Katie Tarasov/CNBC)",
+      "url": "https://www.techmeme.com/261114/p18",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-14T01:00:12.000Z",
+      "publishedAt": "2026-11-14T19:55:01.000Z",
       "rank": 5,
-      "score": 92.8,
-      "summary": "Reuters : Sources and messages: Jensen Huang misled several Nvidia leaders, including general counsel Tim Teter, about the nature of his relationship with Alice Huang — Former Nvidia CEO Jensen Huang misled several of the company's leaders, including general counsel Tim Teter and"
+      "score": 88.6,
+      "summary": "Katie Tarasov / CNBC : Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider “the potential return of Jensen Huang”; they own $2.13B in Nvidia — Two major Nvidia shareholders are calling on the board of directors to weigh all options for the"
     },
     {
-      "id": "techmeme-8213b6cfdd51",
-      "title": "Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash (Kierra Frazier/CBS News)",
-      "url": "https://www.techmeme.com/261113/p35",
+      "id": "techmeme-c18122a4ca97",
+      "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed (Lauren Edmonds/Business Insider)",
+      "url": "https://www.techmeme.com/261114/p17",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-13T23:55:00.000Z",
+      "publishedAt": "2026-11-14T19:01:14.000Z",
       "rank": 6,
-      "score": 89.2,
-      "summary": "Kierra Frazier / CBS News : Sources: the FAA outage occurred after an update to the private communications network that connects the ATC system caused the system to reboot and crash — A rare nationwide ground stop on all departing U.S. flights that lasted several hours Friday has"
+      "score": 85.9,
+      "summary": "Lauren Edmonds / Business Insider : A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed — Some people aren't ready to let former CEO Jensen Huang go. — A petition to reins"
     },
     {
-      "id": "techmeme-4382bc6feb0b",
-      "title": "ASI, developer of AI tool SMART, says the FAA outage \"is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC\" (Asi/@airspaceintel)",
-      "url": "https://www.techmeme.com/261113/p34",
+      "id": "techmeme-058a154a7cd7",
+      "title": "Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation (FinTech Global)",
+      "url": "https://www.techmeme.com/261114/p16",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-13T23:35:00.000Z",
+      "publishedAt": "2026-11-14T18:35:04.000Z",
       "rank": 7,
-      "score": 86.7,
-      "summary": "Asi / @airspaceintel : ASI, developer of AI tool SMART, says the FAA outage “is not based on or a result of the SMART system, any product of ASI, or our integration with FAA and ATC” — The current ground stop is not based on or a result of the SMART system, any product of ASI or "
+      "score": 83.5,
+      "summary": "FinTech Global : Databento, which offers market data APIs and says it has contracts with five of the six largest frontier AI labs, raised a $100M Series C at a $1.1B valuation — Databento, a platform supplying market data to the modern financial industry, has secured $100m in a S"
     },
     {
-      "id": "techmeme-e09a4c46fd44",
-      "title": "Source: the FBI is probing whether the FAA outage was caused by a software update, and doesn't believe it was due to a cyberattack or criminality (Myles Miller/Bloomberg)",
-      "url": "https://www.techmeme.com/261113/p33",
+      "id": "techmeme-e71b6678bb5e",
+      "title": "Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up (Nathan Lambert/Interconnects AI)",
+      "url": "https://www.techmeme.com/261114/p15",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-13T22:20:00.000Z",
+      "publishedAt": "2026-11-14T18:05:02.000Z",
       "rank": 8,
-      "score": 83.3,
-      "summary": "Myles Miller / Bloomberg : Source: the FBI is probing whether the FAA outage was caused by a software update, and doesn't believe it was due to a cyberattack or criminality — The Federal Bureau of Investigation doesn't believe the communication issue affecting air traffic control"
-    },
-    {
-      "id": "techmeme-4ea21ff8c47b",
-      "title": "The FAA announced on November 10 that it has expanded the use of SMART, an AI tool for advising air traffic controllers to manage congestion, across the US (Jeremy Hsu/Ars Technica)",
-      "url": "https://www.techmeme.com/261113/p32",
-      "source": "Techmeme",
-      "sourceKey": "techmeme",
-      "category": "Technology news",
-      "publishedAt": "2026-11-13T22:10:02.000Z",
-      "rank": 9,
       "score": 81,
-      "summary": "Jeremy Hsu / Ars Technica : The FAA announced on November 10 that it has expanded the use of SMART, an AI tool for advising air traffic controllers to manage congestion, across the US — The US government has expanded the use of an AI tool for advising air traffic controllers to a"
+      "summary": "Nathan Lambert / Interconnects AI : Jensen Huang's resignation is a setback for US open models, as his funding gave open-source developers time to find their footing and will very likely dry up — A decapitation. It's time to rebuild. … Audio playback is not supported on your brow"
     },
     {
-      "id": "techmeme-6972c0cf436d",
-      "title": "Sources: Moonshot AI is deactivating its Cayman holding company and moving investors' stakes to its primary operating entity in China to pave the way for an IPO (Wall Street Journal)",
-      "url": "https://www.techmeme.com/261113/p31",
+      "id": "techmeme-c42dff3d9e96",
+      "title": "Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a \"faulty router\" (Joseph Pisani/Wall Street Journal)",
+      "url": "https://www.techmeme.com/261114/p14",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-13T22:01:42.000Z",
+      "publishedAt": "2026-11-14T17:15:29.000Z",
+      "rank": 9,
+      "score": 78.4,
+      "summary": "Joseph Pisani / Wall Street Journal : Sean Duffy blames Friday's FAA outage on copper-to-fiber wiring work at a remote facility, saying contractor L3Harris may have installed a “faulty router” — Work at a single remote location caused instability that led authorities to order nat"
+    },
+    {
+      "id": "techmeme-c7a7e3447305",
+      "title": "Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a \"bitcoin treasury,\" as its shares are down 60+% this year (Financial Times)",
+      "url": "https://www.techmeme.com/261114/p13",
+      "source": "Techmeme",
+      "sourceKey": "techmeme",
+      "category": "Technology news",
+      "publishedAt": "2026-11-14T16:35:01.000Z",
       "rank": 10,
-      "score": 78.7,
-      "summary": "Wall Street Journal : Sources: Moonshot AI is deactivating its Cayman holding company and moving investors' stakes to its primary operating entity in China to pave the way for an IPO — Chinese artificial-intelligence startup Moonshot AI is wrapping up a corporate restructuring th"
+      "score": 75.9,
+      "summary": "Financial Times : Trump Media faces a Nov. 30 deadline to repay up to $1B in convertible bonds sold last May to fund a “bitcoin treasury,” as its shares are down 60+% this year — Plunge in shares and cryptocurrency prices could force Truth Social owner to sell assets or take on c"
     }
   ],
   "topTen": [
-    "github-f7cfdfd7bcc3",
+    "github-09a3e479d01f",
     "github-95c23a9afeb3",
-    "hacker-news-f98d19f282ec",
-    "techmeme-94308d4b42df",
-    "hacker-news-e8ba5d12be22",
-    "techmeme-8b292886d845",
-    "simon-willison-fde4e161df12",
-    "techcrunch-4c02b6f51e28",
-    "hugging-face-254acb1cf38b",
-    "techcrunch-ad639fbc6552"
+    "techmeme-020574a00007",
+    "hacker-news-4e501f9826d0",
+    "hacker-news-cce942626afe",
+    "techcrunch-cdf34d438f12",
+    "techmeme-1f4201b5895a",
+    "simon-willison-f9a3c449e598",
+    "techcrunch-9a736294c460",
+    "alpha-xiv-71410d9e9649"
   ],
   "errors": [
     "blackrock-bii: BlackRock Investment Institute publications were not found",
