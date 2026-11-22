@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T04:06:12.468Z",
-  "issueDate": "2026-11-21",
-  "issueNumber": "2026.11.21",
+  "generatedAt": "2026-11-22T03:19:03.800Z",
+  "issueDate": "2026-11-22",
+  "issueNumber": "2026.11.22",
   "sources": [
     {
       "key": "github",
@@ -190,8 +190,8 @@
       "category": "Research discovery",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 1,
-      "score": 95.1,
-      "metric": "52 votes · 3111 views",
+      "score": 93.6,
+      "metric": "220 votes · 6034 views",
       "summary": "Modern language models (LMs) are post-trained and deployed as agents inside a “harness”, but standard harness designs accumulate context that the neural network is forced to generalize to, making training for long-horizon tasks expensive and time-consuming. We study an alternativ"
     },
     {
@@ -204,47 +204,8 @@
       "publishedAt": "2026-11-18T17:24:00.000Z",
       "rank": 2,
       "score": 91.4,
-      "metric": "173 votes · 4292 views",
+      "metric": "267 votes · 5682 views",
       "summary": "World models operate in a world they cannot fully observe. When a hidden disturbance, such as a current pushing a boat, changes the outcome of an action, a counterfactual question follows: what would have happened under a different action, subject to the same disturbance? Its ans"
-    },
-    {
-      "id": "alpha-xiv-3ce06f5a0d22",
-      "title": "A Society of AI Scientists",
-      "url": "https://www.alphaxiv.org/abs/2611.society-ai-scientists",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "rank": 3,
-      "score": 89.2,
-      "metric": "448 votes · 21260 views",
-      "summary": "Artificial intelligence agents can now conduct end-to-end research, yet whether independent agents can collaborate, critique peer findings and build cumulative knowledge as a scientific community remains unclear. We present an exploratory twelve-week study documenting the activit"
-    },
-    {
-      "id": "alpha-xiv-7bca9d40aeb7",
-      "title": "The Content–Geometry Tradeoff in World Models: When JEPA Learns Latent Maps",
-      "url": "https://www.alphaxiv.org/abs/2611.jepa-latent-maps-content-geometry",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "rank": 4,
-      "score": 87,
-      "metric": "102 votes · 1425 views",
-      "summary": "A latent world model for planning needs two properties: latent distances that smoothly track progress toward a goal (geometry), and task-relevant factors that remain decodable from the latent representation (content). Common approaches prevent representation collapse with a stop-"
-    },
-    {
-      "id": "alpha-xiv-95be24fb7330",
-      "title": "NeuroFaith: Evaluating LLM Self-Explanation Faithfulness via Internal Representation Alignment",
-      "url": "https://www.alphaxiv.org/abs/2506.09277",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2025-06-10T22:30:53.000Z",
-      "rank": 5,
-      "score": 84.8,
-      "metric": "3 votes · 134 views",
-      "summary": "Large Language Models (LLMs) can generate plausible free text self-explanations to justify their answers. However, these natural language explanations may not accurately reflect the model's actual reasoning process, pinpointing a lack of faithfulness. Existing faithfulness evalua"
     },
     {
       "id": "alpha-xiv-98b9dd255b96",
@@ -254,10 +215,62 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "rank": 6,
-      "score": 84.1,
-      "metric": "26 votes · 1136 views",
+      "rank": 3,
+      "score": 89.2,
+      "metric": "82 votes · 11772 views",
       "summary": "Levent Alpöge claims to have discovered, with Claude, a proof of the Riemann Hypothesis and the Generalized Riemann Hypothesis, and says the arguments have been formalized. The text describes a proposed method involving Fourier-analytic ideas, theta lifts, and an analogy with Ste"
+    },
+    {
+      "id": "alpha-xiv-3ce06f5a0d22",
+      "title": "A Society of AI Scientists",
+      "url": "https://www.alphaxiv.org/abs/2611.society-ai-scientists",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "rank": 4,
+      "score": 87,
+      "metric": "578 votes · 26714 views",
+      "summary": "Artificial intelligence agents can now conduct end-to-end research, yet whether independent agents can collaborate, critique peer findings and build cumulative knowledge as a scientific community remains unclear. We present an exploratory twelve-week study documenting the activit"
+    },
+    {
+      "id": "alpha-xiv-97653bf4a4b0",
+      "title": "Dialectics of Alignment: Harnessing Unsafe Knowledge for Dynamic Safety Routing",
+      "url": "https://www.alphaxiv.org/abs/2606.00686",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-05-30T11:49:42.000Z",
+      "rank": 5,
+      "score": 84.8,
+      "metric": "2 votes · 25 views",
+      "summary": "The prevailing paradigm in large language model (LLM) alignment operates via erasure, filtering unsafe data or training models to strictly refuse harmful prompts. While effective at reducing immediate toxicity, this approach fundamentally constricts the model's epistemological sc"
+    },
+    {
+      "id": "alpha-xiv-d24c92cff22a",
+      "title": "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
+      "url": "https://www.alphaxiv.org/abs/2611.feedback-shortcut-speculative-decoding",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "rank": 6,
+      "score": 82.6,
+      "metric": "47 votes · 565 views",
+      "summary": "Feeding each position’s top-layer hidden state back into the next position’s input improves Transformer performance. However, this feedback breaks speculative decoding, since verifying a drafted token requires the top-layer state from its preceding position, which forces the draf"
+    },
+    {
+      "id": "alpha-xiv-7bca9d40aeb7",
+      "title": "The Content–Geometry Tradeoff in World Models: When JEPA Learns Latent Maps",
+      "url": "https://www.alphaxiv.org/abs/2611.jepa-latent-maps-content-geometry",
+      "source": "alphaXiv",
+      "sourceKey": "alpha-xiv",
+      "category": "Research discovery",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "rank": 7,
+      "score": 80.4,
+      "metric": "131 votes · 1966 views",
+      "summary": "A latent world model for planning needs two properties: latent distances that smoothly track progress toward a goal (geometry), and task-relevant factors that remain decodable from the latent representation (content). Common approaches prevent representation collapse with a stop-"
     },
     {
       "id": "alpha-xiv-1ee9607a3d19",
@@ -267,9 +280,9 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "rank": 7,
-      "score": 81.9,
-      "metric": "19 votes · 606 views",
+      "rank": 8,
+      "score": 78.2,
+      "metric": "55 votes · 947 views",
       "summary": "RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation (MOPD) must re-consolidate the whole model w"
     },
     {
@@ -280,36 +293,36 @@
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
       "publishedAt": "2026-11-19T17:15:38.000Z",
-      "rank": 8,
-      "score": 78.6,
-      "metric": "18 votes · 182 views",
+      "rank": 9,
+      "score": 76,
+      "metric": "24 votes · 258 views",
       "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and ex"
     },
     {
-      "id": "alpha-xiv-d24c92cff22a",
-      "title": "Feedback Shortcut: Speculative Decoding for Latent Feedback Transformers",
-      "url": "https://www.alphaxiv.org/abs/2611.feedback-shortcut-speculative-decoding",
+      "id": "alpha-xiv-f018caa8c76d",
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+      "url": "https://www.alphaxiv.org/abs/2611.26450",
       "source": "alphaXiv",
       "sourceKey": "alpha-xiv",
       "category": "Research discovery",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "rank": 9,
-      "score": 77.5,
-      "metric": "15 votes · 245 views",
-      "summary": "Feeding each position’s top-layer hidden state back into the next position’s input improves Transformer performance. However, this feedback breaks speculative decoding, since verifying a drafted token requires the top-layer state from its preceding position, which forces the draf"
+      "publishedAt": "2026-11-19T17:18:38.000Z",
+      "rank": 10,
+      "score": 73.8,
+      "metric": "21 votes · 298 views",
+      "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM we"
     },
     {
-      "id": "alpha-xiv-6e56f0f25a8a",
-      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-      "url": "https://www.alphaxiv.org/abs/2611.26619",
-      "source": "alphaXiv",
-      "sourceKey": "alpha-xiv",
-      "category": "Research discovery",
-      "publishedAt": "2026-11-19T18:58:31.000Z",
-      "rank": 10,
-      "score": 74.5,
-      "metric": "1 votes · 51 views",
-      "summary": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with "
+      "id": "apollo-daily-spark-a4a0e5e842ba",
+      "title": "Statue of Liberty Visits Ease Slightly, Discretionary Spending Stays on Track",
+      "url": "https://www.apollo.com/institutional/insights-news/insights/daily-spark/statue-of-liberty-visits-ease-slightly-discretionary-spending-stays-on-track",
+      "source": "Apollo Daily Spark",
+      "sourceKey": "apollo-daily-spark",
+      "category": "Macro & markets",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "rank": 1,
+      "score": 93.4,
+      "metric": "Macroeconomic Indicators & Trends",
+      "summary": "Statue of Liberty visits are running a touch below recent years, pointing to a mild cooling in discretionary spending."
     },
     {
       "id": "apollo-daily-spark-904ba47291dc",
@@ -319,8 +332,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-20T00:00:00.000Z",
-      "rank": 1,
-      "score": 93.3,
+      "rank": 2,
+      "score": 89.6,
       "metric": "Financial Markets & Risk Dynamics",
       "summary": "The convergence in yields across asset classes is remarkable, see chart below."
     },
@@ -332,8 +345,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-19T00:00:00.000Z",
-      "rank": 2,
-      "score": 89.6,
+      "rank": 3,
+      "score": 87.4,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "AI investment added roughly 1.3 percentage points to real GDP growth over the last three quarters, or about 65% of the roughly 2% cumulative growth, led by software and computers, see chart below."
     },
@@ -345,8 +358,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "rank": 3,
-      "score": 87.4,
+      "rank": 4,
+      "score": 85.2,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "In Italy and Spain, half of 25-34-year-olds live with their parents."
     },
@@ -358,8 +371,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-17T00:00:00.000Z",
-      "rank": 4,
-      "score": 85.2,
+      "rank": 5,
+      "score": 83,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "Nearly two-thirds of Americans aren’t confident their retirement savings are on track, see chart below."
     },
@@ -371,8 +384,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-16T00:00:00.000Z",
-      "rank": 5,
-      "score": 83,
+      "rank": 6,
+      "score": 80.8,
       "metric": "Monetary & Fiscal Policy",
       "summary": "Corporate America and households both locked in low rates during the pandemic, with firms refinancing their debt and homeowners securing record-low mortgages."
     },
@@ -384,8 +397,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-15T00:00:00.000Z",
-      "rank": 6,
-      "score": 80.8,
+      "rank": 7,
+      "score": 78.6,
       "metric": "Macroeconomic Indicators & Trends",
       "summary": "AI is making it much easier to start a business."
     },
@@ -397,8 +410,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-14T00:00:00.000Z",
-      "rank": 7,
-      "score": 78.6,
+      "rank": 8,
+      "score": 76.4,
       "metric": "Monetary & Fiscal Policy",
       "summary": "October nonfarm payrolls and CPI were strong, the AI spending boom continues and the Atlanta Fed estimates fourth-quarter GDP growth at 3.5%, significantly above the 2% potential growth rate."
     },
@@ -410,8 +423,8 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-13T00:00:00.000Z",
-      "rank": 8,
-      "score": 76.4,
+      "rank": 9,
+      "score": 74.2,
       "metric": "Global & Geopolitical Developments",
       "summary": "European defense spending grew 16% last year and is expected to grow at double-digit rates for the next three years, see chart below."
     },
@@ -423,23 +436,10 @@
       "sourceKey": "apollo-daily-spark",
       "category": "Macro & markets",
       "publishedAt": "2026-11-12T00:00:00.000Z",
-      "rank": 9,
-      "score": 74.2,
-      "metric": "Macroeconomic Indicators & Trends",
-      "summary": "Software companies are struggling to refinance in a higher-for-longer rate environment, with the 2028 maturity wall shrinking by just 10% versus 22% for the rest of the market, see chart below."
-    },
-    {
-      "id": "apollo-daily-spark-c5d2b7a29443",
-      "title": "US Consumers Keep Spending",
-      "url": "https://www.apollo.com/institutional/insights-news/insights/daily-spark/us-consumers-keep-spending",
-      "source": "Apollo Daily Spark",
-      "sourceKey": "apollo-daily-spark",
-      "category": "Macro & markets",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
       "rank": 10,
       "score": 72,
       "metric": "Macroeconomic Indicators & Trends",
-      "summary": "Weekly data for consumer spending continues to show strength driven by job growth for lower-income families, high asset prices and strong cash flows from fixed income for middle-income and high-income households, see the first chart below."
+      "summary": "Software companies are struggling to refinance in a higher-for-longer rate environment, with the 2028 maturity wall shrinking by just 10% versus 22% for the rest of the market, see chart below."
     },
     {
       "id": "blackrock-bii-8c3c11745577",
@@ -553,10 +553,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 1,
       "score": 116,
-      "metric": "Python · 1,622 stars today",
+      "metric": "Python · 1,803 stars today",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "titleZh": "elementalsouls / Claude-BugHunter"
     },
@@ -567,10 +567,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 2,
       "score": 113.8,
-      "metric": "Shell · 890 stars today",
+      "metric": "Shell · 883 stars today",
       "summary": "An agentic skills framework & software development methodology that works.",
       "titleZh": "obra / superpowers"
     },
@@ -581,10 +581,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 3,
       "score": 111.6,
-      "metric": "Python · 773 stars today",
+      "metric": "Python · 769 stars today",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "titleZh": "HKUDS / CLI-Anything"
     },
@@ -595,10 +595,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 4,
       "score": 109.4,
-      "metric": "Python · 847 stars today",
+      "metric": "Python · 488 stars today",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "titleZh": "jingyaogong / minimind"
     },
@@ -609,10 +609,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 5,
       "score": 107.2,
-      "metric": "TypeScript · 299 stars today",
+      "metric": "TypeScript · 260 stars today",
       "summary": "Cursor plugin specification and official plugins",
       "titleZh": "cursor / plugins"
     },
@@ -623,10 +623,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 6,
       "score": 105,
-      "metric": "TypeScript · 1,241 stars today",
+      "metric": "TypeScript · 1,006 stars today",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "titleZh": "firecrawl / firecrawl"
     },
@@ -637,10 +637,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 7,
       "score": 102.8,
-      "metric": "C · 246 stars today",
+      "metric": "C · 189 stars today",
       "summary": "The official NGINX Open Source repository.",
       "titleZh": "nginx / nginx"
     },
@@ -651,10 +651,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 8,
       "score": 100.6,
-      "metric": "C++ · 217 stars today",
+      "metric": "C++ · 200 stars today",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "titleZh": "openvinotoolkit / openvino"
     },
@@ -665,10 +665,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 9,
       "score": 98.4,
-      "metric": "HTML · 636 stars today",
+      "metric": "HTML · 583 stars today",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "titleZh": "cathrynlavery / diagram-design"
     },
@@ -679,10 +679,10 @@
       "source": "GitHub Trending",
       "sourceKey": "github",
       "category": "Open source",
-      "publishedAt": "2026-11-21T04:06:12.468Z",
+      "publishedAt": "2026-11-22T03:19:03.800Z",
       "rank": 10,
       "score": 96.2,
-      "metric": "Python · 681 stars today",
+      "metric": "Python · 560 stars today",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "titleZh": "mvanhorn / last30days-skill"
     },
@@ -824,124 +824,124 @@
       "summaryZh": "高盛研究预测，AI网络领域的总可寻址市场规模将增长9倍，达到1540亿美元。"
     },
     {
-      "id": "hacker-news-04e4de985797",
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh",
+      "id": "hacker-news-6784575ef645",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T18:33:14.000Z",
+      "publishedAt": "2026-11-20T21:03:12.000Z",
       "rank": 1,
-      "score": 102.2,
-      "metric": "1719 pts · 765 comments"
+      "score": 96.9,
+      "metric": "717 pts · 171 comments"
     },
     {
-      "id": "hacker-news-a0ebc9ee452b",
-      "title": "Inkling 2 Mini",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini",
+      "id": "hacker-news-18d9f9bc59b3",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T20:12:19.000Z",
+      "publishedAt": "2026-11-21T14:36:45.000Z",
       "rank": 2,
-      "score": 100.9,
-      "metric": "788 pts · 133 comments"
+      "score": 98.8,
+      "metric": "885 pts · 730 comments"
     },
     {
-      "id": "hacker-news-bbe099f2944c",
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
+      "id": "hacker-news-c6e0f6fe1d32",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T14:16:21.000Z",
+      "publishedAt": "2026-11-21T18:02:19.000Z",
       "rank": 3,
-      "score": 96.2,
-      "metric": "2437 pts · 1643 comments"
-    },
-    {
-      "id": "hacker-news-b6394ef89842",
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "url": "https://ninlive.com",
-      "source": "Hacker News",
-      "sourceKey": "hacker-news",
-      "category": "Community",
-      "publishedAt": "2026-11-20T22:30:47.000Z",
-      "rank": 4,
       "score": 98,
-      "metric": "162 pts · 41 comments"
+      "metric": "379 pts · 96 comments"
     },
     {
-      "id": "hacker-news-e1a223b73868",
-      "title": "We promoted developers into architects without informing them",
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "id": "hacker-news-381628060ea9",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T18:17:51.000Z",
+      "publishedAt": "2026-11-22T02:14:14.000Z",
+      "rank": 4,
+      "score": 103.6,
+      "metric": "27 pts · 7 comments"
+    },
+    {
+      "id": "hacker-news-01af6e752b2c",
+      "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "source": "Hacker News",
+      "sourceKey": "hacker-news",
+      "category": "Community",
+      "publishedAt": "2026-11-22T00:57:26.000Z",
       "rank": 5,
-      "score": 93.3,
-      "metric": "338 pts · 204 comments"
+      "score": 99.1,
+      "metric": "40 pts · 24 comments"
     },
     {
-      "id": "hacker-news-dc0a65e6fd6d",
-      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis",
+      "id": "hacker-news-cfc547c2291f",
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T17:21:36.000Z",
+      "publishedAt": "2026-11-21T22:09:58.000Z",
       "rank": 6,
-      "score": 90.7,
-      "metric": "374 pts · 154 comments"
+      "score": 93.9,
+      "metric": "78 pts · 9 comments"
     },
     {
-      "id": "hacker-news-0e6ffb22cecb",
-      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-      "url": "https://valkey.io/blog/from-skiplist-to-b+tree",
+      "id": "hacker-news-f759d984a78b",
+      "title": "Sandwich Simulator",
+      "url": "https://stulle.app",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-17T16:58:30.000Z",
+      "publishedAt": "2026-11-22T00:07:59.000Z",
       "rank": 7,
-      "score": 82.6,
-      "metric": "67 pts · 29 comments"
+      "score": 93.6,
+      "metric": "54 pts · 28 comments"
     },
     {
-      "id": "hacker-news-9fe3e937f57a",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://arxiv.org/abs/2611.21885",
+      "id": "hacker-news-07a481fe6b0c",
+      "title": "Detonating a pile of lead azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T16:29:06.000Z",
+      "publishedAt": "2026-11-21T13:23:14.000Z",
       "rank": 8,
-      "score": 86,
-      "metric": "360 pts · 113 comments"
+      "score": 85.1,
+      "metric": "547 pts · 361 comments"
     },
     {
-      "id": "hacker-news-33b25e2a9362",
-      "title": "Sir Brian May adds new dimension to Hera asteroid",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+      "id": "hacker-news-0165c931824a",
+      "title": "Getting the mind to steer the body to steer you",
+      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T23:19:44.000Z",
+      "publishedAt": "2026-11-20T22:11:05.000Z",
       "rank": 9,
-      "score": 87.6,
-      "metric": "55 pts · 12 comments"
+      "score": 79.5,
+      "metric": "176 pts · 60 comments"
     },
     {
-      "id": "hacker-news-4a5d64a1c5eb",
-      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
-      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "id": "hacker-news-e3142f2708c0",
+      "title": "My monitor was cutting my download speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet",
       "source": "Hacker News",
       "sourceKey": "hacker-news",
       "category": "Community",
-      "publishedAt": "2026-11-20T20:03:59.000Z",
+      "publishedAt": "2026-11-21T10:36:32.000Z",
       "rank": 10,
-      "score": 83.2,
-      "metric": "142 pts · 25 comments"
+      "score": 79.9,
+      "metric": "513 pts · 245 comments"
     },
     {
       "id": "hugging-face-25d10c482852",
@@ -952,8 +952,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 1,
-      "score": 95.1,
-      "metric": "1 upvotes",
+      "score": 93.6,
+      "metric": "2 upvotes",
       "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which alr"
     },
     {
@@ -965,8 +965,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 2,
-      "score": 92.9,
-      "metric": "3 upvotes",
+      "score": 91.4,
+      "metric": "7 upvotes",
       "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physica"
     },
     {
@@ -978,8 +978,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 3,
-      "score": 90.7,
-      "metric": "2 upvotes",
+      "score": 89.2,
+      "metric": "4 upvotes",
       "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to anothe"
     },
     {
@@ -991,7 +991,7 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 4,
-      "score": 88.5,
+      "score": 87,
       "metric": "1 upvotes",
       "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lac"
     },
@@ -1004,8 +1004,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 5,
-      "score": 86.3,
-      "metric": "2 upvotes",
+      "score": 84.8,
+      "metric": "3 upvotes",
       "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 "
     },
     {
@@ -1017,8 +1017,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 6,
-      "score": 84.1,
-      "metric": "14 upvotes",
+      "score": 82.6,
+      "metric": "18 upvotes",
       "summary": "A fixed set of steering vectors added to a frozen diffusion transformer recovers most of the quality gains from reinforcement learning post-training, indicating that much of the improvement comes from a constant shift rather than prompt-specific transformations."
     },
     {
@@ -1030,8 +1030,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 7,
-      "score": 81.9,
-      "metric": "2 upvotes",
+      "score": 80.4,
+      "metric": "3 upvotes",
       "summary": "A coding agent trains an optical neural network from measurements alone by reparametrizing it with interpretable optical elements, achieving better classification and image encoding than gradient-free methods and approaching backpropagation through a calibrated model at lower cos"
     },
     {
@@ -1043,8 +1043,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 8,
-      "score": 79.7,
-      "metric": "6 upvotes",
+      "score": 78.2,
+      "metric": "10 upvotes",
       "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether "
     },
     {
@@ -1056,8 +1056,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 9,
-      "score": 77.5,
-      "metric": "4 upvotes",
+      "score": 76,
+      "metric": "6 upvotes",
       "summary": "A local System 1 agent framework compiles tool schemas and requests into multiple-choice questions answered by a one-pass decision model, enabling accurate biomedical tool calls without text generation or invented content."
     },
     {
@@ -1069,8 +1069,8 @@
       "category": "Research",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "rank": 10,
-      "score": 75.3,
-      "metric": "9 upvotes",
+      "score": 73.8,
+      "metric": "11 upvotes",
       "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessin"
     },
     {
@@ -1328,6 +1328,18 @@
       "summary": "Podcast #19"
     },
     {
+      "id": "latent-space-2b32d4b379bc",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently",
+      "source": "Latent Space",
+      "sourceKey": "latent-space",
+      "category": "AI engineering",
+      "publishedAt": "2026-11-21T05:02:13.000Z",
+      "rank": 1,
+      "score": 87.8,
+      "summary": "November 20 2026 —"
+    },
+    {
       "id": "latent-space-c989db0d32fd",
       "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
       "url": "https://latent.space/p/formal-verification",
@@ -1335,8 +1347,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-20T21:18:41.000Z",
-      "rank": 1,
-      "score": 93.1,
+      "rank": 2,
+      "score": 84.2,
       "summary": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process."
     },
     {
@@ -1347,8 +1359,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-20T07:12:24.000Z",
-      "rank": 2,
-      "score": 85.9,
+      "rank": 3,
+      "score": 80.8,
       "summary": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers."
     },
     {
@@ -1359,8 +1371,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-19T23:58:21.000Z",
-      "rank": 3,
-      "score": 82.3,
+      "rank": 4,
+      "score": 78.6,
       "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs"
     },
     {
@@ -1371,8 +1383,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-19T07:07:43.000Z",
-      "rank": 4,
-      "score": 78.6,
+      "rank": 5,
+      "score": 76.4,
       "summary": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83."
     },
     {
@@ -1383,8 +1395,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-18T10:19:04.000Z",
-      "rank": 5,
-      "score": 76.4,
+      "rank": 6,
+      "score": 74.2,
       "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with."
     },
     {
@@ -1395,8 +1407,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-17T15:00:00.000Z",
-      "rank": 6,
-      "score": 74.2,
+      "rank": 7,
+      "score": 72,
       "summary": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds."
     },
     {
@@ -1407,8 +1419,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-17T09:24:56.000Z",
-      "rank": 7,
-      "score": 72,
+      "rank": 8,
+      "score": 69.8,
       "summary": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches."
     },
     {
@@ -1419,8 +1431,8 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-16T21:38:03.000Z",
-      "rank": 8,
-      "score": 69.8,
+      "rank": 9,
+      "score": 67.6,
       "summary": "Black Forest Labs’ case for learning AGI from pixels, motion and sound."
     },
     {
@@ -1431,21 +1443,9 @@
       "sourceKey": "latent-space",
       "category": "AI engineering",
       "publishedAt": "2026-11-14T08:31:02.000Z",
-      "rank": 9,
-      "score": 67.6,
-      "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop."
-    },
-    {
-      "id": "latent-space-12f357dd3921",
-      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia",
-      "source": "Latent Space",
-      "sourceKey": "latent-space",
-      "category": "AI engineering",
-      "publishedAt": "2026-11-13T09:04:13.000Z",
       "rank": 10,
       "score": 65.4,
-      "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?"
+      "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop."
     },
     {
       "id": "mckinsey-mgi-650dfe0db8b4",
@@ -1594,6 +1594,18 @@
       "summary": "ASML is building a hybrid bonding tool! The company has not announced anything yet, but its patent filings, a news report and its own roadmap all suggest so."
     },
     {
+      "id": "simon-willison-21bd1d482ae2",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "source": "Simon Willison",
+      "sourceKey": "simon-willison",
+      "category": "Applied AI",
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "rank": 1,
+      "score": 98.2,
+      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps bo"
+    },
+    {
       "id": "simon-willison-81ce5b24dd89",
       "title": "Quoting Ravi Vakil",
       "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil",
@@ -1601,8 +1613,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-20T19:21:49.000Z",
-      "rank": 1,
-      "score": 94.2,
+      "rank": 2,
+      "score": 86.1,
       "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Aless"
     },
     {
@@ -1613,9 +1625,21 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-20T16:30:48.000Z",
-      "rank": 2,
-      "score": 90.8,
+      "rank": 3,
+      "score": 83.4,
       "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also "
+    },
+    {
+      "id": "simon-willison-480c7f59bbc9",
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini",
+      "source": "Simon Willison",
+      "sourceKey": "simon-willison",
+      "category": "Applied AI",
+      "publishedAt": "2026-11-20T03:01:57.000Z",
+      "rank": 4,
+      "score": 80.8,
+      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The "
     },
     {
       "id": "simon-willison-e486efe85b2a",
@@ -1625,8 +1649,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-20T02:49:57.000Z",
-      "rank": 3,
-      "score": 85,
+      "rank": 5,
+      "score": 78.6,
       "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see al"
     },
     {
@@ -1637,8 +1661,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-19T20:43:57.000Z",
-      "rank": 4,
-      "score": 81.7,
+      "rank": 6,
+      "score": 76.4,
       "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release "
     },
     {
@@ -1649,8 +1673,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-18T23:59:20.000Z",
-      "rank": 5,
-      "score": 78.6,
+      "rank": 7,
+      "score": 74.2,
       "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the "
     },
     {
@@ -1661,8 +1685,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-18T17:09:59.000Z",
-      "rank": 6,
-      "score": 76.4,
+      "rank": 8,
+      "score": 72,
       "summary": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those tw"
     },
     {
@@ -1673,8 +1697,8 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-18T15:58:27.000Z",
-      "rank": 7,
-      "score": 74.2,
+      "rank": 9,
+      "score": 69.8,
       "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfi"
     },
     {
@@ -1685,33 +1709,9 @@
       "sourceKey": "simon-willison",
       "category": "Applied AI",
       "publishedAt": "2026-11-18T14:44:48.000Z",
-      "rank": 8,
-      "score": 72,
-      "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider dona"
-    },
-    {
-      "id": "simon-willison-c60558e98558",
-      "title": "External sandboxes for coding agents",
-      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
-      "source": "Simon Willison",
-      "sourceKey": "simon-willison",
-      "category": "Applied AI",
-      "publishedAt": "2026-11-17T22:52:29.000Z",
-      "rank": 9,
-      "score": 69.8,
-      "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine."
-    },
-    {
-      "id": "simon-willison-5cbc55e1b429",
-      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
-      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
-      "source": "Simon Willison",
-      "sourceKey": "simon-willison",
-      "category": "Applied AI",
-      "publishedAt": "2026-11-17T22:38:52.000Z",
       "rank": 10,
       "score": 67.6,
-      "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with supp"
+      "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider dona"
     },
     {
       "id": "stratechery-f4b642c4d9ca",
@@ -1722,7 +1722,7 @@
       "category": "Strategy",
       "publishedAt": "2026-11-20T19:09:57.000Z",
       "rank": 1,
-      "score": 94.1,
+      "score": 88.2,
       "summary": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo."
     },
     {
@@ -1734,7 +1734,7 @@
       "category": "Strategy",
       "publishedAt": "2026-11-20T11:00:00.000Z",
       "rank": 2,
-      "score": 89,
+      "score": 85.2,
       "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery"
     },
     {
@@ -1834,6 +1834,78 @@
       "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path."
     },
     {
+      "id": "techcrunch-f3487ac9886e",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-21T21:37:10.000Z",
+      "rank": 1,
+      "score": 96.1,
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+    },
+    {
+      "id": "techcrunch-a1abc1ba2744",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-21T21:07:42.000Z",
+      "rank": 2,
+      "score": 93.5,
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+    },
+    {
+      "id": "techcrunch-cb04ff398bc0",
+      "title": "Trump says reported FBI database hack is ‘not good’",
+      "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-21T18:44:53.000Z",
+      "rank": 3,
+      "score": 89.9,
+      "summary": "The FBI is reportedly investigating a hack of the National Crime Information Center."
+    },
+    {
+      "id": "techcrunch-6ccebafcdf30",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-21T17:00:00.000Z",
+      "rank": 4,
+      "score": 86.9,
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+    },
+    {
+      "id": "techcrunch-dffab27fe8d5",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "rank": 5,
+      "score": 84.3,
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too."
+    },
+    {
+      "id": "techcrunch-b316f5016eae",
+      "title": "Alaska, your next governor is a Wikipedia nerd",
+      "url": "https://techcrunch.com/2026/11/21/alaska-your-next-governor-is-a-wikipedia-nerd",
+      "source": "TechCrunch",
+      "sourceKey": "techcrunch",
+      "category": "Startups & venture",
+      "publishedAt": "2026-11-21T15:18:29.000Z",
+      "rank": 6,
+      "score": 81.8,
+      "summary": "Jonathan Kreiss-Tomkins, Alaska's governor-elect, has made more than 13,000 WIkipedia edits."
+    },
+    {
       "id": "techcrunch-e42ac64463d6",
       "title": "Startup sues Apple in India over tap-to-share contacts feature",
       "url": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature",
@@ -1841,8 +1913,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-21T04:00:00.000Z",
-      "rank": 1,
-      "score": 104.9,
+      "rank": 7,
+      "score": 76.5,
       "summary": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India."
     },
     {
@@ -1853,8 +1925,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-20T20:58:29.000Z",
-      "rank": 2,
-      "score": 92.9,
+      "rank": 8,
+      "score": 73.1,
       "summary": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit."
     },
     {
@@ -1865,8 +1937,8 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-20T19:53:41.000Z",
-      "rank": 3,
-      "score": 90.1,
+      "rank": 9,
+      "score": 70.7,
       "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building."
     },
     {
@@ -1877,214 +1949,142 @@
       "sourceKey": "techcrunch",
       "category": "Startups & venture",
       "publishedAt": "2026-11-20T19:32:08.000Z",
-      "rank": 4,
-      "score": 87.7,
+      "rank": 10,
+      "score": 68.5,
       "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too."
     },
     {
-      "id": "techcrunch-ff99aaed410c",
-      "title": "Super-hot rock geothermal could end data center energy woes",
-      "url": "https://techcrunch.com/2026/11/20/super-hot-rock-geothermal-could-end-data-center-energy-woes",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-20T18:34:00.000Z",
-      "rank": 5,
-      "score": 85,
-      "summary": "New geothermal startups are betting that they can leapfrog today's leaders to deliver terawatts of electricity nearly anywhere."
-    },
-    {
-      "id": "techcrunch-e43240c9ae66",
-      "title": "Chips can survive the space environment — can their financing?",
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-20T17:40:01.000Z",
-      "rank": 6,
-      "score": 82.4,
-      "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
-    },
-    {
-      "id": "techcrunch-ffd07770f7d3",
-      "title": "Bending Spoons buys Mailchimp for $3.68B",
-      "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-20T16:16:06.000Z",
-      "rank": 7,
-      "score": 79.7,
-      "summary": "Intuit acquired the company in 2021 for roughly $12 billion, so it looks like Bending Spoons is getting quite a bargain."
-    },
-    {
-      "id": "techcrunch-0284c903b166",
-      "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
-      "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-20T15:46:07.000Z",
-      "rank": 8,
-      "score": 77.3,
-      "summary": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password."
-    },
-    {
-      "id": "techcrunch-912ce9389b49",
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-20T14:00:00.000Z",
-      "rank": 9,
-      "score": 74.5,
-      "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
-    },
-    {
-      "id": "techcrunch-f52243df8570",
-      "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
-      "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear",
-      "source": "TechCrunch",
-      "sourceKey": "techcrunch",
-      "category": "Startups & venture",
-      "publishedAt": "2026-11-20T13:25:00.000Z",
-      "rank": 10,
-      "score": 72.1,
-      "summary": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang."
-    },
-    {
-      "id": "techmeme-cc441b6af00c",
-      "title": "Sources: Masayoshi Son recently explored a possible $1T buyout of SK Hynix; SoftBank says the deal is \"no longer under active consideration\" (The Information)",
-      "url": "https://www.techmeme.com/261120/p45",
+      "id": "techmeme-a2c74d0166af",
+      "title": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches \"zero espionage\" executive girlfriends (Wired)",
+      "url": "https://www.techmeme.com/261121/p11",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-21T02:45:01.000Z",
+      "publishedAt": "2026-11-22T00:10:02.000Z",
       "rank": 1,
-      "score": 103.4,
-      "summary": "The Information : Sources: Masayoshi Son recently explored a possible $1T buyout of SK Hynix; SoftBank says the deal is “no longer under active consideration” — SoftBank CEO Masayoshi Son recently approached Wall Street institutions about financing a possible trillion-dollar buyo"
+      "score": 100.6,
+      "summary": "Wired : Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches “zero espionage” executive girlfriends — The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers."
     },
     {
-      "id": "techmeme-c80e9010b36d",
-      "title": "Sources: the FBI is investigating an apparent breach of its NCIC database, which is used by law enforcement to share info on warrants and background checks (Evan Perez/CNN)",
-      "url": "https://www.techmeme.com/261120/p44",
+      "id": "techmeme-a7faac409da9",
+      "title": "Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under \"ZDR\" policies, and saw \"privacy\" often broken, keys stolen (Dan Goodin/Ars Technica)",
+      "url": "https://www.techmeme.com/261121/p10",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-21T02:35:02.000Z",
+      "publishedAt": "2026-11-21T20:10:02.000Z",
       "rank": 2,
-      "score": 100.9,
-      "summary": "Evan Perez / CNN : Sources: the FBI is investigating an apparent breach of its NCIC database, which is used by law enforcement to share info on warrants and background checks — The FBI is investigating an apparent breach of its nationwide criminal information database that serves"
+      "score": 95.1,
+      "summary": "Dan Goodin / Ars Technica : Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under “ZDR” policies, and saw “privacy” often broken, keys stolen — Researchers planted 2 million digital tripwires in requests sent through a sprawling netw"
     },
     {
-      "id": "techmeme-e25fbc6a5af1",
-      "title": "Oracle says it has secured funding for its infrastructure contract with OpenAI and \"any further private discussions with vendors are just additional options\" (@oracle)",
-      "url": "https://www.techmeme.com/261120/p43",
+      "id": "techmeme-a464697d17e7",
+      "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China (Financial Times)",
+      "url": "https://www.techmeme.com/261121/p9",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-21T00:25:00.000Z",
+      "publishedAt": "2026-11-21T18:55:01.000Z",
       "rank": 3,
-      "score": 95.6,
-      "summary": "@oracle : Oracle says it has secured funding for its infrastructure contract with OpenAI and “any further private discussions with vendors are just additional options” — Oracle has secured all the funding we need to fulfill our contract with OpenAI. With our final capital raise e"
+      "score": 92.2,
+      "summary": "Financial Times : Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lu"
     },
     {
-      "id": "techmeme-c56e088e924c",
-      "title": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom (George Steer/Financial Times)",
-      "url": "https://www.techmeme.com/261120/p42",
+      "id": "techmeme-4b1ec8673abd",
+      "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
+      "url": "https://www.techmeme.com/261121/p8",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T23:50:00.000Z",
+      "publishedAt": "2026-11-21T17:55:01.000Z",
       "rank": 4,
-      "score": 92.8,
-      "summary": "George Steer / Financial Times : Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom — Shares in Anthropic and Nvidia tumble as fears over the AI spending boom grip Wall St"
+      "score": 89.5,
+      "summary": "Financial Times : Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week — Acquisition would help AWS compete with Nvidia in race for computing power — Amazon is nearing a $7.5bn deal to"
     },
     {
-      "id": "techmeme-a4f143d8f488",
-      "title": "Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers (Wall Street Journal)",
-      "url": "https://www.techmeme.com/261120/p41",
+      "id": "techmeme-8e057e953d8f",
+      "title": "Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs (New York Times)",
+      "url": "https://www.techmeme.com/261121/p7",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T23:20:00.000Z",
+      "publishedAt": "2026-11-21T15:10:01.000Z",
       "rank": 5,
-      "score": 90.2,
-      "summary": "Wall Street Journal : Sources: Wonder is exploring a sale of Grubhub, which it bought in 2024 for $650M; bankers have been in contact with Walmart, Target, Kroger and other retailers — Bankers have been in contact with Walmart, Target, Kroger and other retailers about a potential"
+      "score": 86.2,
+      "summary": "New York Times : Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs — While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese"
     },
     {
-      "id": "techmeme-02c9d1955fc0",
-      "title": "Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation in August (Wall Street Journal)",
-      "url": "https://www.techmeme.com/261120/p40",
+      "id": "techmeme-86330a4d33ec",
+      "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness (Cristina Criddle/Financial Times)",
+      "url": "https://www.techmeme.com/261121/p6",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T23:05:04.000Z",
+      "publishedAt": "2026-11-21T11:30:01.000Z",
       "rank": 6,
-      "score": 87.8,
-      "summary": "Wall Street Journal : Sources: Databricks is in early talks to raise several billion dollars at a ~$225B valuation, after closing a $5B round at a $190B valuation in August — The new financing would represent a nearly 20% increase from its August valuation — Databricks is in earl"
+      "score": 82.8,
+      "summary": "Cristina Criddle / Financial Times : An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness — The in-house philosopher on the problem of consciousness and what it might feel l"
     },
     {
-      "id": "techmeme-ba5395a57fe8",
-      "title": "Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to \"geopolitical risk\"; Cursor's Composer 2 was built on Kimi K2.5 (Kai Nicol-Schwarz/CNBC)",
-      "url": "https://www.techmeme.com/261120/p39",
+      "id": "techmeme-81b70d85c6b9",
+      "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine (Cade Metz/New York Times)",
+      "url": "https://www.techmeme.com/261121/p5",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T23:00:01.000Z",
+      "publishedAt": "2026-11-21T07:30:00.000Z",
       "rank": 7,
-      "score": 85.5,
-      "summary": "Kai Nicol-Schwarz / CNBC : Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to “geopolitical risk”; Cursor's Composer 2 was built on Kimi K2.5 — SpaceX's artificial-intelligence coding platform, Cursor, is considering moving away from using o"
+      "score": 79.5,
+      "summary": "Cade Metz / New York Times : How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine — Optical tools in a quantum computer at Harvard University.Lucy Lu for The New York Times — For al"
     },
     {
-      "id": "techmeme-0245ca2db60b",
-      "title": "Sources: hackers breached the US Department of Agriculture's system that facilitates payments to farmers this week (Julia Ainsley/NBC News)",
-      "url": "https://www.techmeme.com/261120/p38",
+      "id": "techmeme-f430b1b5588d",
+      "title": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution (Peter Hall/Scientific American)",
+      "url": "https://www.techmeme.com/261121/p4",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T22:50:01.000Z",
+      "publishedAt": "2026-11-21T06:30:00.000Z",
       "rank": 8,
-      "score": 83.2,
-      "summary": "Julia Ainsley / NBC News : Sources: hackers breached the US Department of Agriculture's system that facilitates payments to farmers this week — Hackers accessed the Agriculture Department's system that facilitates payments to farmers, the agency told employees on Thursday, accord"
+      "score": 77.1,
+      "summary": "Peter Hall / Scientific American : NYU's Tristan Buckmaster and Anthropic's Levent Alp&ouml;ge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution — Two months after getting scooped by OpenAI, N.Y.U. professor Tristan Buckmaster and"
     },
     {
-      "id": "techmeme-84ef9497820e",
-      "title": "Artificial Analysis says Inkling 2 Mini, with 5.4B active parameters, matches Qwen3.8 27B (xhigh) on its Intelligence Index with ~5x fewer active parameters (Artificial Analysis)",
-      "url": "https://www.techmeme.com/261120/p37",
+      "id": "techmeme-7571d9674123",
+      "title": "Microsoft plans to retire its To Do app on June 30, 2027, offering migration to Planner for work and school accounts, but no replacement for personal accounts (Todd Bishop/GeekWire)",
+      "url": "https://www.techmeme.com/261121/p3",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T22:10:00.000Z",
+      "publishedAt": "2026-11-21T06:10:02.000Z",
       "rank": 9,
-      "score": 80.5,
-      "summary": "Artificial Analysis : Artificial Analysis says Inkling 2 Mini, with 5.4B active parameters, matches Qwen3.8 27B (xhigh) on its Intelligence Index with ~5x fewer active parameters — Thinking Machines has released Inkling 2 Mini at 20 on the Artificial Analysis Intelligence Index, "
+      "score": 74.8,
+      "summary": "Todd Bishop / GeekWire : Microsoft plans to retire its To Do app on June 30, 2027, offering migration to Planner for work and school accounts, but no replacement for personal accounts — Microsoft acquired the popular Wunderlist app in 2015, shut it down in 2020 and told its loyal"
     },
     {
-      "id": "techmeme-d93bd90fd4d8",
-      "title": "Sources: Cognition is considering raising $2B or more at a $75B valuation, after raising over $3B in 2026 so far, including $2B at a $48B valuation in September (Rebecca Torrence/Bloomberg)",
-      "url": "https://www.techmeme.com/261120/p36",
+      "id": "techmeme-7e271086f615",
+      "title": "Industry insiders say new US export rules affect a broader range of chips, including SoCs used in consumer electronics, extending beyond advanced AI chips (Cheng Ting-Fang/Nikkei Asia)",
+      "url": "https://www.techmeme.com/261121/p2",
       "source": "Techmeme",
       "sourceKey": "techmeme",
       "category": "Technology news",
-      "publishedAt": "2026-11-20T21:35:00.000Z",
+      "publishedAt": "2026-11-21T06:00:55.000Z",
       "rank": 10,
-      "score": 77.9,
-      "summary": "Rebecca Torrence / Bloomberg : Sources: Cognition is considering raising $2B or more at a $75B valuation, after raising over $3B in 2026 so far, including $2B at a $48B valuation in September — Artificial intelligence coding startup Cognition AI Inc. is in funding talks at a $75 "
+      "score": 72.6,
+      "summary": "Cheng Ting-Fang / Nikkei Asia : Industry insiders say new US export rules affect a broader range of chips, including SoCs used in consumer electronics, extending beyond advanced AI chips — TAIPEI — Tighter U.S. export controls introduced Thursday are having a far broader impact o"
     }
   ],
   "topTen": [
     "github-c6524b3bb676",
     "github-2046f5e50faf",
-    "techcrunch-e42ac64463d6",
-    "techmeme-cc441b6af00c",
-    "hacker-news-04e4de985797",
-    "hacker-news-a0ebc9ee452b",
-    "techmeme-c80e9010b36d",
+    "hacker-news-381628060ea9",
+    "techmeme-a2c74d0166af",
+    "hacker-news-01af6e752b2c",
+    "simon-willison-21bd1d482ae2",
+    "techcrunch-f3487ac9886e",
+    "techmeme-a7faac409da9",
     "alpha-xiv-afbd4416aafa",
-    "hugging-face-25d10c482852",
-    "simon-willison-81ce5b24dd89"
+    "hugging-face-25d10c482852"
   ],
   "errors": [
     "blackrock-bii: BlackRock Investment Institute publications were not found",
